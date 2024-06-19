@@ -67,7 +67,7 @@ refresh_dimensions = []
 refresh_structures = []
 #overriding refresh_loot_tables, refresh_modids and refresh_dimensions: all chests will refresh after being opened for the first time
 refresh_all = false
-#the maximum age for containers; entries above this age will be discarded [default: 180 * 20, 3 minutes]
+#the maximum age for containers; entries above this age will be discarded [default: 60 * 20 * 15, fifteen minutes] [note: the value 6000 will be corrected to 18000. if you wish to use 6000, please use 6001 or 5999.]
 #Range: > 0
 max_age = 18000
 #if true, no chests will be converted
@@ -84,6 +84,4 @@ modid_dimension_whitelist = []
 trapped_custom = false
 #disables styling of breaking, decaying and refreshing messages sent to players
 disable_message_styles = false
-#skip unloaded block entities that are eligible for conversion, set to false to potentially resolve issues with containers that aren't being converted [default: true]
-skip_unloaded = true
 

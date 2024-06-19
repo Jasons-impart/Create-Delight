@@ -1,0 +1,10 @@
+{
+  "spear": true,
+  "item": true,
+  "bob": true,
+  "aim": true,
+  "eat": true,
+  "atk": true,
+  "xbow": true,
+  "sneak": true
+}

@@ -1,0 +1,22 @@
+slots = [
+        #Curios API,背饰栏位.
+        "id=back;size=1;add_cosmetic=true", 
+        #Curios API,腰带栏位.
+        "id=belt;size=1;add_cosmetic=true", 
+        #Curios API,胸饰栏位.
+        "id=body;size=1;add_cosmetic=true",
+        #Curios API,手镯栏位.
+        "id=bracelet;size=2;add_cosmetic=true", 
+        #Curios API,护符栏位.
+        "id=charm;size=1;add_cosmetic=true", 
+        #Curios API,头饰栏位.
+        "id=head;size=1;add_cosmetic=true", 
+        #Curios API,手饰栏位.
+        "id=hands;size=2;add_cosmetic=true",
+        #Curios API,戒指栏位.
+        "id=ring;size=4;add_cosmetic=true", 
+        #Curios API,项链栏位.
+        "id=necklace;size=1;add_cosmetic=true", 
+        #Artifacts模组,足部栏位.
+        "id=feet;size=2;add_cosmetic=true", 
+        ]

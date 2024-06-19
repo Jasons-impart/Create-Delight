@@ -1,0 +1,33 @@
+
+[general]
+	#Whether to display disclaimer GUI
+	DisclaimerShow = false
+	#Whether to print animation roulette play message
+	PrintAnimationRouletteMsg = true
+	#Prevents rendering of self player's model
+	DisableSelfModel = false
+	#Prevents rendering of other player's model
+	DisableOtherModel = false
+	#Prevents rendering of self player's hand
+	DisableSelfHands = false
+	#The default model ID when a player first enters the game
+	DefaultModelId = "default"
+	#The default model texture when a player first enters the game
+	DefaultModelTexture = "default.png"
+
+[extra_player_render]
+	#Whether to display player
+	DisablePlayerRender = true
+	#Player position x in screen
+	#Range: > 0
+	PlayerPosX = 10
+	#Player position y in screen
+	#Range: > 0
+	PlayerPosY = 10
+	#Player scale in screen
+	#Range: 8.0 ~ 360.0
+	PlayerScale = 40.0
+	#Player yaw offset in screen
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	PlayerYawOffset = 5.0
+

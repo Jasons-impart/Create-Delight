@@ -12,23 +12,11 @@
 		[types.wood_type.deeperdarker]
 			echo = true
 
-		[types.wood_type.upgrade_aquatic]
-			driftwood = true
-			river = true
-
 		[types.wood_type.ulterlands]
 			cedar = true
 
 		[types.wood_type.aether]
 			skyroot = true
-
-		[types.wood_type.aether_redux]
-			blightwillow = true
-			cloudcap = true
-			crystal = true
-			glacia = true
-			fieldsproot = true
-			jellyshroom = true
 
 		[types.wood_type.ad_astra]
 			aeronos = true
@@ -44,6 +32,15 @@
 		[types.wood_type.extradelight]
 			cinnamon = true
 
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
+		[types.wood_type.tconstruct]
+			greenheart = true
+			skyroot = true
+			bloodshroom = true
+			enderbark = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.deeperdarker]
@@ -58,9 +55,6 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.upgrade_aquatic]
-			river = true
-
 		[types.leaves_type.ulterlands]
 			souldrained = true
 			cedar = true
@@ -73,13 +67,6 @@
 			crystal_fruit = true
 			holiday = true
 			decorated_holiday = true
-
-		[types.leaves_type.aether_redux]
-			blightwillow = true
-			glacia = true
-			gilded_oak = true
-			blighted_skyroot = true
-			purple_glacia = true
 
 		[types.leaves_type.ad_astra]
 			glacian = true
@@ -109,6 +96,11 @@
 
 		[types.leaves_type.extradelight]
 			cinnamon = true
+
+		[types.leaves_type.tconstruct]
+			earth_slime = true
+			sky_slime = true
+			ender_slime = true
 
 [entries]
 
