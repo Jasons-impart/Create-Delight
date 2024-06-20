@@ -56,3 +56,4 @@ log4j2.xml
 /config/xaerominimap_entities.json
 /config/jei/world/local/bookmarks.ini
 modpack.cfg
+*.bat
