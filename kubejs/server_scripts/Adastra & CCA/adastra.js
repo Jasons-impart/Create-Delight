@@ -135,19 +135,6 @@ ServerEvents.recipes(e => {
         B: 'create:fluid_tank',
         C: '#forge:rods/iron'
     }).id('ad_astra:recipes/calorite_tank')
-    //替换配方：喷气式航天服
-    e.shaped('ad_astra:jet_suit', [
-        'ABA',
-        'CDC',
-        'EFE'
-    ], {
-        A: 'ad_astra:calorite_plate',
-        B: 'create_sa:brass_jetpack_chestplate',
-        C: 'ad_astra:calorite_tank',
-        D: 'ad_astra:netherite_space_suit',
-        E: 'ad_astra:calorite_block',
-        F: 'ad_astra:calorite_engine'
-    }).id('ad_astra:recipes/jet_suit')
     //替换配方：充能器
     e.shaped('ad_astra:energizer', [
         'ABA',

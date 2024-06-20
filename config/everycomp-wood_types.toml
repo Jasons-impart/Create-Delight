@@ -26,9 +26,6 @@
 		[types.wood_type.vinery]
 			cherry = true
 
-		[types.wood_type.beachparty]
-			palm = true
-
 		[types.wood_type.extradelight]
 			cinnamon = true
 
@@ -75,9 +72,6 @@
 			grapevine = true
 			cherry = true
 			apple = true
-
-		[types.leaves_type.beachparty]
-			palm = true
 
 		[types.leaves_type.fruitsdelight]
 			pear = true
