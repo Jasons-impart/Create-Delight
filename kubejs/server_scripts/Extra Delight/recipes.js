@@ -9,7 +9,9 @@ ServerEvents.recipes(e => {
     remove_recipes_id(e, [
         "farmersdelight:integration/create/filling/chocolate_pie",
         "create_confectionery:crushed_cocoa_recipe",
-        "create_confectionery:cocoa_powder_and_butter_recipe"
+        "create_confectionery:cocoa_powder_and_butter_recipe",
+        "extradelight:chocolate_milk_bucket",
+        "extradelight:chocolate_milk"
     ])
     // 巧克力派
     e.custom({
@@ -120,25 +122,25 @@ ServerEvents.recipes(e => {
         "cookingtime": 200,
         "experience": 1.0,
         "ingredients": [
-          {
-            "tag": "forge:eggs"
-          },
-          {
-            "tag": "forge:milk"
-          },
-          {
-            "tag": "forge:bars/chocolate"
-          },
-          {
-            "tag": "extradelight:sweetener"
-          }
+            {
+                "tag": "forge:eggs"
+            },
+            {
+                "tag": "forge:milk"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            },
+            {
+                "tag": "extradelight:sweetener"
+            }
         ],
         "recipe_book_tab": "meals",
         "result": {
           "item": "extradelight:chocolate_custard"
         }
-      })
-      .id("extradelight:chocolate_custard")
+    })
+    .id("extradelight:chocolate_custard")
     // 巧克力奶酪蛋糕
     e.custom({
         "type": "extradelight:oven",
@@ -148,20 +150,195 @@ ServerEvents.recipes(e => {
         "cookingtime": 800,
         "experience": 1.0,
         "ingredients": [
-          {
-            "tag": "forge:bars/chocolate"
-          },
-          {
-            "item": "farmersdelight:pie_crust"
-          },
-          {
-            "tag": "forge:cheese"
-          }
+            {
+                "tag": "forge:bars/chocolate"
+            },
+            {
+                "item": "farmersdelight:pie_crust"
+            },
+            {
+                "tag": "forge:cheese"
+            }
         ],
         "recipe_book_tab": "meals",
         "result": {
-          "item": "extradelight:chocolate_cheesecake"
+            "item": "extradelight:chocolate_cheesecake"
         }
-      })
-      .id("extradelight:oven/chocolate_cheesecake")
+    })
+    .id("extradelight:oven/chocolate_cheesecake")
+    // 巧克力曲奇粉
+    e.custom({
+        "type": "extradelight:mixing_bowl",
+        "ingredients": [
+            {
+                "tag": "forge:flour"
+            },
+            {
+                "tag": "extradelight:sweetener"
+            },
+            {
+                "tag": "forge:butter"
+            },
+            {
+                "tag": "forge:eggs"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            }
+        ],
+        "result": {
+            "item": "extradelight:chocolate_chip_cookie_dough"
+        },
+        "stirs": 4,
+        "usedItem": {
+            "item": "minecraft:air"
+        }
+    })
+    .id("extradelight:mixing/chocolate_chip_cookie_dough")
+    e.custom({
+        "type": "extradelight:mixing_bowl",
+        "ingredients": [
+            {
+                "tag": "forge:cookie_dough/sugar"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            }
+        ],
+        "result": {
+            "item": "extradelight:chocolate_chip_cookie_dough"
+        },
+        "stirs": 4,
+        "usedItem": {
+            "item": "minecraft:air"
+        }
+    })
+    .id("extradelight:mixing/chocolate_chip_cookie_dough_sugar")
+    // 巧克力奶昔
+    e.custom({
+        "type": "extradelight:mixing_bowl",
+        "ingredients": [
+            {
+                "tag": "forge:milk"
+            },
+            {
+                "item": "extradelight:ice_cream"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            }
+        ],
+        "result": {
+            "item": "extradelight:chocolate_milkshake"
+        },
+        "stirs": 4,
+        "usedItem": {
+            "item": "minecraft:glass_bottle"
+        }
+    }).id("extradelight:mixing/chocolate_milkshake")
+    e.custom({
+        "type": "create:mixing",
+        "ingredients": [
+            {
+                "tag": "forge:milk"
+            },
+            {
+                "item": "extradelight:ice_cream"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "results": [
+            {
+                "item": "extradelight:chocolate_milkshake"
+            }
+        ]
+    })
+    .id("create:mixing/chocolate_milkshake_create")
+    // 巧克力冰淇淋
+    e.custom({
+        "type": "create:mixing",
+        "ingredients": [
+            {
+                "tag": "forge:milk"
+            },
+            {
+                "tag": "extradelight:sweetener"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            },
+            {
+                "item": "minecraft:ice"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "results": [
+            {
+                "item": "extradelight:chocolate_ice_cream"
+            }
+        ]
+    })
+    .id("create:mixing/chocolate_ice_cream_create")
+    e.custom({
+        "type": "extradelight:mixing_bowl",
+        "ingredients": [
+            {
+                "tag": "forge:milk"
+            },
+            {
+                "tag": "extradelight:sweetener"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            },
+            {
+                "item": "minecraft:ice"
+            }
+        ],
+        "result": {
+            "item": "extradelight:chocolate_ice_cream"
+        },
+        "stirs": 8,
+        "usedItem": {
+            "item": "minecraft:bowl"
+        }
+    })
+    .id("extradelight:mixing/chocolate_ice_cream")
+    // 巧克力冰棍
+    e.custom({
+        "type": "minecraft:crafting_shaped",
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "c": {
+                "tag": "forge:bars/chocolate"
+            },
+            "i": {
+                "item": "minecraft:ice"
+            },
+            "m": {
+                "tag": "forge:milk"
+            },
+            "s": {
+                "tag": "extradelight:sweetener"
+            }
+        },
+        "pattern": [
+            " sm",
+            "ics",
+            "Si "
+        ],
+        "result": {
+            "item": "extradelight:fudge_popsicle"
+        }
+    })
+    .id("extradelight:fudge_popsicle")
 })
