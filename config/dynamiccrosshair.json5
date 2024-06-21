@@ -1,8 +1,8 @@
 {
-	"dynamicCrosshair": "Advanced",
+	"dynamicCrosshair": "Disabled",
 	"disableDebugCrosshair": false,
 	"thirdPersonCrosshair": false,
-	"hideWithScreen": true,
+	"hideWithScreen": false,
 	"crosshairConfig": {
 		"onBlock": "IfTargeting",
 		"onEntity": true,
@@ -129,10 +129,10 @@
 		}
 	},
 	"enableTweaks": true,
-	"additionalTools": null,
-	"additionalMeleeWeapons": null,
-	"additionalRangedWeapons": null,
-	"additionalThrowables": null,
-	"additionalUsableItems": null,
-	"additionalInteractableBlocks": null
+	"additionalTools": "",
+	"additionalMeleeWeapons": "",
+	"additionalRangedWeapons": "",
+	"additionalThrowables": "",
+	"additionalUsableItems": "",
+	"additionalInteractableBlocks": ""
 }

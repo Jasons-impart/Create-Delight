@@ -1,15 +1,4 @@
 ServerEvents.recipes(e => {
-    // 黑巧
-    e.recipes.create.mixing(
-        Fluid.of("create_confectionery:black_chocolate", 250),
-        [
-            'ratatouille:cocoa_solids',
-            'ratatouille:cocoa_butter',
-            Fluid.of("minecraft:milk", 250)
-        ]
-    )
-    .heated()
-    .id("create_confectionery:black_chocolate_recipe")
     // 巧克力
     e.recipes.create.mixing(
         Fluid.of("create:chocolate", 250),
@@ -22,6 +11,56 @@ ServerEvents.recipes(e => {
     )
     .heated()
     .id("create:mixing/chocolate")
+    // 黑巧
+    e.recipes.create.mixing(
+        Fluid.of("create_confectionery:black_chocolate", 250),
+        [
+            'ratatouille:cocoa_solids',
+            'ratatouille:cocoa_butter',
+            Fluid.of("minecraft:milk", 250)
+        ]
+    )
+    .heated()
+    .id("create_confectionery:black_chocolate_recipe")
+    e.recipes.create.filling(
+        'createdelight:black_chocolate_mold_filled',
+        [
+            Fluid.of("create_confectionery:black_chocolate", 250),
+            'ratatouille:chocolate_mold'
+        ]
+    )
+    .id("create:filling/black_chocolate_mold_filled")
+    e.custom({
+        "type": "ratatouille:freezing",
+        "ingredients": [
+            {
+                "item": "createdelight:black_chocolate_mold_filled"
+            }
+        ],
+        "results": [
+            {
+                "item": "createdelight:black_chocolate_mold_solid"
+            }
+        ]
+    })
+    .id("ratatouille:freezing/black_chocolate_mold_filled")
+    e.custom({
+        "type": "ratatouille:demolding",
+        "ingredients": [
+            {
+                "item": "createdelight:black_chocolate_mold_solid"
+            }
+        ],
+        "results": [
+            {
+                "item": 'create_confectionery:bar_of_black_chocolate'
+            },
+            {
+                "item": "ratatouille:chocolate_mold"
+            }
+        ]
+    })
+    .id("create_confectionery:bar_of_black_chocolate_recipe")
     // 白巧
     e.recipes.create.mixing(
         Fluid.of("create_confectionery:white_chocolate", 250),
@@ -33,6 +72,45 @@ ServerEvents.recipes(e => {
     )
     .heated()
     .id("create_confectionery:white_chocolate_recipe")
+    e.recipes.create.filling(
+        'createdelight:white_chocolate_mold_filled',
+        [
+            Fluid.of("create_confectionery:white_chocolate", 250),
+            'ratatouille:chocolate_mold'
+        ]
+    )
+    .id("create:filling/white_chocolate_mold_filled")
+    e.custom({
+        "type": "ratatouille:freezing",
+        "ingredients": [
+            {
+                "item": "createdelight:white_chocolate_mold_filled"
+            }
+        ],
+        "results": [
+            {
+                "item": "createdelight:white_chocolate_mold_solid"
+            }
+        ]
+    })
+    .id("ratatouille:freezing/white_chocolate_mold_filled")
+    e.custom({
+        "type": "ratatouille:demolding",
+        "ingredients": [
+            {
+                "item": "createdelight:white_chocolate_mold_solid"
+            }
+        ],
+        "results": [
+            {
+                "item": 'create_confectionery:bar_of_white_chocolate'
+            },
+            {
+                "item": "ratatouille:chocolate_mold"
+            }
+        ]
+    })
+    .id("create_confectionery:bar_of_white_chocolate_recipe")
     // 红宝石巧克力
     e.recipes.create.mixing(
         [
@@ -48,6 +126,45 @@ ServerEvents.recipes(e => {
     )
     .heated()
     .id("create_confectionery:ruby_chocolate_recipe")
+    e.recipes.create.filling(
+        'createdelight:ruby_chocolate_mold_filled',
+        [
+            Fluid.of("create_confectionery:ruby_chocolate", 250),
+            'ratatouille:chocolate_mold'
+        ]
+    )
+    .id("create:filling/ruby_chocolate_mold_filled")
+    e.custom({
+        "type": "ratatouille:freezing",
+        "ingredients": [
+            {
+                "item": "createdelight:ruby_chocolate_mold_filled"
+            }
+        ],
+        "results": [
+            {
+                "item": "createdelight:ruby_chocolate_mold_solid"
+            }
+        ]
+    })
+    .id("ratatouille:freezing/ruby_chocolate_mold_filled")
+    e.custom({
+        "type": "ratatouille:demolding",
+        "ingredients": [
+            {
+                "item": "createdelight:ruby_chocolate_mold_solid"
+            }
+        ],
+        "results": [
+            {
+                "item": 'create_confectionery:bar_of_ruby_chocolate'
+            },
+            {
+                "item": "ratatouille:chocolate_mold"
+            }
+        ]
+    })
+    .id("create_confectionery:bar_of_ruby_chocolate_recipe")
     // 热巧克力
     e.recipes.create.mixing(
         Fluid.of("create_confectionery:hot_chocolate", 250),

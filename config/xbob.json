@@ -1,6 +1,6 @@
 {
   "spear": true,
-  "item": true,
+  "item": false,
   "bob": true,
   "aim": true,
   "eat": true,

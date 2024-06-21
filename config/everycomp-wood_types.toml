@@ -32,12 +32,6 @@
 		[types.wood_type.createdieselgenerators]
 			chip_wood = true
 
-		[types.wood_type.tconstruct]
-			greenheart = true
-			skyroot = true
-			bloodshroom = true
-			enderbark = true
-
 	[types.leaves_type]
 
 		[types.leaves_type.deeperdarker]
@@ -90,11 +84,6 @@
 
 		[types.leaves_type.extradelight]
 			cinnamon = true
-
-		[types.leaves_type.tconstruct]
-			earth_slime = true
-			sky_slime = true
-			ender_slime = true
 
 [entries]
 

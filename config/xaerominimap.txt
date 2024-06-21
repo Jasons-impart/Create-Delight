@@ -8,7 +8,7 @@ debugEntityVariantIds:false
 radarHideInvisibleEntities:true
 allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
-updateNotification:true
+updateNotification:false
 minimap:true
 caveMaps:2
 caveZoom:1
@@ -33,7 +33,7 @@ antiAliasing:true
 blockColours:0
 lighting:true
 dotsStyle:0
-dotNameScale:1.0
+dotNameScale:1.5
 compassOverEverything:true
 showFlowers:true
 keepWaypointNames:true
