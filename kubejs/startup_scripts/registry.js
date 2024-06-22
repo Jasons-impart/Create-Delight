@@ -92,8 +92,4 @@ StartupEvents.registry('item', e => {
     e.create("createdelight:vermicelli")
         .maxStackSize(64)
         .translationKey("item.createdelight.vermicelli")
-    // 曲奇面团
-    e.create("createdelight:cookie_dough")
-        .maxStackSize(64)
-        .translationKey("item.createdelight.cookie_dough")
 })

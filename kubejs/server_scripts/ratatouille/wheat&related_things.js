@@ -8,6 +8,10 @@ ServerEvents.tags("item", e => {
     e.remove("forge:eggs", [
         'alexsmobs:emu_egg'
     ])
+    e.add("forge:chorus_fruits", [
+        'ends_delight:chorus_fruit_grain',
+        'minecraft:chorus_fruit'
+    ])
 })
 ServerEvents.recipes(e => {
     remove_recipes_id(e, [
@@ -23,7 +27,17 @@ ServerEvents.recipes(e => {
         "quark:tweaks/crafting/utility/bent/bread",
         "farmersdelight:cutting/tag_dough",
         "extradelight:seaweed_paste",
-        "culturaldelights:cooking/raw_pasta"
+        "culturaldelights:cooking/raw_pasta",
+        "ends_delight:food/chorus_fruit_pie",
+        "create_central_kitchen:sequenced_assembly/chorus_fruit_pie",
+        "unusualend:chorus_pie_recipe",
+        "farmersdelight:honey_cookie",
+        "create_central_kitchen:compacting/honey_cookie",
+        "quark:tweaks/crafting/utility/bent/cookie",
+        "minecraft:cookie",
+        "create_central_kitchen:compacting/cookie",
+        "farmersdelight:sweet_berry_cookie",
+        "create_central_kitchen:compacting/sweet_berry_cookie"
     ])
     // 脱粒机相关
     e.custom({
@@ -292,51 +306,107 @@ ServerEvents.recipes(e => {
             "result": "extradelight:lasagna_noodles"
     })
     .id("extradelight:dynamic_feast/lasagna_pasta")
-    // 挂面合成
+    // 山竹糕合成
     e.custom({
-        "type": "extradelight:dough_shaping",
-        "count": 2,
-        "ingredient": {
-            "item": 'create:dough'
+        "type": "farmersdelight:cooking",
+        "container": {
+            "item": "minecraft:bowl"
         },
-            "result": 'createdelight:vermicelli'
-    })
-    e.custom({
-        "type": "ratatouille:squeezing",
+        "cookingtime": 200,
+        "experience": 0.1,
         "ingredients": [
             {
-                "item": "create:dough"
+                "item": 'farmersdelight:rice'
+            },
+            {
+                "item": 'farmersdelight:rice'
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "tag": "forge:fruits/mangosteen"
+            },
+            {
+                "tag": "forge:fruits/mangosteen"
             }
         ],
-        "results": [
-            {
-                "item": "createdelight:vermicelli"
-            }
-        ]
+        "result": {
+            "item": "fruitsdelight:mangosteen_cake"
+        }
     })
-    // 曲奇面团
-    e.recipes.minecraft.crafting_shapeless(
-        '3x createdelight:cookie_dough',
-        [
-            '#extradelight:sweetener',
-            '#forge:butter',
-            '3x #forge:flour'
-        ]
-    )
-    e.recipes.create.mixing(
-        '3x createdelight:cookie_dough',
-        [
-            'minecraft:sugar',
-            '#forge:butter',
-            '3x #forge:flour'
-        ]
-    )
-    e.recipes.create.mixing(
-        '3x createdelight:cookie_dough',
-        [
-            Fluid.of("create:honey", 250),
-            '#forge:butter',
-            '3x #forge:flour'
-        ]
-    )
+    .id("farmersdelight:cooking/mangosteen_cake")
+    // 紫颂果派合成
+    e.custom({
+        "type": "extradelight:oven",
+        "container": {
+            "item": "extradelight:pie_dish"
+        },
+        "cookingtime": 800,
+        "experience": 1.0,
+        "ingredients": [
+            {
+                "tag": "forge:flour"
+            },
+            {
+                "tag": "forge:flour"
+            },
+            {
+                "tag": "forge:flour"
+            },
+            {
+                "tag": "forge:chorus_fruits"
+            },
+            {
+                "tag": "forge:chorus_fruits"
+            },
+            {
+                "tag": "forge:chorus_fruits"
+            },
+            {
+                "tag": 'extradelight:sweetener'
+            },
+            {
+                "item": "farmersdelight:pie_crust"
+            },
+            {
+                "tag": 'extradelight:sweetener'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": "ends_delight:chorus_fruit_pie"
+        }
+    })
+    // 煎饼合成
+    e.custom({
+        "type": "extradelight:oven",
+        "container": {
+            "item": "extradelight:sheet"
+        },
+        "cookingtime": 800,
+        "experience": 1.0,
+        "ingredients": [
+            {
+                "tag": "forge:eggs"
+            },
+            {
+                "tag": "forge:flour"
+            },
+            {
+                "tag": "forge:milk"
+            },
+            {
+                "tag": 'extradelight:sweetener'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": "supplementaries:pancake"
+        }
+    })
+    .id("supplementaries:pancake")
 })
