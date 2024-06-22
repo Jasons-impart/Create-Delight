@@ -61,3 +61,8 @@ JEIEvents.hideItems(e => {
         'ad_astra:steel_block'
     ])
 })
+JEIEvents.addFluids(e => {
+    e.add([
+        "ratatouille:egg_yolk"
+    ])
+})

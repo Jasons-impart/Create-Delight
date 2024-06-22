@@ -85,6 +85,10 @@
 		[types.leaves_type.extradelight]
 			cinnamon = true
 
+		[types.leaves_type.culturaldelights]
+			avocado = true
+			fruiting_avocado = true
+
 [entries]
 
 	[entries.wood_type]

@@ -341,4 +341,92 @@ ServerEvents.recipes(e => {
         }
     })
     .id("extradelight:fudge_popsicle")
+    // 奥利奥面团
+    e.custom({
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "tag": "forge:flour/wheat"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            },
+            {
+                "item": "minecraft:water_bucket"
+            }
+        ],
+        "result": {
+            "item": "createcafe:oreo_dough"
+        }
+    })
+    .id("createcafe:crafting/oreo_dough_shapeless")
+    e.custom({
+        "type": "create:mixing",
+        "ingredients": [
+            {
+                "item": "create:wheat_flour"
+            },
+            {
+                "tag": "forge:bars/chocolate"
+            },
+            {
+                "fluid": "minecraft:water",
+                "nbt": {},
+                "amount": 1000
+            }
+        ],
+        "results": [
+            {
+                "item": "createcafe:oreo_dough"
+            }
+        ]
+    })
+    .id("createcafe:mixing/oreo_dough_mixing")
+    e.custom({
+        "type": "create:mixing",
+        "ingredients": [
+            {
+                "item": "create:wheat_flour"
+            },
+            {
+                "fluid": "create:chocolate",
+                "nbt": {},
+                "amount": 250
+            },
+            {
+                "fluid": "minecraft:water",
+                "nbt": {},
+                "amount": 1000
+            }
+        ],
+        "results": [
+            {
+                "item": "createcafe:oreo_dough"
+            }
+        ]
+    })
+    .id("createcafe:mixing/oreo_dough_mixing2")
+    // 可可软糖
+    e.custom({
+        "type": "brewinandchewin:fermenting",
+        "experience": 0.6,
+        "fermentingtime": 12000,
+        "fluiditem": {
+            "item": "minecraft:milk_bucket"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": 'ratatouille:cocoa_powder'
+            }
+        ],
+        "recipe_book_tab": "misc",
+        "result": {
+            "item": "brewinandchewin:cocoa_fudge"
+        },
+        "temperature": 5
+    })
+    .id("brewinandchewin:fermenting/cocoa_fudge")
 })
