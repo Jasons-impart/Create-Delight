@@ -292,4 +292,51 @@ ServerEvents.recipes(e => {
             "result": "extradelight:lasagna_noodles"
     })
     .id("extradelight:dynamic_feast/lasagna_pasta")
+    // 挂面合成
+    e.custom({
+        "type": "extradelight:dough_shaping",
+        "count": 2,
+        "ingredient": {
+            "item": 'create:dough'
+        },
+            "result": 'createdelight:vermicelli'
+    })
+    e.custom({
+        "type": "ratatouille:squeezing",
+        "ingredients": [
+            {
+                "item": "create:dough"
+            }
+        ],
+        "results": [
+            {
+                "item": "createdelight:vermicelli"
+            }
+        ]
+    })
+    // 曲奇面团
+    e.recipes.minecraft.crafting_shapeless(
+        '3x createdelight:cookie_dough',
+        [
+            '#extradelight:sweetener',
+            '#forge:butter',
+            '3x #forge:flour'
+        ]
+    )
+    e.recipes.create.mixing(
+        '3x createdelight:cookie_dough',
+        [
+            'minecraft:sugar',
+            '#forge:butter',
+            '3x #forge:flour'
+        ]
+    )
+    e.recipes.create.mixing(
+        '3x createdelight:cookie_dough',
+        [
+            Fluid.of("create:honey", 250),
+            '#forge:butter',
+            '3x #forge:flour'
+        ]
+    )
 })
