@@ -21,5 +21,10 @@
     "item.createdelight.white_chocolate_mold_solid":"凝固的白巧克力",
     "item.createdelight.ruby_chocolate_mold_solid":"凝固的红宝石巧克力",
     "item.createdelight.vermicelli":"挂面",
-    "item.createdelight.cookie_dough":"曲奇面团"
+    "item.createdelight.persimmon_cookie_dough":"柿曲奇面团",
+    "item.createdelight.lemon_cookie_dough":"柠檬曲奇面团",
+    "item.createdelight.chorus_cookie_dough":"紫颂曲奇面团",
+    "item.createdelight.green_tea_cookie_dough":"绿茶曲奇面团",
+    "item.createdelight.cranberry_cookie_dough":"蔓越莓曲奇面团",
+    "item.createdelight.bayberry_cookie_dough":"杨梅曲奇面团"
 }

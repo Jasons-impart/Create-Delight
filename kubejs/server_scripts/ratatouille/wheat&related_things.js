@@ -30,14 +30,7 @@ ServerEvents.recipes(e => {
         "culturaldelights:cooking/raw_pasta",
         "ends_delight:food/chorus_fruit_pie",
         "create_central_kitchen:sequenced_assembly/chorus_fruit_pie",
-        "unusualend:chorus_pie_recipe",
-        "farmersdelight:honey_cookie",
-        "create_central_kitchen:compacting/honey_cookie",
-        "quark:tweaks/crafting/utility/bent/cookie",
-        "minecraft:cookie",
-        "create_central_kitchen:compacting/cookie",
-        "farmersdelight:sweet_berry_cookie",
-        "create_central_kitchen:compacting/sweet_berry_cookie"
+        "unusualend:chorus_pie_recipe"
     ])
     // 脱粒机相关
     e.custom({
