@@ -406,27 +406,5 @@ ServerEvents.recipes(e => {
         ]
     })
     .id("createcafe:mixing/oreo_dough_mixing2")
-    // 可可软糖
-    e.custom({
-        "type": "brewinandchewin:fermenting",
-        "experience": 0.6,
-        "fermentingtime": 12000,
-        "fluiditem": {
-            "item": "minecraft:milk_bucket"
-        },
-        "ingredients": [
-            {
-                "item": "minecraft:sugar"
-            },
-            {
-                "item": 'ratatouille:cocoa_powder'
-            }
-        ],
-        "recipe_book_tab": "misc",
-        "result": {
-            "item": "brewinandchewin:cocoa_fudge"
-        },
-        "temperature": 5
-    })
-    .id("brewinandchewin:fermenting/cocoa_fudge")
+
 })

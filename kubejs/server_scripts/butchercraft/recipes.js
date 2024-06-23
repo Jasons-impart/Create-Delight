@@ -1,4 +1,5 @@
 ServerEvents.recipes(e => {
+    // 血肠混合料
     e.custom({
         "type": "minecraft:crafting_shapeless",
         "ingredients": [
