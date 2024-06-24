@@ -1,3 +1,7 @@
+LootJS.modifiers(e => {
+  e.addBlockLootModifier("corn_delight:wild_corn")
+    .replaceLoot('corn_delight:corn_seeds', 'culturaldelights:corn_kernels')
+})
 //移除标签
 ServerEvents.tags('item',e => {
       e.remove('forge:vegetables',['corn_delight:corn','culturaldelights:corn_cob'])
@@ -46,16 +50,14 @@ ServerEvents.recipes(e => {
     e.remove({id:'corn_delight:integration/create/splashing/tortilla_raw'})
     e.remove({output:'corn_delight:grilled_corn'})
     //丰盛沙拉玉米
-    e.shaped('culturaldelights:hearty_salad',[
-      "ABC",
-      "DE ",
-      "   "],{
-        A:"#forge:crops/tomato",
-        B:"#culturaldelights:avocados",
-        C:'corn_delight:boiled_corn',
-        D:"culturaldelights:cucumber",
-        E:"minecraft:bowl"
-      }
+    e.shapeless(
+      'culturaldelights:hearty_salad', [
+        "#forge:crops/tomato",
+        "#culturaldelights:avocados",
+        'extradelight:cooked_corn',
+        "culturaldelights:cucumber",
+        "minecraft:bowl"
+      ]
     )
     //玉米适配砧板
     e.custom({
@@ -117,7 +119,8 @@ ServerEvents.recipes(e => {
         "results": [
           { item:'extradelight:corn_cob',},
           { item: "culturaldelights:corn_kernels",count:2},
-          {item:'culturaldelights:corn_kernels',chance:0.5}
+          {item:'culturaldelights:corn_kernels',chance:0.5},
+          {"item":'extradelight:corn_silk'}
         ]
       })
     //玉米片
@@ -148,8 +151,6 @@ ServerEvents.recipes(e => {
         "result": [
           { "item": 'culturaldelights:corn_kernels',count:2},
           { "item": "extradelight:corn_cob",},
-          {"chance": 0.75,
-            "item": 'culturaldelights:corn_kernels'},
           {"item":'extradelight:corn_silk'}
         ],
         "tool": {
@@ -205,20 +206,10 @@ ServerEvents.recipes(e => {
       "result": 'corn_delight:tortilla_raw'
     })
     //挤压玉米面团成面饼
-    e.custom({
-      "type": "ratatouille:squeezing",
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "culturaldelights"
-        }
-      ],
-      "ingredients": [
-        {"item": 'culturaldelights:corn_dough'}],
-      "results": [
-        {"item":'corn_delight:tortilla_raw',count:2}
-      ]
-    })
+    e.recipes.create.pressing(
+      '2x corn_delight:tortilla_raw',
+      'culturaldelights:corn_dough'
+    )
     //烤奶酪辣味玉米片
     e.custom( {"type": "farmersdelight:cooking",
       "ingredients": [
