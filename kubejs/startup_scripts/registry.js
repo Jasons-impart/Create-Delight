@@ -164,4 +164,16 @@ StartupEvents.registry('item', e => {
                 .effect("minecraft:hunger", 200, 1, 1.0)
                 .effect("minecraft:nausea", 200, 1, 1.0)
         })
+    e.create("createdelight:yorkshire_pudding_and_beef")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.yorkshire_pudding_and_beef")
+        .food(food => {
+            food.hunger(12)
+                .saturation(1)
+        })
+
+    // 板面
+    e.create("createdelight:board_noodles")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.board_noodles")
 })

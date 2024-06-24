@@ -22,11 +22,11 @@ ServerEvents.recipes(e => {
         Fluid.of("ratatouille:mince_meat", 250),
         [
             '#forge:meat/raw',
-            'ratatouille:salt',
+            ,
             'butchercraft:fat'
         ]
     )
-    .id("create:mixing/mince_meat")
+        .id("create:mixing/mince_meat")
     // 蛋糕相关
     e.recipes.create.filling(
         'createaddition:chocolate_cake',
@@ -39,13 +39,17 @@ ServerEvents.recipes(e => {
         e.recipes.create.filling("ratatouille:cake_base", ["ratatouille:cake_base", Fluid.of("createcafe:coffee", 1000)]),
         e.recipes.create.deploying("ratatouille:cake_base", ["ratatouille:cake_base", "createcafe:roasted_coffee_beans"])
     ])
-    .transitionalItem("ratatouille:cake_base")
-    .loops(1)
+        .transitionalItem("ratatouille:cake_base")
+        .loops(1)
     e.recipes.create.sequenced_assembly('extradelight:coffe_cake_feast', 'ratatouille:cake_base', [
         e.recipes.create.filling("ratatouille:cake_base", ["ratatouille:cake_base", Fluid.of("minecraft:milk", 1000)]),
         e.recipes.create.deploying("ratatouille:cake_base", ["ratatouille:cake_base", 'extradelight:ground_cinnamon'])
     ])
-    .transitionalItem("ratatouille:cake_base")
-    .loops(1)
-    .id("extradelight:oven/coffe_cake_feast")
+        .transitionalItem("ratatouille:cake_base")
+        .loops(1)
+        .id("extradelight:oven/coffe_cake_feast")
+})
+
+ServerEvents.tags("item", e => {
+    e.add("forge:salt", "ratatouille:salt")
 })

@@ -57,7 +57,7 @@ ServerEvents.recipes(e => {
             }
         ]
     })
-    .id("ratatouille:threshing/wheat_kernels")
+        .id("ratatouille:threshing/wheat_kernels")
     // 小麦→麦粒
     e.custom({
         "type": "farmersdelight:cutting",
@@ -79,7 +79,7 @@ ServerEvents.recipes(e => {
             "tag": "forge:tools/knives"
         }
     })
-    .id("extradelight:cutting/wheat_seeds")
+        .id("extradelight:cutting/wheat_seeds")
     // 磨粉
     e.custom({
         "type": "extradelight:mortar",
@@ -91,13 +91,13 @@ ServerEvents.recipes(e => {
             "item": 'create:wheat_flour'
         }
     })
-    .id("extradelight:dynamic_feast/mortar/flour")
+        .id("extradelight:dynamic_feast/mortar/flour")
     // 袋装面粉
     e.shapeless(
         '9x create:wheat_flour',
         'extradelight:flour_sack'
     )
-    .id("extradelight:flour_from_block")
+        .id("extradelight:flour_from_block")
     // 哈吉斯
     e.custom({
         "type": "extradelight:oven",
@@ -140,7 +140,7 @@ ServerEvents.recipes(e => {
             "item": "extradelight:haggis_block_item"
         }
     })
-    .id("extradelight:oven/haggis_block_item")
+        .id("extradelight:oven/haggis_block_item")
     // 苹果酥
     e.custom({
         "type": "extradelight:oven",
@@ -174,7 +174,7 @@ ServerEvents.recipes(e => {
             "item": "extradelight:apple_crisp_feast"
         }
     })
-    .id("extradelight:oven/apple_crisp_feast")
+        .id("extradelight:oven/apple_crisp_feast")
     // 蛋液适配
     e.custom({
         "type": "create:emptying",
@@ -193,7 +193,7 @@ ServerEvents.recipes(e => {
             }
         ]
     })
-    .id("create:emptying/yolk")
+        .id("create:emptying/yolk")
     e.custom({
         "type": "create:emptying",
         "ingredients": [
@@ -211,7 +211,7 @@ ServerEvents.recipes(e => {
             }
         ]
     })
-    .id("create:emptying/emu_yolk")
+        .id("create:emptying/emu_yolk")
     // 面团相关
     e.recipes.create.mixing(
         '3x create_confectionery:gingerdough',
@@ -223,7 +223,7 @@ ServerEvents.recipes(e => {
             'extradelight:grated_ginger'
         ]
     )
-    .id("create_confectionery:gingerdough_recipe")
+        .id("create_confectionery:gingerdough_recipe")
     e.custom({
         "type": "extradelight:mixing_bowl",
         "ingredients": [
@@ -249,7 +249,7 @@ ServerEvents.recipes(e => {
             "item": "air"
         }
     })
-    .id("extradelight:mixing/wheat_dough_egg")
+        .id("extradelight:mixing/wheat_dough_egg")
     e.recipes.create.mixing(
         'farmersdelight:wheat_dough',
         [
@@ -262,15 +262,15 @@ ServerEvents.recipes(e => {
         [
             Fluid.of("ratatouille:egg_yolk", 100),
             '2x create:wheat_flour',
-            "ratatouille:salt"
+            "#forge:salt"
         ]
     )
-    .id("create:mixing/salty_dough")
+        .id("create:mixing/salty_dough")
     e.recipes.create.mixing(
         "extradelight:seaweed_paste",
         "minecraft:kelp"
     )
-    .id("create:mixing/seaweed_paste_create")
+        .id("create:mixing/seaweed_paste_create")
     // 意大利面合成
     e.custom({
         "type": "extradelight:dough_shaping",
@@ -278,27 +278,27 @@ ServerEvents.recipes(e => {
         "ingredient": {
             "item": 'ratatouille:salty_dough'
         },
-            "result": "farmersdelight:raw_pasta"
+        "result": "farmersdelight:raw_pasta"
     })
-    .id("extradelight:dynamic_feast/raw_pasta")
+        .id("extradelight:dynamic_feast/raw_pasta")
     e.custom({
         "type": "extradelight:dough_shaping",
         "count": 2,
         "ingredient": {
             "item": 'ratatouille:salty_dough'
         },
-            "result": "extradelight:macaroni"
+        "result": "extradelight:macaroni"
     })
-    .id("extradelight:dynamic_feast/macaroni_pasta")
+        .id("extradelight:dynamic_feast/macaroni_pasta")
     e.custom({
         "type": "extradelight:dough_shaping",
         "count": 2,
         "ingredient": {
             "item": 'ratatouille:salty_dough'
         },
-            "result": "extradelight:lasagna_noodles"
+        "result": "extradelight:lasagna_noodles"
     })
-    .id("extradelight:dynamic_feast/lasagna_pasta")
+        .id("extradelight:dynamic_feast/lasagna_pasta")
     // 山竹糕合成
     e.custom({
         "type": "farmersdelight:cooking",
@@ -331,7 +331,7 @@ ServerEvents.recipes(e => {
             "item": "fruitsdelight:mangosteen_cake"
         }
     })
-    .id("farmersdelight:cooking/mangosteen_cake")
+        .id("farmersdelight:cooking/mangosteen_cake")
     // 紫颂果派合成
     e.custom({
         "type": "extradelight:oven",
@@ -401,5 +401,5 @@ ServerEvents.recipes(e => {
             "item": "supplementaries:pancake"
         }
     })
-    .id("supplementaries:pancake")
+        .id("supplementaries:pancake")
 })

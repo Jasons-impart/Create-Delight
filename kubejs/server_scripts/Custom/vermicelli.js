@@ -60,7 +60,7 @@ ServerEvents.recipes(e => {
                 "item": 'butchercraft:cubed_beef'
             },
             {
-                "item": 'createdelight:vermicelli'
+                "item": 'createdelight:board_noodles'
             },
             {
                 "tag": "forge:vegetables/carrot"
