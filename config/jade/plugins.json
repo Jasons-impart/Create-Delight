@@ -46,9 +46,6 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
   "treechop": {
     "plugin": true,
     "show_tree_block_counts": true,
@@ -82,7 +79,9 @@
   "lootr": {
     "info": true
   },
-  "corpse": {
-    "corpse": true
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "display.content": true,
+    "display.status": true
   }
 }

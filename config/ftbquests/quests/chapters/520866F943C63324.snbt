@@ -30,19 +30,6 @@
 			x: -7.0d
 			y: 6.0d
 		}
-		{
-			alpha: 100
-			click: ""
-			corner: false
-			dev: false
-			height: 4.502198339032731d
-			hover: [ ]
-			image: "aether_redux:textures/gui/title/redux.png"
-			rotation: 0.0d
-			width: 9.0d
-			x: -2.642857142857146d
-			y: 0.0357142857142847d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]

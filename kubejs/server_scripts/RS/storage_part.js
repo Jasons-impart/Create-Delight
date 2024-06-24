@@ -8,7 +8,15 @@ ServerEvents.recipes(e => {
         "refinedstorage:64k_fluid_storage_disk",
         "refinedstorage:256k_fluid_storage_disk",
         "refinedstorage:1024k_fluid_storage_disk",
-        "refinedstorage:4096k_fluid_storage_disk"
+        "refinedstorage:4096k_fluid_storage_disk",
+        "extrastorage:disk/shaped/disk_256k",
+        "extrastorage:disk/shaped/disk_1024k",
+        "extrastorage:disk/shaped/disk_4096k",
+        "extrastorage:disk/shaped/disk_16384k",
+        "extrastorage:disk/shaped/disk_16384k_fluid",
+        "extrastorage:disk/shaped/disk_65536k_fluid",
+        "extrastorage:disk/shaped/disk_262144k_fluid",
+        "extrastorage:disk/shaped/disk_1048576k_fluid"
     ])
 
     // 存储外壳合成
