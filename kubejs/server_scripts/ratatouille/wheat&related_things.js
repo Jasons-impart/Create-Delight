@@ -402,4 +402,13 @@ ServerEvents.recipes(e => {
         }
     })
         .id("supplementaries:pancake")
+    // 板面
+    e.custom({
+        "type": "extradelight:dough_shaping",
+        "count": 1,
+        "ingredient": {
+            "item": 'create:dough'
+        },
+        "result": 'createdelight:board_noodles'
+    })
 })

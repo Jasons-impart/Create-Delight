@@ -28,5 +28,8 @@
     "item.createdelight.cranberry_cookie_dough": "蔓越莓曲奇面团",
     "item.createdelight.bayberry_cookie_dough": "杨梅曲奇面团",
     "item.createdelight.yorkshire_pudding_and_beef": "牛排配约克郡布丁",
-    "item.createdelight.oil_dough":"油面团"
+    "item.createdelight.oil_dough": "油面团",
+    "item.createdelight.puff_pastry": "酥皮",
+    "item.createdelight.oil_dough_with_butter": "开酥中的面团",
+    "item.createdelight.board_noodles": "板面"
 }
