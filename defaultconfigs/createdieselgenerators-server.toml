@@ -13,13 +13,13 @@
 	#Tool Capacity Enchantment Capacity Addition in mB
 	"Capacity Addition of Tools with Capacity Enchantment" = 10
 	#Combustibles do boom boom when on fire
-	"Combustibles blow up" = false
+	"Combustibles blow up" = true
 
 	["Server Configs"."Diesel Engines"]
 		#Turbocharged Diesel Engine Speed Multiplier
-		"Turbocharged Diesel Engine Speed Multiplier" = 20.0
+		"Turbocharged Diesel Engine Speed Multiplier" = 2.0
 		#Turbocharged Diesel Engine Burn Rate Multiplier
-		"Turbocharged Diesel Engine Burn Rate Multiplier" = 5.0
+		"Turbocharged Diesel Engine Burn Rate Multiplier" = 1.0
 		#Whenever Normal Diesel Engines are enabled
 		"Normal Diesel Engines" = true
 		#Whenever Modular Diesel Engines are enabled
@@ -35,15 +35,15 @@
 		#Normal oil chunks oil amount multiplier
 		"Normal oil chunks oil amount multiplier" = 1.0
 		#High oil chunks oil amount multiplier
-		"High oil chunks oil amount multiplier" = 3.0
+		"High oil chunks oil amount multiplier" = 1.0
 		#Max Oil Scanner Level
 		"Max Oil Scanner Level" = 10000
 		#Normal oil chunks percentage
 		#Range: 0.0 ~ 100.0
-		"Normal oil chunks percentage" = 30.0
+		"Normal oil chunks percentage" = 10.0
 		#High oil chunks percentage
 		#Range: 0.0 ~ 100.0
-		"High oil chunks percentage" = 5.0
+		"High oil chunks percentage" = 10.0
 
 		["Server Configs"."Oil Config".Distillation]
 			#Whenever wide Distillation Towers go faster than the thin ones

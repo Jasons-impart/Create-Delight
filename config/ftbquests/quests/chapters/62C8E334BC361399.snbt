@@ -1222,8 +1222,8 @@
 			}]
 			subtitle: "制作强大的辉钢装备"
 			tasks: [{
-				id: "11839513F011871B"
-				item: "ulterlands:astrumm_ore"
+				id: "18FC6AF42205093D"
+				item: "ulterlands:astrumm"
 				type: "item"
 			}]
 			x: 15.0d
