@@ -9,11 +9,8 @@ StartupEvents.registry("block", e => {
                 .shape(2, 0, 0, 0, 16, 8, 16)
                 .shape(3, 0, 0, 0, 16, 16, 16)
         })
-        .survive((state, level, pos) => state.is(Blocks.FARMLAND))
-        .growTick((tickevent) => 25)
-        .bonemeal(info => {
-            return 1
-        })
+        .growTick(tickevent => 25)
+        .bonemeal(info => 1)
         .dropSeed(true)
         .crop('festival_delicacies:garlic', 1)
         .crop('festival_delicacies:garlic', 0.5)
