@@ -31,5 +31,7 @@
     "item.createdelight.oil_dough": "油面团",
     "item.createdelight.puff_pastry": "酥皮",
     "item.createdelight.oil_dough_with_butter": "开酥中的面团",
-    "item.createdelight.board_noodles": "板面"
+    "item.createdelight.board_noodles": "板面",
+    "block.createdelight.garlic": "大蒜",
+    "item.createdelight.garlic_seed": "大蒜种子"
 }
