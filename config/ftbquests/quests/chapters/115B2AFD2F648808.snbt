@@ -2,10 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "115B2AFD2F648808"
-	group: "7BA04EC34AC7135F"
-	icon: "create:mechanical_crafter"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "cgm:mini_gun"
+		tag: {
+			AmmoCount: 100
+		}
+	}
 	id: "115B2AFD2F648808"
-	order_index: 0
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -119,10 +125,9 @@
 			]
 			id: "6BC6A6C100A34A10"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7BAA4F349A459BE6"
-				table_id: 5347970608351672481L
-				type: "loot"
+				id: "56D2C007050A9BCA"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "602FC1AD44E4AE24"
@@ -416,10 +421,9 @@
 			dependencies: ["6BC6A6C100A34A10"]
 			id: "1D3DAFB303CC358B"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2FF43E624B0704B6"
-				table_id: 5347970608351672481L
-				type: "loot"
+				id: "2A00D632CBE93EAF"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "4330FB9CCE0B6960"
@@ -433,10 +437,9 @@
 			dependencies: ["1D3DAFB303CC358B"]
 			id: "0156A37DFAF4AB1D"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4123D9C7F1DB975E"
-				table_id: 5347970608351672481L
-				type: "loot"
+				id: "33A056445383C15C"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "00935CBD131E5FD1"

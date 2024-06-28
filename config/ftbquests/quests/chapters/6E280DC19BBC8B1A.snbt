@@ -113,7 +113,7 @@
 				random_bonus: 15
 				type: "item"
 			}]
-			subtitle: "火药的来源"
+			subtitle: "小心别爆炸了"
 			tasks: [{
 				id: "7A2C8C8B3D633835"
 				item: "nethersdelight:propelplant_cane"
@@ -253,6 +253,7 @@
 			dependencies: ["4995B7A127D91043"]
 			description: ["将此物品放置在砧板上并用下界之星右击即可分解为龙蛋液和龙蛋壳。"]
 			id: "48153F47BD2D1FAA"
+			subtitle: "＂坏＂蛋"
 			tasks: [{
 				id: "32E40BDBF90CDAF1"
 				item: "ends_delight:non_hatchable_dragon_egg"
@@ -264,6 +265,7 @@
 		{
 			dependencies: ["48153F47BD2D1FAA"]
 			id: "7542A1F69AD6FD0B"
+			subtitle: "尝一口，这是什么？失忆药水？尝一口，这是什么？失忆药水？"
 			tasks: [
 				{
 					id: "0179CF6B6D1A3363"
@@ -276,6 +278,7 @@
 					type: "item"
 				}
 			]
+			title: "蛋液为什么是紫黑的Σ( ° △ °"
 			x: 4.0d
 			y: -3.5d
 		}
@@ -319,6 +322,7 @@
 		{
 			dependencies: ["42E8D4D2C5243B72"]
 			id: "58AD0CBEC5814319"
+			subtitle: "额，或许算间接接吻？"
 			tasks: [{
 				id: "46CA44949C07E6EA"
 				item: "ends_delight:dragon_breath_soda"
@@ -341,6 +345,7 @@
 		{
 			dependencies: ["376D48B3C8CFD593"]
 			id: "5D2D6747E4D9D880"
+			subtitle: "总感觉透露着一股子怪异．．．"
 			tasks: [{
 				id: "07C1C9A926E2968E"
 				item: "ends_delight:end_mixed_salad"
@@ -363,6 +368,7 @@
 		{
 			dependencies: ["42E8D4D2C5243B72"]
 			id: "6BBE8212BD843B5C"
+			subtitle: "巨大无比的火腿！"
 			tasks: [{
 				id: "7C577D26BA0BD82E"
 				item: "ends_delight:dragon_leg"
@@ -374,6 +380,7 @@
 		{
 			dependencies: ["6BBE8212BD843B5C"]
 			id: "36FD5004C7A3D01B"
+			subtitle: "超级美味！"
 			tasks: [{
 				id: "6C415D393B63C40E"
 				item: "ends_delight:dragon_leg_with_sauce_block"
@@ -397,6 +404,7 @@
 		{
 			dependencies: ["471A06743B1D42F1"]
 			id: "1D94E18BEBF74F81"
+			subtitle: "好吃到飞起来！"
 			tasks: [{
 				id: "7DAEF5A1500B67EC"
 				item: "ends_delight:stir_fried_shulker_meat"
@@ -408,6 +416,7 @@
 		{
 			dependencies: ["376D48B3C8CFD593"]
 			id: "7B5AE6C911AD10D4"
+			subtitle: "非常非常非常的美味啊！"
 			tasks: [{
 				id: "1EC0B92295FB8A80"
 				item: "ends_delight:chorus_fruit_pie"
@@ -415,6 +424,18 @@
 			}]
 			x: 7.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["4995B7A127D91043"]
+			id: "59BF10B66935D785"
+			subtitle: "牙齿上残留的龙息"
+			tasks: [{
+				id: "469C08225467D7D5"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
 		}
 	]
 	title: "&e纵享异界美味"

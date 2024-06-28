@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1DDA758C6F4603C0"
-	group: "13092F0BE80FD241"
+	group: "0E7AEC0D0D9C1B1C"
 	icon: {
 		Count: 1b
 		id: "ad_astra:tier_4_rocket"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "1DDA758C6F4603C0"
-	order_index: 0
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -116,12 +116,6 @@
 				}
 			}
 			id: "2A9052E6C76BD051"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38B32645D7A38CE5"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [
 				{
 					id: "55FD0DAD31E95905"
@@ -175,12 +169,6 @@
 		{
 			dependencies: ["2EF38D620B4E1664"]
 			id: "4A79D97050F1297F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58D731C5FE908A9B"
-				table_id: 5347970608351672481L
-				type: "choice"
-			}]
 			subtitle: "oxygen！人类的慢性毒药，吸过氧气的人在200年内必定死亡！"
 			tasks: [{
 				id: "0B7B429A49956D16"
@@ -193,12 +181,6 @@
 		{
 			dependencies: ["4A79D97050F1297F"]
 			id: "23237C92178C3BBC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1532D31411552D2E"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "？？？他为什么能倒过来？？？"
 			tasks: [{
 				id: "50C8B7B8962F8777"
@@ -244,9 +226,9 @@
 			dependencies: ["234903F798E76C58"]
 			id: "182095AB6BCF39FB"
 			rewards: [{
-				id: "373B87C82FBC72B3"
-				item: "ad_astra:moon_globe"
-				type: "item"
+				id: "3D39EA49602B0C9D"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "这不是月球吗，太美丽了家人们（）"
 			tasks: [{
@@ -432,7 +414,7 @@
 			subtitle: "火星上金子一样珍贵的矿石！"
 			tasks: [{
 				id: "43FA93F083A3B914"
-				item: "ad_astra:mars_ostrum_ore"
+				item: "ad_astra:raw_ostrum"
 				type: "item"
 			}]
 			x: 5.0d
@@ -593,12 +575,6 @@
 				"001E54ADF04996D7"
 			]
 			id: "7BDAE316D3CCEA2F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "375F4492B033D8C6"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "再次升级！！！"
 			tasks: [{
 				id: "6870417650AA7A8D"
@@ -1104,18 +1080,6 @@
 			id: "16418BAD90AB35E9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4191B43A389DAE89"
-					table_id: 7772018159856264947L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1DB1118BBDA555AB"
-					table_id: 6485826240718891201L
-					type: "choice"
-				}
-				{
 					id: "3ECF06DAABEC7596"
 					item: "minecraft:netherite_block"
 					type: "item"
@@ -1198,17 +1162,12 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "67B3B3F9B011FEA2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2593BD6936C99CBF"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "还好还好大家都没尸变"
 			tasks: [{
 				icon: "ad_astra:lunarian_spawn_egg"
 				id: "13C3F1AB747BF652"
 				structure: "ad_astra:lunarian_village"
+				title: "发现月球聚集地"
 				type: "structure"
 			}]
 			title: "月球村"
@@ -1218,12 +1177,6 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "59EC7A72325F91C8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "202B1E4526084B72"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "啊啊啊怎么全都是堕落村民！！！！"
 			tasks: [{
 				icon: "ad_astra:moon_cobblestone"
@@ -1406,6 +1359,20 @@
 			title: "等等我我还没上车啊！！！！"
 			x: 10.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["182095AB6BCF39FB"]
+			id: "7D9F154B5FF86674"
+			tasks: [{
+				entity: "ad_astra:star_crawler"
+				icon: "ad_astra:cheese"
+				id: "5F609406BF759685"
+				type: "kill"
+				value: 1L
+			}]
+			title: "这是？海星？"
+			x: 0.5d
+			y: 11.0d
 		}
 	]
 	title: "&e银河系漫游指南"

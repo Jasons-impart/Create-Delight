@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "37C42029C3527BCD"
+	group: ""
+	icon: "createoreexcavation:drilling_machine"
+	id: "37C42029C3527BCD"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["00AF35D832509CB8"]
+			id: "532B2FC7E0826D5E"
+			tasks: [{
+				id: "674772936F202FE0"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00AF35D832509CB8"]
+			id: "13761553F15A2C1A"
+			rewards: [{
+				id: "2C4B6AFD7A8E6B04"
+				item: "createoreexcavation:drill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06BEEC5B7EA482E4"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			title: "虚空挖矿机！"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4A19D3EB3E47BFDF"
+				"00AF35D832509CB8"
+			]
+			description: [
+				""
+				"{image:createdelight:textures/gui/how_to_use.png width:250 height:150 align:1 fit:true}"
+			]
+			id: "7DC98E34AECFBB5C"
+			subtitle: "使用探矿杖来寻找矿物痕迹"
+			tasks: [{
+				id: "2F2832039C2FE873"
+				item: "createoreexcavation:vein_finder"
+				type: "item"
+			}]
+			title: "让我看看你在哪~"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "00AF35D832509CB8"
+			tasks: [{
+				id: "1D7AB28B86CF3039"
+				title: "矿物再生科技！"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	title: "矿物再生！"
+}

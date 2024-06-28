@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "579C8FC3C4B55CC3"
+	group: "14CFC96B5B37F10B"
+	icon: "createaddition:capacitor"
+	id: "579C8FC3C4B55CC3"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7E05A27248576CB3"]
+			id: "227C03A1AE0DC656"
+			subtitle: "电力时代！"
+			tasks: [{
+				id: "693678457B432A3B"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["227C03A1AE0DC656"]
+			id: "17323F34E01C4313"
+			subtitle: "多亏了特斯拉才有了现在的美丽世界"
+			tasks: [{
+				id: "301D4D51D79E7B81"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["227C03A1AE0DC656"]
+			id: "0398213BE89BD712"
+			subtitle: "电产生动力"
+			tasks: [{
+				id: "09375B24700AACED"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"17323F34E01C4313"
+				"1AB992034B618D32"
+			]
+			dependency_requirement: "one_completed"
+			id: "1FADE23D87FAC9B1"
+			invisible: true
+			invisible_until_tasks: 2
+			tasks: [
+				{
+					id: "3E593F965157ADC5"
+					item: "ad_astra:energizer"
+					type: "item"
+				}
+				{
+					id: "496BE974FE02CF95"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+				{
+					id: "2282CF8AAA852E6E"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	title: "&e旋转发电！"
+}

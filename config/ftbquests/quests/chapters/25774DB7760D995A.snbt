@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "25774DB7760D995A"
+	group: "14CFC96B5B37F10B"
+	icon: "createdieselgenerators:crude_oil_bucket"
+	id: "25774DB7760D995A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "094CBEB74FD20505"
+			subtitle: "石油在哪里"
+			tasks: [{
+				id: "725496D24D819817"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			title: "WHERE?"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["094CBEB74FD20505"]
+			id: "1F5B88A1AF6EE70A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7530E82928C6852E"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			subtitle: "石油大亨的开启"
+			tasks: [
+				{
+					id: "5B9D6C20667A3612"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "26CA72C9E6B9E327"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+				{
+					id: "2E8D7601D4E4633F"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+				{
+					id: "15E52405C3293BD2"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+			]
+			title: "抽油机"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1F5B88A1AF6EE70A"]
+			id: "3174833BB69CA7FB"
+			rewards: [{
+				id: "61534B961128D8E3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "柴油机的辅助用品"
+			tasks: [
+				{
+					id: "3668F90634C477F7"
+					item: "createdieselgenerators:engine_silencer"
+					type: "item"
+				}
+				{
+					id: "4E6FF434B14BF869"
+					item: "createdieselgenerators:engine_turbocharger"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1F5B88A1AF6EE70A"]
+			id: "15A9DCF43E9AF855"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24828F604CC9EAC4"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			subtitle: "分馏石油成不同的燃料"
+			tasks: [{
+				id: "79A04B06256AACCC"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1F5B88A1AF6EE70A"]
+			id: "2118D08C7336D2EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FB85CF913F4197F"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			subtitle: "用于储存流体，破坏后流体不会消失"
+			tasks: [{
+				id: "11304A163405FA2E"
+				item: "createdieselgenerators:canister"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+	]
+	title: "&3石油时代！"
+}

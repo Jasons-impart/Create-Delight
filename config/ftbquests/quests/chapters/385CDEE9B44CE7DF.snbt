@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "385CDEE9B44CE7DF"
-	group: "3B281A11FC8949CA"
+	group: ""
 	icon: "alexsmobs:animal_dictionary"
 	id: "385CDEE9B44CE7DF"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -161,7 +161,7 @@
 				}
 				{
 					id: "504F7B2D7C432862"
-					item: "alexsmobs:lobster_tail"
+					item: "crabbersdelight:clawster"
 					type: "item"
 				}
 			]
@@ -341,8 +341,8 @@
 				title: "蚂蚁终结者"
 				type: "advancement"
 			}]
-			x: 7.5d
-			y: -9.0d
+			x: 7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["46EAAF318C57196E"]
@@ -383,7 +383,7 @@
 				type: "advancement"
 			}]
 			x: 8.0d
-			y: -10.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2D498ED418390340"]
@@ -558,6 +558,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["1B36D2B9486430FD"]
 			description: [
 				"雨蛙是一种小型的青蛙，只有在雨天时的沙漠生物群系及其变种中才能找到。"
 				""
@@ -751,6 +752,8 @@
 				"卷尾猴在吃过香蕉后，有几率掉落香蕉皮，可用来制作猴儿汤。"
 			]
 			id: "2A952709E62C7F2E"
+			invisible: true
+			invisible_until_tasks: 1
 			subtitle: "“国服ADC”"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/tame_capuchin"
@@ -1436,7 +1439,7 @@
 				type: "advancement"
 			}]
 			x: 13.0d
-			y: 15.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2CE5C6337A66E546"]
@@ -1509,8 +1512,8 @@
 				item: "alexsmobs:music_disc_thime"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 16.0d
+			x: 13.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["2CE5C6337A66E546"]
@@ -1565,7 +1568,7 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["0F97A88646128947"]
+			dependencies: ["7DE4D2A722B1E8D3"]
 			description: ["玩家在食用龙虾意面之后可以获得5分钟的“滋养”效果，以及返还一个碗。"]
 			id: "200BE0346750BD7C"
 			rewards: [{
@@ -1579,7 +1582,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2CE5C6337A66E546"]
@@ -4172,20 +4175,6 @@
 				"由于有耐久，维度撕裂者可以附魔耐久和经验修补，也可以使用复刻凝胶进行复制。"
 			]
 			id: "7FFB5FAAC2F7B09F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "25CA560C35DBEAFD"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7A1FC4152395E81F"
-					table_id: 5347970608351672481L
-					type: "loot"
-				}
-			]
 			size: 2.0d
 			subtitle: "“成功了！我合成出来了一把镐，我给它取名为’维度撕裂者‘。”"
 			tasks: [{
@@ -4520,27 +4509,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1D36D13A35180A3E"]
-			description: ["用沙漠蛛蜂翼升级后的鞘翅"]
-			id: "7BBE1CCD376E8446"
-			subtitle: "“更持久！”"
-			tasks: [{
-				id: "6850F0D863864350"
-				item: {
-					Count: 1b
-					id: "alexsmobs:tarantula_hawk_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: -6.0d
+			x: 13.0d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -4600,6 +4570,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "很有嚼劲！很好吃！"
 			tasks: [
 				{
 					id: "117EC3E57C77938D"
@@ -4619,6 +4590,7 @@
 			dependencies: ["01D523FA3EA70A94"]
 			description: ["玩家在食用袋鼠肉意面之后可以获得5分钟的“滋养”效果，以及返还一个碗。"]
 			id: "397E1B19721A295B"
+			subtitle: "太残暴了"
 			tasks: [{
 				id: "28D95C3D968225CD"
 				item: "alexsdelight:kangaroo_pasta"
@@ -4715,7 +4687,6 @@
 				"623CC282397D6299"
 				"05239181F7424ABB"
 				"23D4F6B8D11D622A"
-				"7BBE1CCD376E8446"
 				"0FABEC8E21CC98B7"
 				"521942F5C730C783"
 				"72F197353ACCD96A"
@@ -4822,13 +4793,15 @@
 			hide_dependency_lines: true
 			hide_details_until_startable: true
 			id: "2F7AECCF9B917BA9"
+			invisible: true
+			invisible_until_tasks: 173
 			rewards: [{
 				count: 4
 				id: "262120C85D6BB4FB"
 				item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
 				type: "item"
 			}]
-			size: 5.0d
+			size: 4.0d
 			tasks: [{
 				id: "42788507008F7243"
 				type: "checkmark"
@@ -4858,8 +4831,8 @@
 				item: "alexsmobs:music_disc_daze"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 16.0d
+			x: 14.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -4937,12 +4910,6 @@
 		{
 			dependencies: ["1C1089DFEAF07C73"]
 			id: "77FD4E812B965295"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "56098A421EF0DC2D"
-				table_id: 1586327015374942043L
-				type: "random"
-			}]
 			tasks: [{
 				id: "15CF75652E59452B"
 				item: "alexsmobs:farseer_arm"
@@ -4973,6 +4940,28 @@
 			x: -3.5d
 			y: 9.5d
 		}
+		{
+			dependencies: ["2D43C89747A7B7EA"]
+			id: "1B36D2B9486430FD"
+			tasks: [{
+				id: "42FDD40F4C769940"
+				title: "两栖生物"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F97A88646128947"]
+			id: "7DE4D2A722B1E8D3"
+			tasks: [{
+				id: "6CBF9F61D952F401"
+				item: "alexsmobs:lobster_tail"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
 	]
-	title: "&e我和动物朋友们的故事"
+	title: "&e动物朋友们"
 }

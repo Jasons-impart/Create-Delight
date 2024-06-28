@@ -7,21 +7,79 @@
 	id: "771AF9716A950812"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "55C42BCE0E399B3D"
-		size: 4.0d
-		subtitle: "原来你也玩机械动力悠然乐事！"
-		tasks: [{
-			dimension: "minecraft:overworld"
-			disable_toast: true
-			icon: "minecraft:grass_block"
-			id: "2664A2E2CC659A77"
-			title: "原来你也玩机械动力悠然乐事！"
-			type: "dimension"
-		}]
-		title: "异世相遇，尽享乐事~"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "55C42BCE0E399B3D"
+			size: 4.0d
+			subtitle: "原来你也玩机械动力悠然乐事！"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "2664A2E2CC659A77"
+				title: "原来你也玩机械动力悠然乐事！"
+				type: "dimension"
+			}]
+			title: "异世相遇，尽享乐事~"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55C42BCE0E399B3D"]
+			description: ["注意！本整合包动物&e直接杀死&r&4不会掉落任何完整肉类&r！所有动物&4必须&r使用&4屠刀右键&r杀死！"]
+			id: "46F1F92929FC8F9F"
+			size: 2.0d
+			subtitle: "本整合包添加了屠宰乐事"
+			tasks: [{
+				id: "42B95E73286FD639"
+				type: "checkmark"
+			}]
+			title: "屠宰相关"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55C42BCE0E399B3D"]
+			description: ["本整合包增加了FTBchunks以增加对于区块认领及区块强加载的相关支持，可以&4用n打开&rftbchunks的地图并进行&e区块认领和强加载&r等相关工作，使用&e指令&r也可以查看自己目前&4认领的区块数量和位置&r，具体相关指令详见&4https://www.mcmod.cn/class/3201.html&r"]
+			id: "428692AFFB20055B"
+			size: 2.0d
+			subtitle: "注意不要认领太多！！！"
+			tasks: [{
+				id: "66BE628B0EBBFBC7"
+				type: "checkmark"
+			}]
+			title: "认领区块相关"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55C42BCE0E399B3D"]
+			description: ["由于未知力量&e（异界）&r入侵主世界，末影之眼失去了原来的效果，为了能够去往末地，你需要搜刮原版建筑中被异界能量影响的&1宝箱&r以及&1各种怪物&r，找齐&e12种末影之眼&r，你可以选择使用这些被&4异界&r能量影响的末影之眼定位传送门，找到传送门之后放置12中新末影之眼并取下原有的末影之眼，并进入末地最终与末影龙&4决一死战&r，解放这个世界"]
+			id: "68E3F9D34EB6D9FB"
+			size: 2.0d
+			subtitle: "异世界力量入侵！"
+			tasks: [{
+				id: "2A29127615BBE470"
+				type: "checkmark"
+			}]
+			title: "如何去往末地"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55C42BCE0E399B3D"]
+			description: ["本整合包增加了一系列来自alex的生物，如有不了解的问题可以查看&4任务书内相关章节&r"]
+			id: "48EC662CDE792B76"
+			size: 2.0d
+			subtitle: "来自Alex的生物"
+			tasks: [{
+				id: "3ED4156434322595"
+				type: "checkmark"
+			}]
+			title: "各式各样的生物"
+			x: -4.0d
+			y: 1.5d
+		}
+	]
 	title: "介绍"
 }

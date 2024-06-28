@@ -11,6 +11,11 @@
 		{
 			dependencies: ["5958FC6B58D52BEE"]
 			id: "0295DFC67A8CF4B9"
+			rewards: [{
+				id: "01EDFDE6C62257B2"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			subtitle: "开始种植你的葡萄吧"
 			tasks: [
@@ -35,6 +40,11 @@
 				"至少放入 6 个葡萄才可进行，方式是跳起来在 榨汁盆上踩三次。干净又卫生啊兄弟们 踩中时会有独特的音效。"
 			]
 			id: "7943F4B92BD73CC3"
+			rewards: [{
+				id: "46FD39AF82B76CB5"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "干净又卫生啊兄弟们"
 			tasks: [{
 				id: "314858CAB5D462CA"
@@ -47,6 +57,11 @@
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "13C898B81498C177"
+			rewards: [{
+				id: "437410B49B4986B3"
+				type: "xp"
+				xp: 100
+			}]
 			size: 1.5d
 			subtitle: "配方请右击陈酿桶在左侧查看"
 			tasks: [{
@@ -61,6 +76,11 @@
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "64F78B51354A75ED"
+			rewards: [{
+				id: "72476C2CB7179577"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3A465800295C8308"
 				item: "vinery:wine_press"
@@ -72,6 +92,11 @@
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "186C8F9674316FC2"
+			rewards: [{
+				id: "01779D9B4581330F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "474049F27A9EDD72"
@@ -96,6 +121,11 @@
 		{
 			dependencies: ["5EA0D911ED1989E6"]
 			id: "5C8A33D8AF216ECC"
+			rewards: [{
+				id: "18EB03794979C96F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6949FD3F000136D2"
 				item: "vinery:apple_juice"
@@ -107,6 +137,11 @@
 		{
 			dependencies: ["64F78B51354A75ED"]
 			id: "5EA0D911ED1989E6"
+			rewards: [{
+				id: "01BDBD7954FE1D9B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "09CF3E7185B50D79"
 				item: "vinery:apple_mash"
@@ -118,6 +153,11 @@
 		{
 			dependencies: ["5EA0D911ED1989E6"]
 			id: "260CBF5661D1008B"
+			rewards: [{
+				id: "69A74425D570290D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "52A1E3CD82131A28"
 				item: {
@@ -135,6 +175,11 @@
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "611495D361621A62"
+			rewards: [{
+				id: "5F43111B4069E3BE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "57F308E0B601D196"
 				item: "vinery:wine_bottle"
@@ -146,6 +191,11 @@
 		{
 			dependencies: ["5EA0D911ED1989E6"]
 			id: "0F4EFB9B55CFFBF9"
+			rewards: [{
+				id: "5184D2ECED86C489"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5AA0AE81DD2D9FBE"
 				item: {
@@ -167,6 +217,11 @@
 			]
 			description: ["手持酒瓶右键踩好的榨汁盆获得葡萄汁"]
 			id: "522C959D15ACAA3E"
+			rewards: [{
+				id: "5E4D371EBCC4A71E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6B8394E32227E69E"
 				item: {
@@ -187,10 +242,9 @@
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "41BDA4219B4FEEC3"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7744010FD359999A"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "44041BBC871DF19D"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [
 				{
@@ -251,6 +305,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "7B7304F9500BC81A"
+			rewards: [{
+				id: "3C97204606E3E398"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "50012B7E0BE0A495"
 				item: {
@@ -269,6 +328,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "65DB4690273F88DB"
+			rewards: [{
+				id: "0552645D815076BE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "43594FC28E567F5A"
 				item: {
@@ -287,6 +351,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "1A4CD8075ED4283A"
+			rewards: [{
+				id: "0063656C61AE38C4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6C170DF0A49CC33C"
 				item: {
@@ -305,6 +374,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "0E4F556290E2173A"
+			rewards: [{
+				id: "0A317703D7D18E08"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "08F6648E2497A609"
 				item: {
@@ -323,6 +397,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "77372C34971F993B"
+			rewards: [{
+				id: "635251DD85016E4E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0D5528D5F13E25C0"
 				item: {
@@ -341,6 +420,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "422D0B14EFA2F759"
+			rewards: [{
+				id: "505161B03335E550"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3FA730CE1F63DA65"
 				item: {
@@ -359,6 +443,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "436A7C2C7D43C66F"
+			rewards: [{
+				id: "1E505511C8300E27"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "59323C4FED28C367"
 				item: {
@@ -377,6 +466,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "4ACE44B98DC97BF5"
+			rewards: [{
+				id: "05C46338212FFFB8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "676C5C75B3B28212"
 				item: {
@@ -395,6 +489,11 @@
 			dependencies: ["13C898B81498C177"]
 			hide_dependency_lines: true
 			id: "63DAD3CF52408157"
+			rewards: [{
+				id: "2F20DD018047EDB3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "23DF215AAF70E732"
 				item: {
@@ -414,6 +513,11 @@
 			dependency_requirement: "all_started"
 			hide_dependency_lines: true
 			id: "4DE9F7869D224684"
+			rewards: [{
+				id: "20DF7C68F1D19302"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "14A69EF1320BD7B5"
 				item: {
@@ -433,10 +537,9 @@
 			hide_dependency_lines: true
 			id: "4DD2D5F95A0F8ECB"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "54DB796ED02377F4"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "798DB6B45F315FC5"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "223E9CBFE035FE65"
@@ -457,10 +560,9 @@
 			hide_dependency_lines: true
 			id: "35943235122034FD"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6F0D0878D29D8C67"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "4F8611B4EAB873FE"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "064B4A53519CD8EA"
@@ -481,10 +583,9 @@
 			hide_dependency_lines: true
 			id: "4313943A9877A015"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "50047607F633A282"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "41912952D3274E9A"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "5D96AAADD86CCEEE"
@@ -505,10 +606,9 @@
 			hide_dependency_lines: true
 			id: "689FF2457F30971B"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2C518F91D338D215"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "340C882EA8234CED"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "74F3D37805AB8F93"
@@ -529,10 +629,9 @@
 			hide_dependency_lines: true
 			id: "59CC19CF73488852"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7154EA0813AB3EB1"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "135A8781C84E379E"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "42DA2420E773DE02"
@@ -553,10 +652,9 @@
 			hide_dependency_lines: true
 			id: "35B7C73907D25336"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2CB07CF064BA6BCC"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "76299CDB845BB56C"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "2EEB6907629F629F"
@@ -577,10 +675,9 @@
 			hide_dependency_lines: true
 			id: "5DA9885F0652ADF0"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "663B28E7C43F0DC4"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "06D6335FE6466367"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "405023104734C174"
@@ -601,10 +698,9 @@
 			hide_dependency_lines: true
 			id: "2E328CB7A4E5F638"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "50AD1CBD141D7495"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "3ED483800BCDDD9C"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "29F97D7257A4D23D"
@@ -625,10 +721,9 @@
 			hide_dependency_lines: true
 			id: "27B12C7294D4BF3E"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2AEB1567FDC64DF5"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "33CB424A017ECCD7"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "50023E6AF7DC26B4"
@@ -649,10 +744,9 @@
 			hide_dependency_lines: true
 			id: "0AE7061A3F6E72FA"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A45DD47BC4034BB"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "5CFD6F91DC82843B"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "1D0196B5F629EF89"
@@ -673,10 +767,9 @@
 			hide_dependency_lines: true
 			id: "6FE4A0181929AF5D"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "366C9097BE84118A"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "64457D3B225BE66E"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "41CDC7AC8FECD355"
@@ -697,10 +790,9 @@
 			hide_dependency_lines: true
 			id: "5B4F1E7A5A50C2C8"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "307E95E3FEA13996"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "3DDA560B7893B60F"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "1F1FCDCDC2EE06D1"
@@ -721,10 +813,9 @@
 			hide_dependency_lines: true
 			id: "602510F89494FBC1"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "155E0489B9A753BC"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "5774CE525C8DF9DD"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "49B06E7BECB7448F"
@@ -745,10 +836,9 @@
 			hide_dependency_lines: true
 			id: "2AF39D37AB5ABFE4"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "27C5B11564037997"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "35BC973719572D82"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "2EA4CD2A110DF9F2"
@@ -772,10 +862,9 @@
 			hide_dependency_lines: true
 			id: "5ABD8948EB3B9E16"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6821E091DE48D86D"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "2314453BC53ED96D"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "63BECF65BBEA3E36"
@@ -796,10 +885,9 @@
 			hide_dependency_lines: true
 			id: "3016158AD4A52FFF"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0ECC990C2C5F7B0E"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "410130295319F531"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "152B82B94D0548D9"
@@ -823,10 +911,9 @@
 			hide_dependency_lines: true
 			id: "5D5783C474042145"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F03FB53EEB47609"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "1B4DC7AD2595E01A"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "5F9E3E76D1812159"
@@ -847,10 +934,9 @@
 			hide_dependency_lines: true
 			id: "736A1C65FF6DA138"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "787BE111C29D58E1"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "4ABBEE6EE7B36398"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "3FC8E6EAAE6210C9"
@@ -871,10 +957,9 @@
 			hide_dependency_lines: true
 			id: "0D4A628B0B7CF742"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "11C64DB70C2E8771"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "3E9CEC39D6939AAB"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "20277ADC5DCE455C"
@@ -895,10 +980,9 @@
 			hide_dependency_lines: true
 			id: "0321BFD1060D2856"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D33CC0775F69EA6"
-				table_id: 6167605175036859481L
-				type: "loot"
+				id: "1F6F33E9FBE94B12"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "250F0F7C1AA317DF"
@@ -917,6 +1001,11 @@
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "21491709810AEF12"
+			rewards: [{
+				id: "0A93C584219DBD3F"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "可两个摞在一起成为大型篝火"
 			tasks: [{
 				count: 2L
@@ -931,6 +1020,11 @@
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "02569B0F869C3FBE"
+			rewards: [{
+				id: "26B24673955DF011"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "用于放葡萄，shift右键可取出"
 			tasks: [{
 				id: "2D5E9EDB42C30373"
@@ -943,6 +1037,11 @@
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "326977490BC20488"
+			rewards: [{
+				id: "43D8B7BA6AFB227C"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "可以装两种不同的东西，但总体上限为64"
 			tasks: [
 				{
@@ -962,21 +1061,12 @@
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
 			id: "499CBC16F909A016"
-			rewards: [
-				{
-					id: "6869F1ECB961825D"
-					item: "nethervinery:crimson_grape_seeds"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "1CF833A42E0C274D"
-					item: "nethervinery:warped_grape_seeds"
-					random_bonus: 4
-					type: "item"
-				}
-			]
-			subtitle: "改良的葡萄架"
+			rewards: [{
+				id: "51211AF5D518C481"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "改良的葡萄架（悄悄告诉你这玩意会自己放下来．．．）"
 			tasks: [{
 				id: "4B2BB0FB16BBA84B"
 				item: "nethervinery:obsidian_stem"
@@ -988,6 +1078,11 @@
 		{
 			dependencies: ["186C8F9674316FC2"]
 			id: "3437E6EB0861F20D"
+			rewards: [{
+				id: "7DDAB10822EE416E"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "珍藏你的名酒"
 			tasks: [{
 				id: "485A07B3A4C52473"
@@ -998,5 +1093,5 @@
 			y: -1.0d
 		}
 	]
-	title: "酿酒大师"
+	title: "&e酿酒大师"
 }

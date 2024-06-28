@@ -16,7 +16,7 @@
 				title: "果栈丰盈"
 				type: "checkmark"
 			}]
-			title: "超多水果）"
+			title: "超多超多水果"
 			x: -6.5d
 			y: -3.5d
 		}
@@ -34,7 +34,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -50,7 +50,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -65,7 +65,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -141,7 +141,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -152,7 +152,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -174,7 +174,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -186,7 +186,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -215,7 +215,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -233,7 +233,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -248,18 +248,18 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["43D20AFE4D13389F"]
 			id: "049762F3767F3305"
 			tasks: [{
 				id: "1B046C0FF6CA11C7"
-				item: "fruitsdelight:apple_jello"
+				item: "fruitsdelight:apple_jelly"
 				type: "item"
 			}]
 			x: -3.0d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["60A76054159A37F7"]
@@ -270,7 +270,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1F65F7E3A19CA174"]
@@ -281,7 +281,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["59A6B34D8607FD6A"]
@@ -292,7 +292,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6CB6E1848E1C721A"]
@@ -303,7 +303,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2532FCB37BA9E159"]
@@ -314,7 +314,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["07886F18ABB7C8D1"]
@@ -365,11 +365,11 @@
 			id: "3DCC42A273951C3C"
 			tasks: [{
 				id: "4E054420A6356839"
-				item: "fruitsdelight:mangosteen"
+				item: "fruitsdelight:mangosteen_jelly"
 				type: "item"
 			}]
 			x: -8.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0063494FD35EF1DE"]
@@ -380,7 +380,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D00E629D80816CF"]
@@ -391,7 +391,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["25C77A4F65494D2A"]
@@ -402,7 +402,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["550FA243BA7B736F"]
@@ -413,7 +413,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -424,7 +424,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0127B9E281D268BF"]
@@ -435,7 +435,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
@@ -474,6 +474,46 @@
 			}]
 			x: 1.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			id: "1C4EA0FC584EFC28"
+			subtitle: "非常非常非常难找"
+			tasks: [{
+				id: "29B15EDEB93F3CCC"
+				item: "fruitsdelight:durian"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C4EA0FC584EFC28"]
+			id: "1121F91CA896BB41"
+			tasks: [{
+				id: "2BAFD42D2F1D16CA"
+				item: "fruitsdelight:durian_jelly"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			hide_dependency_lines: true
+			id: "586F961AB5DF818C"
+			rewards: [{
+				id: "022AF1A6C591B85A"
+				item: "fruitsdelight:durian_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68F7E59CF979626E"
+				title: "实在找不到榴莲可以看这里"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -7.0d
 		}
 	]
 	title: "&e水果大亨"

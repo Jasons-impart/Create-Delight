@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "62C8E334BC361399"
-	group: "24D3C8C08A74A03F"
+	group: "0E7AEC0D0D9C1B1C"
 	icon: {
 		Count: 1b
 		id: "ulterlands:ulterlands_dimension"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "62C8E334BC361399"
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -133,8 +133,8 @@
 				title: "宇宙之境"
 				type: "biome"
 			}]
-			x: 5.5d
-			y: 6.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0E856FCFC87CEA57"]
@@ -176,8 +176,8 @@
 				title: "泥泞山坡"
 				type: "biome"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["32AFDE5409F60C52"]
@@ -213,8 +213,8 @@
 				item: "ulterlands:bluestone_shard"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["51FB487BB81438C1"]
@@ -564,27 +564,13 @@
 			dependencies: ["4A77CD1F8815D463"]
 			description: ["使用枯骨制作灵魂尖塔，右击尖塔即可召唤凋亡，分为两个阶段，第一阶段会发射投掷物，第二阶段会近战砸击"]
 			id: "5F1A66A1D84FE5F8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "55E1FD68EBFFD2EC"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "真不是凋零，你信我"
-			tasks: [
-				{
-					entity: "ulterlands:perished_01"
-					id: "528D3A28D0C5D730"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "ulterlands:perished_02"
-					id: "4D04C2D616C1AE89"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				id: "611EE60463ADB1D8"
+				title: "凋亡"
+				type: "checkmark"
+			}]
+			title: "杀掉他！"
 			x: 13.5d
 			y: -1.5d
 		}
@@ -592,12 +578,6 @@
 			dependencies: ["5F1A66A1D84FE5F8"]
 			description: ["击杀凋亡掉落"]
 			id: "64697394745F589E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "59E56A7E85F7589B"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "不是下界之星，别想太多"
 			tasks: [{
 				id: "1BBA94D7E5E343BC"
@@ -611,12 +591,6 @@
 			dependencies: ["64697394745F589E"]
 			description: ["以太魔法的基础，初始能力微弱，但可以通过以太法球强化魔法效果，需要将对应的法球放在副手上使用法杖，使用时消耗经验，经验不足时使用生命值（别沉迷法术玩死自己）"]
 			id: "57BA9FEBD75BBAA8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1CE9CEE3B665FE39"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "搭配以太宝珠可以释放魔法（消耗经验）"
 			tasks: [{
 				id: "57903A9C1150DFD3"
@@ -650,8 +624,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6AC5CA1B19F56B0B"]
@@ -672,7 +646,7 @@
 				value: 1L
 			}]
 			x: 6.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7E7E27D3DE284D91"]
@@ -760,20 +734,14 @@
 		{
 			dependencies: ["18D57168CD19A52C"]
 			id: "6206C7E1A7E24F57"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "12B71439FA2BF2B9"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "从回转者身上掉落（暂时没啥用）"
 			tasks: [{
 				id: "59EF42484C7A2071"
 				item: "ulterlands:stonesoul_shard"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["33EFC7A88E54521C"]
@@ -791,8 +759,8 @@
 				item: "ulterlands:nebulous_cake"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -814,8 +782,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 6.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["33EFC7A88E54521C"]
@@ -834,19 +802,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["09149674F460570F"]
 			id: "1EE43A0272BF102C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "74102DC5C4DF3CF3"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			subtitle: "由裂隙人掉落（可以将金苹果变成附魔金苹果）"
+			subtitle: "可以将金苹果转化为附魔金苹果（不要附魔经验修复，不然将会无限耐久😋）"
 			tasks: [{
 				id: "5C6583DBE3822DF2"
 				item: {
@@ -858,8 +820,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2693D4371B49C65C"]
@@ -1110,12 +1072,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["一种失去了飞行能力的不幸鸟类，它的大喙中会发出刺耳的曲调，可以减慢敌人的速度。"]
 			id: "70E915D2E651CB78"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "17A12D1393E1267E"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "多“冻”者"
 			tasks: [{
 				entity: "ulterlands:dodonzo"
@@ -1130,12 +1086,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["一个由纯粹的肌肉和骨骼组成的庞大生物。它的手臂上有多个扬声器，可以用震耳欲聋的声音吹走对手。然而，它更喜欢用拳头碾碎你。"]
 			id: "3F359E91B03F7B8C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57952175466BFF6C"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "你吼那么大声干嘛辣"
 			tasks: [{
 				entity: "ulterlands:bazzernaut"
@@ -1150,12 +1100,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["一种快速的类昆虫生物，会捕食它遇到的弱小玩家。它会以马赫的速度飞向你，并从腹部下方的回音室发射声波脉冲。苍蝇的眼睛使它的视力能够延伸数英里并征服黑暗。"]
 			id: "1A909954090BF742"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79DFFEB16BD0A1B6"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "翼龙（×）变异大苍蝇（√）"
 			tasks: [{
 				entity: "ulterlands:flyvern"
@@ -1195,12 +1139,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["只能在遗忘维度中找到的奇怪液体，它流动得很快，像夜空一样黑暗，但除此之外并没有发现其他的特殊之处。"]
 			id: "085743015D78AF18"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0A3A1287D5C9E1B2"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "你显卡没坏，别怕"
 			tasks: [{
 				id: "41FD54109B4869A6"
@@ -1215,10 +1153,10 @@
 			description: ["仅能在遗忘维度中找到的可怕物质，以它制作的盔甲可以抵消击退和强大的伤害。"]
 			id: "544955DCEAF8B67A"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "417CF101026AD134"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "2BCF30B0AFF432B3"
+				item: "ulterlands:astrumm"
+				random_bonus: 5
+				type: "item"
 			}]
 			subtitle: "制作强大的辉钢装备"
 			tasks: [{
@@ -1252,7 +1190,7 @@
 				item: "ulterlands:stripbore_block"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
