@@ -1428,6 +1428,109 @@
 			x: -2.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["579F77AD5524CD54"]
+			id: "6DF8BFA9BF8FCF4A"
+			rewards: [{
+				id: "361695CC4053A07B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05F06AC344C110AA"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["67E632D99BD07E21"]
+			id: "4D2310D5D65321D2"
+			rewards: [{
+				id: "4832017BCBD5A95D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3075245B22F94CFE"
+				item: "extrastorage:neural_processor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D2310D5D65321D2"]
+			id: "172658536BB36CC4"
+			rewards: [{
+				id: "7097DCEB6AD76779"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3EE40A02140D643D"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["172658536BB36CC4"]
+			id: "0B78D2EE860D0231"
+			rewards: [{
+				id: "6D87886F4B5445DA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "182ACCDE547632F2"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B78D2EE860D0231"]
+			id: "3E5ED58E6A164051"
+			rewards: [{
+				id: "53B5CC4CC08D9EFA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28A2999CF9833560"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E5ED58E6A164051"]
+			id: "207EFC1C8A0EA16C"
+			rewards: [
+				{
+					id: "62EF38651B654E09"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "166C0BD3C31C4289"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2F83C1BF43BF9190"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
 	]
 	title: "高级存储"
 }

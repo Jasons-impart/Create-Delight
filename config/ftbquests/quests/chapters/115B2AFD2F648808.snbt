@@ -556,6 +556,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "偷吃傻瓜弹"
 			tasks: [{
 				id: "2F0F63A9B25C5453"
 				item: "cgm:stun_grenade"

@@ -69,6 +69,8 @@
 				table_id: 5077918012354645869L
 				type: "random"
 			}]
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "25D57C592EBC95E1"
 				title: "做饭狂魔！"
@@ -99,6 +101,7 @@
 				title: "打起火来！"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "5553B5232EF96069"
@@ -123,8 +126,8 @@
 				}
 			]
 			title: "开始做饭"
-			x: -1.0d
-			y: 3.0d
+			x: 2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F9674CC778A157C"]
@@ -142,7 +145,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0A57106C8D121016"]
@@ -160,7 +163,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0EB163D03C1B6B44"]
@@ -178,7 +181,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A57106C8D121016"]
@@ -196,7 +199,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0A57106C8D121016"]
@@ -220,7 +223,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["730067CB89A4EA43"]
@@ -239,7 +242,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7F9674CC778A157C"]
@@ -255,7 +258,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -282,7 +285,7 @@
 				title: "芜湖~收集吧！"
 				type: "checkmark"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 3.0d
 		}
 		{
@@ -307,8 +310,8 @@
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
@@ -325,8 +328,8 @@
 				item: "farmersdelight:tomato"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 0.0d
+			x: -10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
@@ -342,7 +345,7 @@
 				item: "farmersdelight:cabbage"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: -1.0d
 		}
 		{
@@ -360,7 +363,7 @@
 				item: "farmersdelight:onion"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: -1.0d
 		}
 		{
@@ -378,7 +381,7 @@
 				item: "farmersdelight:rice_panicle"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.5d
 			y: -1.0d
 		}
 		{
@@ -396,7 +399,7 @@
 				item: "minecraft:potato"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: 1.0d
 		}
 		{
@@ -412,11 +415,11 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3113E45D7D1D9A4E"]
+			dependencies: ["24CF527B4E34E599"]
 			id: "0EE8A8266EFEAAF7"
 			rewards: [{
 				count: 3
@@ -429,7 +432,7 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -20.0d
 			y: 3.0d
 		}
 		{
@@ -447,7 +450,7 @@
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.5d
 			y: 7.0d
 		}
 		{
@@ -464,11 +467,11 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 7.0d
 		}
 		{
-			dependencies: ["3113E45D7D1D9A4E"]
+			dependencies: ["24CF527B4E34E599"]
 			id: "5C89C920A90424EB"
 			rewards: [{
 				count: 3
@@ -481,8 +484,8 @@
 				item: "minecraft:cocoa_beans"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 6.0d
+			x: -18.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
@@ -517,7 +520,7 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
+			x: -14.5d
 			y: 7.0d
 		}
 		{
@@ -534,7 +537,7 @@
 				item: "minecraft:beetroot"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.5d
 			y: -1.0d
 		}
 		{
@@ -552,8 +555,8 @@
 				item: "createcafe:coffee_beans"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
@@ -569,11 +572,11 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["3113E45D7D1D9A4E"]
+			dependencies: ["24CF527B4E34E599"]
 			id: "6E73DDAFB4DFC98C"
 			rewards: [{
 				count: 3
@@ -583,12 +586,12 @@
 			}]
 			subtitle: "啃玉米"
 			tasks: [{
-				id: "5F4C5ED8653F50E8"
-				item: "corn_delight:corn"
+				id: "0EFC33E436114A34"
+				item: "culturaldelights:corn_cob"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 5.0d
+			x: -18.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3E503B85378F1A90"]
@@ -604,11 +607,11 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -16.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["39D73D0E0410E5C9"]
+			dependencies: ["5EB3B636A6FEA921"]
 			id: "5E77B30490CE96A9"
 			rewards: [{
 				id: "71DB9C8310665C2F"
@@ -621,11 +624,11 @@
 				item: "minecraft:beef"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["39D73D0E0410E5C9"]
+			dependencies: ["5EB3B636A6FEA921"]
 			id: "663D41A82205B3E3"
 			rewards: [{
 				count: 9
@@ -639,11 +642,11 @@
 				item: "minecraft:porkchop"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.0d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["39D73D0E0410E5C9"]
+			dependencies: ["5EB3B636A6FEA921"]
 			id: "7ACB73C0E9FBD4A9"
 			rewards: [{
 				count: 9
@@ -657,11 +660,11 @@
 				item: "minecraft:chicken"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.0d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["39D73D0E0410E5C9"]
+			dependencies: ["5EB3B636A6FEA921"]
 			id: "40EBFAF6221F7BC2"
 			rewards: [{
 				count: 9
@@ -675,11 +678,11 @@
 				item: "minecraft:rabbit"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["39D73D0E0410E5C9"]
+			dependencies: ["5EB3B636A6FEA921"]
 			id: "7AB702E0298F4A91"
 			rewards: [{
 				id: "120BBDABB70351E4"
@@ -692,26 +695,8 @@
 				item: "minecraft:mutton"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5E77B30490CE96A9"]
-			id: "2FBFCED864823ACB"
-			rewards: [{
-				count: 3
-				id: "6CABC4070903B7D7"
-				item: "minecraft:cooked_beef"
-				title: "原版风味！"
-				type: "item"
-			}]
-			tasks: [{
-				id: "32D40344208435F3"
-				item: "candlelight:beef_tartare"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 7.5d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5E77B30490CE96A9"]
@@ -729,8 +714,8 @@
 				item: "farmersdelight:minced_beef"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 7.5d
+			x: -6.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5E77B30490CE96A9"]
@@ -748,8 +733,8 @@
 				item: "farmersdelight:steak_and_potatoes"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 9.0d
+			x: -7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["50602D5E64D63267"]
@@ -765,7 +750,7 @@
 				item: "minecraft:baked_potato"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -16.0d
 			y: 1.0d
 		}
 		{
@@ -781,32 +766,15 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -21.5d
 			y: 2.0d
 		}
 		{
 			dependencies: [
-				"45343A38F7B9CD1A"
-				"110EED3EE1EDAA42"
+				"1E766468CDA08B92"
+				"5AC8741B75B3670A"
 			]
-			description: ["小孩子可不能不吃蔬菜哦"]
-			id: "043B1563524A340D"
-			rewards: [{
-				count: 18
-				id: "407682696122EB97"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
-			tasks: [{
-				id: "39FDC5FED6DC59D2"
-				item: "candlelight:broccoli_tomato"
-				type: "item"
-			}]
-			x: -14.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["1E766468CDA08B92"]
+			dependency_requirement: "one_completed"
 			id: "037A91D476687446"
 			rewards: [{
 				count: 3
@@ -819,8 +787,8 @@
 				item: "createcafe:roasted_coffee_beans"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["037A91D476687446"]
@@ -836,8 +804,8 @@
 				item: "createcafe:coffee_grounds"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.0d
+			x: 2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["326D5BCADED75129"]
@@ -852,8 +820,8 @@
 				item: "createcafe:coffee_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.5d
+			x: 1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0FF64A9D58056F37"]
@@ -868,11 +836,11 @@
 				item: "minecraft:mushroom_stew"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: 8.5d
 		}
 		{
-			dependencies: ["5C89C920A90424EB"]
+			dependencies: ["16785EC784F2D8D9"]
 			id: "360536F1351D4A6E"
 			rewards: [{
 				count: 3
@@ -885,11 +853,11 @@
 				item: "createcafe:oreo_dough"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 6.0d
+			x: -19.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["0EE8A8266EFEAAF7"]
+			dependencies: ["789BA4440DF4010C"]
 			description: [""]
 			id: "2FDFCAF57DDEAEC8"
 			rewards: [{
@@ -903,7 +871,7 @@
 				item: "create:wheat_flour"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -23.5d
 			y: 3.0d
 		}
 		{
@@ -927,11 +895,11 @@
 				type: "item"
 			}]
 			title: "揉一揉！搓一搓！"
-			x: -16.0d
-			y: 3.0d
+			x: -25.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["731029D680D12421"]
+			dependencies: ["3119FC900915CDC9"]
 			id: "3CED0AE34CB79037"
 			rewards: [
 				{
@@ -950,6 +918,12 @@
 					item: "minecraft:diamond"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7936201256E61D29"
+					table_id: 6485826240718891201L
+					type: "loot"
+				}
 			]
 			subtitle: "The cake is a lie ！！！But &ehappy birthday&r！！！"
 			tasks: [{
@@ -957,11 +931,11 @@
 				item: "minecraft:cake"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 3.0d
+			x: -21.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6E73DDAFB4DFC98C"]
+			dependencies: ["19B378842DDB3477"]
 			id: "3F7843954E17972C"
 			rewards: [{
 				id: "053FAB53A486CA37"
@@ -973,8 +947,8 @@
 				item: "corn_delight:tortilla_raw"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 5.0d
+			x: -18.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3F7843954E17972C"]
@@ -989,8 +963,8 @@
 				item: "corn_delight:tortilla"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 5.0d
+			x: -18.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["026142A9E3B05A2B"]
@@ -1005,8 +979,8 @@
 				item: "corn_delight:taco"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 5.0d
+			x: -18.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3393778CF1B98A2C"]
@@ -1021,7 +995,7 @@
 				item: "farmersdelight:melon_popsicle"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 8.5d
 		}
 		{
@@ -1038,8 +1012,8 @@
 				item: "createcafe:oreo_half_raw"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 6.0d
+			x: -20.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4D778A9A9020C3A5"]
@@ -1055,8 +1029,8 @@
 				item: "createcafe:oreo_half"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 6.0d
+			x: -22.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5472505D50D144FD"]
@@ -1073,8 +1047,8 @@
 				item: "createcafe:oreo"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 6.0d
+			x: -22.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["794C36745728144B"]
@@ -1090,7 +1064,7 @@
 				item: "farmersdelight:rice"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.5d
 			y: -2.5d
 		}
 		{
@@ -1108,7 +1082,7 @@
 				item: "farmersdelight:cooked_rice"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -10.5d
 			y: -4.0d
 		}
 		{
@@ -1125,8 +1099,8 @@
 				item: "farmersdelight:chicken_cuts"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.5d
+			x: -1.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6F7B5777661962A2"]
@@ -1143,8 +1117,8 @@
 				item: "farmersdelight:roast_chicken_block"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.0d
+			x: -1.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["663D41A82205B3E3"]
@@ -1160,8 +1134,8 @@
 				item: "farmersdelight:bacon"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.5d
+			x: -5.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6FC70BA0AED3A137"]
@@ -1176,8 +1150,8 @@
 				item: "farmersdelight:bacon_sandwich"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
+			x: -5.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["40EBFAF6221F7BC2"]
@@ -1193,8 +1167,8 @@
 				item: "minecraft:rabbit_stew"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 0.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["40EBFAF6221F7BC2"]
@@ -1213,8 +1187,8 @@
 				item: "farmersdelight:dog_food"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.5d
+			x: -0.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7AB702E0298F4A91"]
@@ -1230,8 +1204,8 @@
 				item: "farmersdelight:mutton_chops"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.5d
+			x: -2.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7AB702E0298F4A91"]
@@ -1244,11 +1218,11 @@
 			}]
 			tasks: [{
 				id: "405FE598E3E314B8"
-				item: "neapolitan:mint_chops"
+				item: "butchercraft:ground_lamb"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.5d
+			x: -3.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -1268,8 +1242,8 @@
 				item: "farmersdelight:shepherds_pie_block"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: -3.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["236182632D72C634"]
@@ -1293,6 +1267,7 @@
 				item: "farmersrespite:tea_seeds"
 				type: "item"
 			}]
+			size: 1.5d
 			subtitle: "下午三点，饮茶先啦！"
 			tasks: [{
 				id: "648CA68714E151BE"
@@ -1300,8 +1275,8 @@
 				type: "item"
 			}]
 			title: "农夫暇事"
-			x: 3.0d
-			y: 1.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1320,7 +1295,7 @@
 				item: "farmersdelight:rice_roll_medley_block"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -9.0d
 			y: -2.5d
 		}
 		{
@@ -1338,10 +1313,10 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 9.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["2FBFCED864823ACB"]
+			dependencies: ["6FC70BA0AED3A137"]
 			id: "469370C6FBA4026B"
 			rewards: [{
 				id: "6E0B107C54015739"
@@ -1355,10 +1330,10 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 9.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["39D73D0E0410E5C9"]
+			dependencies: ["7F9674CC778A157C"]
 			id: "1EE815FF79CE7E9E"
 			rewards: [{
 				id: "066B5658EA574E95"
@@ -1381,8 +1356,8 @@
 				item: "farmersdelight:ham"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1EE815FF79CE7E9E"]
@@ -1398,8 +1373,8 @@
 				item: "farmersdelight:smoked_ham"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 7.5d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["236182632D72C634"]
@@ -1414,14 +1389,15 @@
 				item: "waystones:return_scroll"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "7E650FC18A2E8A78"
 				item: "extradelight:oven"
 				type: "item"
 			}]
 			title: "额外乐事"
-			x: 4.5d
-			y: 4.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["60FB6AB94FAB23A6"]
@@ -1442,8 +1418,8 @@
 				item: "farmersrespite:tea_seeds"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["34D9D292CE6F683E"]
@@ -1460,41 +1436,8 @@
 				title: "茶与咖啡！"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3113E45D7D1D9A4E"]
-			id: "12FA846BF5278CFC"
-			rewards: [{
-				count: 3
-				id: "3FB1D1D9E2247B18"
-				item: "candlelight:broccoli_seeds"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1AFF2A1574C159B8"
-				item: "candlelight:broccoli"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["12FA846BF5278CFC"]
-			id: "4081A726A7B03BD0"
-			rewards: [{
-				id: "35D5D7480E59ED38"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
-			tasks: [{
-				id: "23BBA8D5518B83B5"
-				item: "farmersdelight:cabbage_rolls"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 8.5d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1532,8 +1475,8 @@
 				type: "item"
 			}]
 			title: "茶叶"
-			x: 3.0d
-			y: -1.5d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6F89BA119149A040"]
@@ -1555,8 +1498,8 @@
 				item: "farmersrespite:coffee_beans"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2BE1586D9D67F9EA"]
@@ -1572,8 +1515,8 @@
 				item: "farmersrespite:coffee_berries"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.5d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1606,23 +1549,7 @@
 				}
 			]
 			title: "茶香四溢"
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7E653A0F03BEE5A2"]
-			id: "4C2EBCDB72D76AC5"
-			rewards: [{
-				id: "529ABABDB7EBE973"
-				item: "respiteful:coffee_ice_cream"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4369217D6C5A2A55"
-				item: "farmersrespite:coffee"
-				type: "item"
-			}]
-			x: 4.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -1635,56 +1562,15 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "0C120B51E01B4BE1"
-				item: "respiteful:respiteful_ice_cream"
+				id: "3FE1BB8B4F1C6A0D"
+				item: "brewinandchewin:kombucha"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["7E653A0F03BEE5A2"]
-			id: "23B8EEA755BD67CF"
-			rewards: [{
-				id: "521D380DCA80F9AD"
-				item: {
-					Count: 1b
-					id: "candlelight:chefs_jacket"
-					tag: {
-						Damage: 0
-						Unbreakable: 1b
-					}
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "1ACA9034A7F5FAF7"
-					item: "respiteful:green_tea_cake"
-					type: "item"
-				}
-				{
-					id: "644732E1FEBF9416"
-					item: "respiteful:yellow_tea_cake"
-					type: "item"
-				}
-				{
-					id: "77473D33F00CFD5B"
-					item: "respiteful:black_tea_cake"
-					type: "item"
-				}
-				{
-					id: "6CEF1E9A3EE71480"
-					item: "farmersrespite:coffee_cake"
-					type: "item"
-				}
-			]
-			title: "茶蛋糕！"
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["39D73D0E0410E5C9"]
+			dependencies: ["7F9674CC778A157C"]
 			description: ["喝奶奶，长高高"]
 			id: "2F2596CBA5D65075"
 			rewards: [{
@@ -1699,8 +1585,8 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.5d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["34D9D292CE6F683E"]
@@ -1795,8 +1681,8 @@
 				type: "item"
 			}]
 			title: "烤盘"
-			x: 3.0d
-			y: 5.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["502BE877910FB7D5"]
@@ -1813,8 +1699,8 @@
 				item: "extradelight:dough_shaping"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["502BE877910FB7D5"]
@@ -1855,8 +1741,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 3.0d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["502BE877910FB7D5"]
@@ -1903,8 +1789,8 @@
 				}
 			]
 			title: "研磨"
-			x: 7.0d
-			y: 4.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["502BE877910FB7D5"]
@@ -1933,12 +1819,12 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["502BE877910FB7D5"]
-			description: ["可以晾干一些食物"]
+			description: [""]
 			id: "4779337826B8BEE4"
 			rewards: [{
 				count: 9
@@ -1946,13 +1832,14 @@
 				item: "extradelight:seaweed_paste"
 				type: "item"
 			}]
+			subtitle: "可以晾干一些食物"
 			tasks: [{
 				id: "56B3157AA78D2CBE"
 				item: "extradelight:drying_rack_item"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["396DD3A49DACE642"]
@@ -1967,8 +1854,8 @@
 				item: "farmersdelight:raw_pasta"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["396DD3A49DACE642"]
@@ -1983,8 +1870,8 @@
 				item: "extradelight:macaroni"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.5d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["396DD3A49DACE642"]
@@ -1999,8 +1886,8 @@
 				item: "extradelight:lasagna_noodles"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.5d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["30E9CD833C7F8E75"]
@@ -2015,8 +1902,8 @@
 				item: "extradelight:breadcrumbs"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 5.0d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["30E9CD833C7F8E75"]
@@ -2031,8 +1918,8 @@
 				item: "extradelight:grated_potato"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -2057,8 +1944,8 @@
 				item: "extradelight:breading_misanplas"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.0d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["374268CCFFD07879"]
@@ -2074,8 +1961,8 @@
 				item: "extradelight:cooking_oil"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6460195C0E8DE5F7"]
@@ -2091,8 +1978,8 @@
 				item: "extradelight:egg_mix"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6460195C0E8DE5F7"]
@@ -2108,8 +1995,8 @@
 				item: "extradelight:whipped_cream"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["17EBC8E9E9A9D04D"]
@@ -2124,8 +2011,8 @@
 				item: "extradelight:butter"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["374268CCFFD07879"]
@@ -2141,25 +2028,74 @@
 				item: "extradelight:corn_meal"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 10.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7F9674CC778A157C"]
+			description: ["利用屠刀对原版牲畜击即可获得死掉的牲畜,一定要右击."]
 			id: "39D73D0E0410E5C9"
 			rewards: [{
 				id: "4B7EACBDBC9398BC"
 				item: "minecraft:smoker"
 				type: "item"
 			}]
-			tasks: [{
-				id: "6BD284F1D502E204"
-				title: "肉食"
-				type: "checkmark"
-			}]
+			size: 1.5d
+			subtitle: "屠宰套装"
+			tasks: [
+				{
+					id: "7AF368C25056875F"
+					item: {
+						Count: 1b
+						id: "butchercraft:butcher_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AECEA9B7F185AAC"
+					item: {
+						Count: 1b
+						id: "butchercraft:skinning_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1472EFE0FAA09C93"
+					item: {
+						Count: 1b
+						id: "butchercraft:bone_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "064B566A8088E7C4"
+					item: {
+						Count: 1b
+						id: "butchercraft:gut_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "125411256528EB44"
+					item: "butchercraft:blood_fluid_bucket"
+					type: "item"
+				}
+			]
 			title: "不素之客"
 			x: -4.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -2178,8 +2114,8 @@
 				item: "extradelight:agar_agar"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["375F11D3C310F0A3"]
@@ -2201,8 +2137,8 @@
 				item: "extradelight:jelly_magenta_block_item"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["502BE877910FB7D5"]
@@ -2218,8 +2154,8 @@
 				item: "extradelight:vinegar_pot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["502BE877910FB7D5"]
@@ -2235,8 +2171,8 @@
 				item: "extradelight:yeast_pot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0377D98DD11C3C42"]
@@ -2253,8 +2189,8 @@
 				item: "extradelight:vinegar"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.5d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3A9C53F765AB3188"]
@@ -2271,8 +2207,8 @@
 				item: "extradelight:yeast"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4779337826B8BEE4"]
@@ -2289,8 +2225,8 @@
 				item: "extradelight:agar_sheets"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["23A0D65694502BBE"]
@@ -2312,8 +2248,8 @@
 				item: "extradelight:cheese"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["34D9D292CE6F683E"]
@@ -2354,7 +2290,7 @@
 				item: "minecraft:beetroot_soup"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.5d
 			y: -2.5d
 		}
 		{
@@ -2581,8 +2517,8 @@
 				item: "extradelight:french_fries"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.5d
+			x: 13.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["395E7DB5ED9D326E"]
@@ -2592,8 +2528,8 @@
 				item: "extradelight:fried_fish"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.5d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["395E7DB5ED9D326E"]
@@ -2603,8 +2539,8 @@
 				item: "extradelight:chicken_fried_steak"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 5.5d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["395E7DB5ED9D326E"]
@@ -2614,8 +2550,8 @@
 				item: "extradelight:fried_chicken"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.5d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["395E7DB5ED9D326E"]
@@ -2625,8 +2561,8 @@
 				item: "extradelight:fried_mushrooms"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.5d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2640,8 +2576,8 @@
 				item: "extradelight:fish_chips"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.0d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["78E572AC3FBB1F7D"]
@@ -2651,7 +2587,7 @@
 				item: "farmersdelight:stuffed_pumpkin_block"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.5d
 			y: 8.5d
 		}
 		{
@@ -2666,7 +2602,6 @@
 				"1EE815FF79CE7E9E"
 				"7AB702E0298F4A91"
 				"3E503B85378F1A90"
-				"12FA846BF5278CFC"
 				"3393778CF1B98A2C"
 				"2F2596CBA5D65075"
 				"20220744AEF253DA"
@@ -2712,8 +2647,1493 @@
 				title: "恭喜你！！！"
 				type: "checkmark"
 			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45343A38F7B9CD1A"]
+			id: "05653E1D4D1B3343"
+			tasks: [{
+				id: "25D306406EC12210"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DB5F873297C3601"]
+			id: "1E01FC2BE0941E79"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1A3CE77A7D0F14F0"
+					item: "festival_delicacies:stove"
+					type: "item"
+				}
+				{
+					id: "36698DC42755F04B"
+					item: "festival_delicacies:pot"
+					type: "item"
+				}
+			]
+			title: "富有中国气息的灶台"
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EE8A8266EFEAAF7"]
+			id: "789BA4440DF4010C"
+			tasks: [{
+				id: "4596C686EE35D7E1"
+				item: "ratatouille:wheat_kernels"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FDFCAF57DDEAEC8"]
+			id: "02A92B3F08154E18"
+			tasks: [{
+				id: "713BB174CBBA4A36"
+				item: "create:dough"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FDFCAF57DDEAEC8"]
+			id: "64CDDE24403C35CD"
+			tasks: [{
+				id: "5BFF4B3575AF45A5"
+				item: "createdelight:oil_dough"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FDFCAF57DDEAEC8"]
+			id: "30B6F298F2BE3B14"
+			tasks: [{
+				id: "37FC3F76D13A6423"
+				item: "create_confectionery:gingerdough"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["64CDDE24403C35CD"]
+			id: "1B79E4FE61E10E0F"
+			tasks: [
+				{
+					id: "5607EB4D6704E3A1"
+					item: "createdelight:oil_dough_with_butter"
+					type: "item"
+				}
+				{
+					id: "105B7A1B00150BC5"
+					item: "createdelight:puff_pastry"
+					type: "item"
+				}
+			]
+			x: -26.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3113E45D7D1D9A4E"]
+			id: "24CF527B4E34E599"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6C9D1D580F653FD7"
+				title: "主要食物产线"
+				type: "checkmark"
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E73DDAFB4DFC98C"]
+			id: "680B9A0F1D464751"
+			tasks: [{
+				id: "301A5C8F31686815"
+				item: "culturaldelights:corn_kernels"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["680B9A0F1D464751"]
+			id: "2BF1372C3C19903E"
+			tasks: [
+				{
+					id: "6203C9B78D682FA9"
+					item: "culturaldelights:popcorn"
+					type: "item"
+				}
+				{
+					id: "34A74ED71FB78742"
+					item: "extradelight:caramel_popcorn"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["680B9A0F1D464751"]
+			id: "6A22C5C0C765FEE2"
+			tasks: [{
+				id: "58C60821611FD156"
+				item: "extradelight:corn_meal"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6A22C5C0C765FEE2"]
+			id: "19B378842DDB3477"
+			tasks: [{
+				id: "463DA9137F5A2EA0"
+				item: "culturaldelights:corn_dough"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19B378842DDB3477"]
+			id: "16BCF527C3503985"
+			tasks: [{
+				id: "3FC67D889AB12BE1"
+				item: "culturaldelights:tortilla"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F7843954E17972C"]
+			id: "4B858977FA1CD2B1"
+			tasks: [{
+				id: "6E83F2EA4B89A5B3"
+				item: "culturaldelights:empanada"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["326D5BCADED75129"]
+			id: "7065DB99EBA4B796"
+			subtitle: "金苹果的次等替代品"
+			tasks: [{
+				id: "62C7D25EC21A0461"
+				item: "farmersrespite:blazing_chili"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["326D5BCADED75129"]
+			id: "18179C7B1AA608D8"
+			tasks: [{
+				id: "48AA07F7C7F3EAEF"
+				item: "farmersrespite:coffee"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3D0980BDCB8BBB78"]
+			id: "00EE4CE8393F7844"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2079FBF41954B02B"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "16A5CB16CC41E074"
+					item: "farmersrespite:coffee_cake"
+					type: "item"
+				}
+				{
+					id: "2BE465079CA6960D"
+					item: "farmersrespite:coffee_cake_slice"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["39D73D0E0410E5C9"]
+			icon: "butchercraft:cow_carcass"
+			id: "187103E9D7BA6BEB"
+			tasks: [
+				{
+					id: "6BF537D6BF8FA61A"
+					item: "butchercraft:sheep_carcass"
+					type: "item"
+				}
+				{
+					id: "40497C1BB1333F49"
+					item: "butchercraft:pig_carcass"
+					type: "item"
+				}
+				{
+					id: "0C14A73C95D49EC2"
+					item: "butchercraft:chicken_carcass"
+					type: "item"
+				}
+				{
+					id: "601BC9AFE0F13C16"
+					item: "butchercraft:goat_carcass"
+					type: "item"
+				}
+				{
+					id: "09A4651EF08588B9"
+					item: "butchercraft:cow_carcass"
+					type: "item"
+				}
+				{
+					id: "54BF7C1240964DE7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "butchercraft:rabbit_carcass"
+						}
+					}
+					title: "Any #butchercraft:rabbit_carcass"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39D73D0E0410E5C9"]
+			description: ["喝牛奶并不会消除效果，并且僵尸似乎喜欢你身上的血迹斑斑,也可以用肥皂搓一下身子去除"]
+			id: "17A67CA404197B97"
+			subtitle: "建议屠宰牲畜时，穿上套装，可以防止血迹效果"
+			tasks: [
+				{
+					id: "1B8179805C31EC47"
+					item: {
+						Count: 1b
+						id: "butchercraft:mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E2FCAC349D987CB"
+					item: {
+						Count: 1b
+						id: "butchercraft:paper_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BEA60C2316ED80E"
+					item: {
+						Count: 1b
+						id: "butchercraft:apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DFAF204BF238DB1"
+					item: {
+						Count: 1b
+						id: "butchercraft:gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CCD536CBA149A7C"
+					item: {
+						Count: 1b
+						id: "butchercraft:boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F8CE9AA49102D6F"
+					item: "butchercraft:soap"
+					type: "item"
+				}
+			]
+			title: "屠夫套装"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39D73D0E0410E5C9"]
+			description: ["挂肉勾用于大型牲畜，案板用于小型牲畜也可用于某些肉类的加工"]
+			id: "5EB3B636A6FEA921"
+			subtitle: "加工你的食材"
+			tasks: [
+				{
+					id: "2FC965A8FCD1D5BA"
+					item: "butchercraft:meat_hook_item"
+					type: "item"
+				}
+				{
+					id: "0FEA6335A65B9BA0"
+					item: "butchercraft:butcher_block_block_item"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["02A92B3F08154E18"]
+			id: "3F12893EE9340D60"
+			tasks: [{
+				id: "476895BFC711919C"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["02A92B3F08154E18"]
+			id: "52B972C68D42A749"
+			tasks: [{
+				id: "520FA83192676B63"
+				item: "createdelight:vermicelli"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02A92B3F08154E18"]
+			id: "59B7B3011C8F6379"
+			tasks: [{
+				id: "214416986EB451CB"
+				item: "createdelight:board_noodles"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59B7B3011C8F6379"]
+			id: "3ACF355AD6BCDC3D"
+			tasks: [{
+				id: "03C128B3B5CD9860"
+				item: "casualness_delight:beef_noodles"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52B972C68D42A749"]
+			id: "4867B64AF007437C"
+			tasks: [{
+				id: "68DAE70C8831296E"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52B972C68D42A749"]
+			id: "45C933F5A42242E4"
+			tasks: [{
+				id: "4107CA790B0FBB14"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F12893EE9340D60"]
+			id: "1EEB07023C8C3996"
+			tasks: [{
+				id: "3DA57F9435C7B5FA"
+				item: "extradelight:bread_slice"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EEB07023C8C3996"]
+			id: "7EC1D2C71277D76F"
+			tasks: [{
+				id: "2090C304300AA06D"
+				item: "extradelight:toast"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7EC1D2C71277D76F"]
+			id: "699C21E2180279DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "273D5FDF3F3B8E81"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4033B862D4AA5A66"
+				item: "extradelight:croque_monsieur"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["731029D680D12421"]
+			id: "6DCE50E42762DAA9"
+			tasks: [{
+				id: "69306986BC55BF1B"
+				item: "casualness_delight:spring_roll"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["731029D680D12421"]
+			id: "453D4CF88305C168"
+			tasks: [{
+				id: "052A65F7D5092631"
+				item: "casualness_delight:roast_gluten"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B79E4FE61E10E0F"]
+			id: "0B6D406928EB414C"
+			subtitle: "可以吃派了！！"
+			tasks: [{
+				id: "4FF7C9D269627CC2"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B6D406928EB414C"]
+			id: "6F12BBAF7B480F73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0911BDD05542342F"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "087ACC308BF27225"
+				item: "casualness_delight:stargazy_pie"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B6D406928EB414C"]
+			id: "5519949967CD9D98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A804EEE046F9498"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "5B8F271D1D044A4E"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "254D7B8E54E16C3C"
+					item: "extradelight:glow_berry_pie"
+					type: "item"
+				}
+			]
+			x: -29.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["026142A9E3B05A2B"]
+			id: "17F179D923A0A792"
+			tasks: [{
+				id: "37A55F0FA16332E6"
+				item: "corn_delight:nachos_block"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["026142A9E3B05A2B"]
+			id: "537B8CD95B0B5A69"
+			tasks: [{
+				id: "1AC218DFE968A147"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["026142A9E3B05A2B"]
+			id: "374AF9B4F2C034C7"
+			tasks: [{
+				id: "0FEB2B438423390C"
+				item: "culturaldelights:beef_burrito"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["026142A9E3B05A2B"]
+			id: "4F4F7A9724AE1394"
+			tasks: [{
+				id: "2A83694D1DAA17AB"
+				item: "culturaldelights:pork_wrap"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["026142A9E3B05A2B"]
+			id: "05F4322FE5C81A83"
+			tasks: [{
+				id: "79DEBBEE3426B15D"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["026142A9E3B05A2B"]
+			id: "24F6A69C1F66DBE8"
+			tasks: [{
+				id: "44268833A63E40AE"
+				item: "culturaldelights:chicken_taco"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0B6D406928EB414C"]
+			id: "6BBC9EEAD2E89489"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55CC91254ECE0976"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27C4BD42888722C3"
+				item: "brewinandchewin:quiche"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B6D406928EB414C"]
+			id: "08015997AD5D8B1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DC6EDD692022486"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66FFB9EBEF5BD392"
+				item: "fruitsdelight:lemon_tart"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C89C920A90424EB"]
+			id: "778A07395254AEFC"
+			tasks: [
+				{
+					id: "37E55AEF88B4C3F4"
+					item: "ratatouille:dried_cocoa_beans"
+					type: "item"
+				}
+				{
+					id: "32DC880EC655E31F"
+					item: "ratatouille:dried_cocoa_nibs"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["778A07395254AEFC"]
+			id: "5874F472352874E3"
+			subtitle: "巧克力的主要成分"
+			tasks: [
+				{
+					id: "1AAB9D66CE12192C"
+					item: "ratatouille:cocoa_solids"
+					type: "item"
+				}
+				{
+					id: "29C0C3847E93DF7C"
+					item: "ratatouille:cocoa_butter"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5874F472352874E3"]
+			id: "602CCB45885ABE1B"
+			tasks: [
+				{
+					id: "373173E2C9ABE56E"
+					item: "ratatouille:cocoa_powder"
+					type: "item"
+				}
+				{
+					id: "5BE2268B20B82341"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5874F472352874E3"]
+			id: "39B76B5A85BA3E35"
+			tasks: [{
+				id: "4A76144361018221"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5874F472352874E3"]
+			id: "2563381C8301AFF4"
+			tasks: [
+				{
+					id: "56EEFC69EF2DA06F"
+					item: "create_confectionery:chocolate_candy"
+					type: "item"
+				}
+				{
+					id: "4A60B74522FF5657"
+					item: "create_confectionery:chocolate_glazed_marshmallow"
+					type: "item"
+				}
+				{
+					id: "07BC31C277F8BA68"
+					item: "create:chocolate_glazed_berries"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2563381C8301AFF4"]
+			id: "1FC0F9A8F53A97AF"
+			tasks: [
+				{
+					id: "050048103BDD0982"
+					item: {
+						Count: 1b
+						id: "ratatouille:chocolate_mold_filled"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2F31308E1CA42D4D"
+					item: "createdelight:black_chocolate_mold_filled"
+					type: "item"
+				}
+				{
+					id: "1311B2107E989FE8"
+					item: "createdelight:white_chocolate_mold_filled"
+					type: "item"
+				}
+				{
+					id: "6511406EC2DFE141"
+					item: "createdelight:ruby_chocolate_mold_filled"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1FC0F9A8F53A97AF"]
+			id: "16785EC784F2D8D9"
+			tasks: [
+				{
+					id: "05670E0B2CA2329E"
+					item: "ratatouille:chocolate_mold_solid"
+					type: "item"
+				}
+				{
+					id: "6E6E660495874814"
+					item: "createdelight:black_chocolate_mold_solid"
+					type: "item"
+				}
+				{
+					id: "69E1C182F522B3C3"
+					item: "createdelight:white_chocolate_mold_solid"
+					type: "item"
+				}
+				{
+					id: "047714687D173B44"
+					item: "createdelight:ruby_chocolate_mold_solid"
+					type: "item"
+				}
+				{
+					id: "2CF7C8F9E3B37D58"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+				{
+					id: "421C5DE7D02D817A"
+					item: "create_confectionery:bar_of_black_chocolate"
+					type: "item"
+				}
+				{
+					id: "136D5758205D3421"
+					item: "create_confectionery:bar_of_white_chocolate"
+					type: "item"
+				}
+				{
+					id: "08646549F563E249"
+					item: "create_confectionery:bar_of_ruby_chocolate"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16785EC784F2D8D9"]
+			id: "149964F6AB750886"
+			tasks: [
+				{
+					id: "51D199EE46AC65FC"
+					item: "extradelight:fudge_popsicle"
+					type: "item"
+				}
+				{
+					id: "51300D627064FDF7"
+					item: {
+						Count: 1b
+						id: "create_confectionery:full_chocolate_bar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["16785EC784F2D8D9"]
+			id: "69810B23B72BC798"
+			tasks: [
+				{
+					id: "02CD2859FA542140"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "68B55EBE01EF1237"
+					item: "extradelight:chocolate_cheesecake"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7EC1D2C71277D76F"]
+			id: "7412BC9B3AB7C61A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79052610069C9B15"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "57E64C86E153868D"
+				item: "extradelight:croque_madame"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EC1D2C71277D76F"]
+			id: "491948485FB5E3D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32ECF05308DC5945"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3597C5B19DB131A2"
+				item: "extradelight:french_toast"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["39D73D0E0410E5C9"]
+			icon: {
+				Count: 1b
+				id: "butchercraft:cow_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60424801745632F0"
+			subtitle: "带上头罩时同类生物会跟随你，并把你当成他们的老大"
+			tasks: [
+				{
+					id: "791FC39DC0349A50"
+					item: {
+						Count: 1b
+						id: "butchercraft:cow_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E8B2162FC493AF0"
+					item: {
+						Count: 1b
+						id: "butchercraft:pig_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C30F0D3814103CA"
+					item: {
+						Count: 1b
+						id: "butchercraft:sheep_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DE489103F002192"
+					item: {
+						Count: 1b
+						id: "butchercraft:goat_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "327F9681C24EEFCA"
+					item: {
+						Count: 1b
+						id: "butchercraft:chicken_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CB5D8E72D50C1D1"
+					item: {
+						Count: 1b
+						id: "butchercraft:white_bunny_ears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "首领帽子"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5EB3B636A6FEA921"]
+			id: "439CBC5217A0B311"
+			subtitle: "小山羊哪来的"
+			tasks: [{
+				id: "2DF901FEA2A10081"
+				item: "butchercraft:goat_chop"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["439CBC5217A0B311"]
+			id: "0CEE5D718521C2ED"
+			tasks: [{
+				id: "6D731C7518C462E6"
+				item: "butchercraft:cubed_goat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["191A371DB8F3E198"]
+			id: "13D83A6A85BA32BE"
+			tasks: [{
+				id: "754B245E1B861E47"
+				item: "farmersrespite:tea_curry"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DB5F873297C3601"]
+			id: "16DFD4344F249ED4"
+			size: 1.5d
+			subtitle: "一起火锅吧"
+			tasks: [{
+				id: "7D49BD565C0E23C6"
+				item: "everyxhotpot:hotpot"
+				type: "item"
+			}]
 			x: -1.5d
-			y: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["16DFD4344F249ED4"]
+			id: "476E63AA4FCC1020"
+			subtitle: "饭前准备"
+			tasks: [
+				{
+					id: "5B994406BDBCF08D"
+					item: "everyxhotpot:hotpot_small_plate"
+					type: "item"
+				}
+				{
+					id: "357140BF4BE4EBDB"
+					item: "everyxhotpot:hotpot_long_plate"
+					type: "item"
+				}
+				{
+					id: "43AF86A0D637EBD0"
+					item: "everyxhotpot:hotpot_chopstick"
+					type: "item"
+				}
+				{
+					id: "23F6DE1E2E3286DF"
+					item: "everyxhotpot:hotpot_spice_pack"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E01FC2BE0941E79"]
+			id: "5C0A0EDD9E99B4A8"
+			tasks: [{
+				id: "5EC6B2298303FA59"
+				item: "festival_delicacies:pork_cabbage_boiled_dumpling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E01FC2BE0941E79"]
+			id: "2E3D92F5718BF894"
+			tasks: [{
+				id: "0F8FAAD41EC592E4"
+				item: "festival_delicacies:pork_fennel_boiled_dumpling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E01FC2BE0941E79"]
+			id: "2CD07C28F7C99373"
+			tasks: [{
+				id: "31589AF099AA547F"
+				item: "festival_delicacies:mutton_boiled_dumpling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E01FC2BE0941E79"]
+			id: "346839DFED784008"
+			tasks: [{
+				id: "648988474938A3E0"
+				item: "festival_delicacies:garlic_chive_egg_boiled_dumpling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E01FC2BE0941E79"]
+			id: "08FE851BA5A5FCE0"
+			tasks: [{
+				id: "5B00448E2E52600E"
+				item: "festival_delicacies:chicken_mushroom_boiled_dumpling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E01FC2BE0941E79"]
+			id: "143CBBCB77C8A893"
+			tasks: [{
+				id: "73ADFB088DD6DB37"
+				item: "festival_delicacies:pork_potato_boiled_dumpling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DB5F873297C3601"]
+			id: "1C15494FDC899174"
+			size: 1.5d
+			tasks: [{
+				id: "06FE2D090100CDA5"
+				item: "casualness_delight:deep_frying_pan"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C15494FDC899174"]
+			id: "4B2599040E9F0CDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BB69BD39993D632"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A721AF2D2F82641"
+				item: "casualness_delight:plate_of_fried_dumpling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C15494FDC899174"]
+			id: "4135F73FD78620C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03C1F884DF15BD26"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "75DB058B5D1DB754"
+				item: "casualness_delight:tonkatsu"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C15494FDC899174"]
+			id: "4038DE6B00AFABEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7052FE2E6A622DFC"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7B7E88478B037F7E"
+				item: "casualness_delight:fried_chicken_chip"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C15494FDC899174"]
+			id: "235744CBAF6BF80E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7426731678194868"
+				table_id: 7772018159856264947L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "64BEEACB8FF4ED09"
+					item: "casualness_delight:fried_fish"
+					type: "item"
+				}
+				{
+					id: "7BBD2BD555E63D05"
+					item: "casualness_delight:fish_and_chips"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E01FC2BE0941E79"]
+			id: "604847C2E9A02D26"
+			tasks: [{
+				id: "0987BD088E73A810"
+				item: "festival_delicacies:cod_boiled_dumpling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E01FC2BE0941E79"]
+			id: "71D7E6C91B446F46"
+			tasks: [{
+				id: "5BB068C81EB8429A"
+				item: "festival_delicacies:mushroom_boiled_dumpling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FDFCAF57DDEAEC8"]
+			id: "264682461CB7D15A"
+			tasks: [{
+				id: "6800E9E088772733"
+				item: "ratatouille:cake_mold_filled"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["264682461CB7D15A"]
+			id: "3119FC900915CDC9"
+			tasks: [{
+				id: "1F4D1012D9A8553B"
+				item: "ratatouille:cake_base"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3119FC900915CDC9"]
+			id: "6CF138BED23C2903"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31E083E88ADD42C8"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "16E20A4008F0058A"
+				item: "extradelight:coffe_cake_feast"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3119FC900915CDC9"
+				"5874F472352874E3"
+			]
+			id: "3F154C08C98B21CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "614F674ACC9EA6D6"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "384DB273FC61434B"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3119FC900915CDC9"]
+			id: "1F362C7CB214033A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "350B9DE5B86C9659"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "65B203D6830BD142"
+				item: "createaddition:honey_cake"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FDFCAF57DDEAEC8"]
+			id: "098E81F55F98EAC3"
+			tasks: [{
+				id: "1E6E548A13A638BA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cookie_dough"
+					}
+				}
+				title: "Any #forge:cookie_dough"
+				type: "item"
+			}]
+			title: "曲奇面团"
+			x: -22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["098E81F55F98EAC3"]
+			id: "295E941670BC3631"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38345BF9F4E57981"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "397BC8D73C8A72D4"
+				item: "extradelight:sugar_cookie_steve"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["098E81F55F98EAC3"]
+			id: "57E703191C784984"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2A81F744BE8DE5"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3835516A17D47F9F"
+				item: "extradelight:sugar_cookie_diamond"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["098E81F55F98EAC3"]
+			id: "18CC16BA98D06D81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38B345F76107A95C"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "50F52221F00C1A76"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "3B7C6E97506D7846"
+					item: "fruitsdelight:persimmon_cookie"
+					type: "item"
+				}
+			]
+			x: -23.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["098E81F55F98EAC3"]
+			id: "1EA32CBE501447EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5528377F538E4B52"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0DF946098B312EF9"
+					item: "extradelight:cookie_dough_ice_cream"
+					type: "item"
+				}
+				{
+					id: "3A176AB7D02D4E92"
+					item: "extradelight:cookie_dough_milkshake"
+					type: "item"
+				}
+			]
+			x: -24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["532C8FDE301864A5"]
+			id: "01D031A53EAC8069"
+			tasks: [{
+				id: "526B749F7222C65C"
+				item: "extradelight:caramel_sauce"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01D031A53EAC8069"]
+			id: "2A1F7200CE13EADE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "528CC9CCBA3325E2"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "099545DE774F35C9"
+					item: "extradelight:caramel_apple"
+					type: "item"
+				}
+				{
+					id: "6172C938E5B503F0"
+					item: "extradelight:caramel_golden_apple"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01D031A53EAC8069"]
+			id: "69C32A3F488170A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11A063ED281D0C70"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6793AE61AFFF2D31"
+				item: "extradelight:caramel_popsicle"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01D031A53EAC8069"]
+			id: "50C7A915A81F5100"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25736AC534864701"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2EE50E56915597E5"
+				item: "extradelight:caramel_cheesecake_item"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01D031A53EAC8069"]
+			id: "0AEB08A4F4B954C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CF0845A902C0283"
+				table_id: 6485826240718891201L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "62EC0A564B589572"
+				item: "extradelight:caramel_custard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
 		}
 	]
 	title: "&e超级多好吃的欸！"

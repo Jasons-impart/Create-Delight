@@ -17,7 +17,6 @@ ServerEvents.recipes(e => {
     e.remove({id:'extradelight:corn_to_block'})
     e.remove({id:'corn_delight:corn_crate'})
     e.remove({id:'culturaldelights:corn_cob_crate'})
-    e.replaceInput({input:'corn_delight:corn_seeds'},'corn_delight:corn_seeds','culturaldelights:corn_kernels')
     e.remove({id:'extradelight:caramel_popcorn'})
     e.remove({id:'corn_delight:caramel_popcorn'})
     e.remove({output:'corn_delight:popcorn'})
@@ -49,6 +48,8 @@ ServerEvents.recipes(e => {
     e.remove({id:'corn_delight:cooking/creamy_corn_drink'})
     e.remove({id:'corn_delight:integration/create/splashing/tortilla_raw'})
     e.remove({output:'corn_delight:grilled_corn'})
+    e.remove({output:'corn_delight:corn_kernel_bag'})
+    e.remove({id:"createcafe:mixing/syrups/caramel_syrup_mixing"})
     //丰盛沙拉玉米
     e.shapeless(
       'culturaldelights:hearty_salad', [
@@ -207,7 +208,7 @@ ServerEvents.recipes(e => {
     })
     //挤压玉米面团成面饼
     e.recipes.create.pressing(
-      '2x corn_delight:tortilla_raw',
+      'corn_delight:tortilla_raw',
       'culturaldelights:corn_dough'
     )
     //烤奶酪辣味玉米片
@@ -651,4 +652,9 @@ ServerEvents.recipes(e => {
       "experience": 0.35,
       "cookingtime": 200
     })
+    //焦糖适配
+    e.recipes.create.filling('extradelight:caramel_sauce',['minecraft:glass_bottle',Fluid.of('create_confectionery:caramel',250)])
+    e.recipes.create.emptying([Fluid.of('create_confectionery:caramel',250),'minecraft:glass_bottle'],'extradelight:caramel_sauce')
+    //焦糖糖浆
+    e.recipes.create.mixing([Fluid.of('createcafe:caramel_syrup',1000)],[Fluid.of('minecraft:milk',250),Fluid.of('create_confectionery:caramel',750)])
 })

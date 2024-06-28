@@ -159,7 +159,7 @@
 			subtitle: "哇哦，看看我用煤炭和铁做出来了什么东西"
 			tasks: [{
 				id: "21C397BFBD55D824"
-				item: "kubejs:raw_steel"
+				item: "createdelight:raw_steel_ingot"
 				type: "item"
 			}]
 			x: -11.5d
@@ -254,6 +254,7 @@
 				table_id: 6730734086547045908L
 				type: "random"
 			}]
+			size: 2.0d
 			subtitle: "按住w可以进行俺寻思"
 			tasks: [{
 				advancement: "create:andesite_alloy"
@@ -1343,140 +1344,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["56E058538C0C00ED"]
-			id: "19BDE08C0BD15F9B"
-			rewards: [{
-				count: 32
-				id: "00E88A8C1E3986E6"
-				item: "toms_storage:ts.inventory_cable"
-				type: "item"
-			}]
-			subtitle: "连接存储驱动器和存储线缆连接器！"
-			tasks: [{
-				id: "7E490462338F100E"
-				item: "toms_storage:ts.inventory_cable"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 6.0d
-		}
-		{
-			id: "56E058538C0C00ED"
-			rewards: [{
-				id: "499800C2685CFC4A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "122E98BCAF05910E"
-				item: "toms_storage:ts.inventory_connector"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["56E058538C0C00ED"]
-			id: "1FD78552C20A175A"
-			rewards: [{
-				count: 4
-				id: "7FFD232B6D8B4692"
-				item: "toms_storage:ts.inventory_cable_connector"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4B11C884D2DBFBF1"
-				item: "toms_storage:ts.inventory_cable_connector"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["7E8E6E639AB8B47E"]
-			id: "2D6B3F6C250CB036"
-			tasks: [{
-				id: "0AB834F26071628D"
-				item: "toms_storage:ts.wireless_terminal"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"56E058538C0C00ED"
-				"69AE9B77F09A200A"
-			]
-			dependency_requirement: "one_completed"
-			id: "7E8E6E639AB8B47E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "619CAB50E185FA13"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
-			tasks: [{
-				id: "03ABD0C6D4F067D2"
-				item: "toms_storage:ts.storage_terminal"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"7E8E6E639AB8B47E"
-				"69AE9B77F09A200A"
-			]
-			dependency_requirement: "one_completed"
-			id: "1043BF2D44232401"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0A43CFF1E7153E54"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			tasks: [{
-				id: "7E02D09FA2E431EF"
-				item: "toms_storage:ts.crafting_terminal"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2D6B3F6C250CB036"]
-			description: [
-				"在绑定终端的8格球形范围内放置等级为1级的信标可以让下界合金终端在&4同维度访问，"
-				"在绑定终端的8格球形范围内放置等级为4级的信标可以让下界合金终端在&4任何维度访问。"
-			]
-			id: "52C65FDED0CD9B8C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "30734D2BB8042897"
-					table_id: 6485826240718891201L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5E573297FDE978BC"
-					table_id: 7772018159856264947L
-					type: "choice"
-				}
-			]
-			subtitle: "下界合金升级后的无线终端！"
-			tasks: [{
-				id: "5AF3980D9CF404DA"
-				item: "toms_storage:ts.adv_wireless_terminal"
-				type: "item"
-			}]
-			title: "跨越维度的能力！"
-			x: -9.0d
-			y: 10.5d
-		}
-		{
 			dependencies: ["1BAD95070E6A4ABB"]
 			id: "7E05A27248576CB3"
 			rewards: [{
@@ -1493,6 +1360,131 @@
 			}]
 			x: -11.5d
 			y: 2.0d
+		}
+		{
+			id: "59D650BAA0D2803C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3053631F37F915DA"
+				table_id: 6730734086547045908L
+				type: "loot"
+			}]
+			subtitle: "资深工程师"
+			tasks: [
+				{
+					id: "0EBBB78EC859419E"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "3C62427B86C6105F"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "机械动力必备物品"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["491266302FA9FE5D"]
+			id: "662557EEE3B061E9"
+			subtitle: "谷物必要物品"
+			tasks: [{
+				id: "5729314983387862"
+				item: "ratatouille:thresher"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6E5C2F799D0DF787"]
+			id: "491266302FA9FE5D"
+			size: 1.5d
+			tasks: [{
+				id: "40A0AC868B1E3044"
+				title: "机械动力农业化发展"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["491266302FA9FE5D"]
+			id: "7758504DF8D2C26A"
+			subtitle: "大量烧制食物"
+			tasks: [
+				{
+					id: "4CB9338AEDF96D9E"
+					item: "ratatouille:oven"
+					type: "item"
+				}
+				{
+					id: "203AA815EE33B017"
+					item: "ratatouille:oven_fan"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["491266302FA9FE5D"]
+			id: "0D514862CB51DDCE"
+			tasks: [{
+				id: "137738B2C76D555B"
+				item: "ratatouille:squeeze_basin"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["491266302FA9FE5D"]
+			id: "3A122009CACF7BFE"
+			tasks: [{
+				id: "69B5F5A818546FB5"
+				item: "ratatouille:mechanical_demolder"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["491266302FA9FE5D"]
+			id: "74B75BCF745A2B80"
+			tasks: [{
+				id: "641E0A2EE11F696E"
+				item: "ratatouille:irrigation_tower"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["491266302FA9FE5D"]
+			id: "00ACA87F51B9F575"
+			subtitle: "加上分散网效果更佳"
+			tasks: [{
+				id: "11F91CE4793C581E"
+				item: "ratatouille:spreader"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["491266302FA9FE5D"]
+			id: "049795F88F833F83"
+			subtitle: "冷却巧克力"
+			tasks: [{
+				id: "0CDFE5084CDD7DAE"
+				item: "ratatouille:frozen_block"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
 		}
 	]
 	title: "&2日渐熟稔"

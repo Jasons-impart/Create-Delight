@@ -1068,6 +1068,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			subtitle: "作为你的第一站，这将是你开启机动乐事起始点！"
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -1266,6 +1267,195 @@
 			title: "我靠！&460滴血&r！"
 			x: -10.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["325FEB93D62142EE"]
+			id: "7DD6AE3D040FB1AE"
+			rewards: [{
+				id: "1B9C60BFB14C6219"
+				item: {
+					Count: 1b
+					id: "supplementaries:bubble_blower"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "446015A99AE27594"
+					item: "immersive_paintings:painting"
+					type: "item"
+				}
+				{
+					id: "049DEA23DCF33C1B"
+					item: "immersive_paintings:graffiti"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "325FEB93D62142EE"
+			size: 1.5d
+			tasks: [{
+				id: "61BC626C9F82F9A8"
+				title: "实用小玩意"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["325FEB93D62142EE"]
+			id: "7D65EC61C0EDC6D7"
+			rewards: [{
+				id: "1B5354565B111566"
+				item: {
+					Count: 1b
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03AB8D012E0A416C"
+					item: "netmusic:computer"
+					type: "item"
+				}
+				{
+					id: "32E337C247C2468B"
+					item: "netmusic:cd_burner"
+					type: "item"
+				}
+				{
+					id: "073D688CD1DA79D1"
+					item: "netmusic:music_player"
+					type: "item"
+				}
+				{
+					id: "6FB063DB4FB39174"
+					item: "netmusic:music_cd"
+					type: "item"
+				}
+			]
+			title: "音乐大师"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["325FEB93D62142EE"]
+			id: "6DACD46450CD6DFD"
+			rewards: [{
+				id: "02B62F82E52A2E06"
+				item: {
+					Count: 1b
+					id: "supplementaries:bubble_blower"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "14EE4000084D36A9"
+					item: "sereneseasons:calendar"
+					type: "item"
+				}
+				{
+					id: "07478C11C7FDD9B5"
+					item: "sereneseasons:season_sensor"
+					type: "item"
+				}
+			]
+			title: "季节变换"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["325FEB93D62142EE"]
+			id: "11584A30A7E1004D"
+			rewards: [{
+				id: "32D5ED5DAAF30976"
+				item: {
+					Count: 1b
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13DC070521D92E6E"
+				item: "astikorcarts:supply_cart"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["325FEB93D62142EE"]
+			id: "6EA2CC5B89935877"
+			rewards: [{
+				id: "2B6F9F770B05A493"
+				item: {
+					Count: 1b
+					id: "supplementaries:bubble_blower"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "104D8D8F7FCD9F7B"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			title: "铺路小能手"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["325FEB93D62142EE"]
+			id: "2983A2F4EF48C2EC"
+			rewards: [{
+				id: "4802D1FCD078C6EE"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C0A4800B9155FAA"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7DD6AE3D040FB1AE"]
+			id: "1BE43F6D6EF3FE1E"
+			tasks: [
+				{
+					id: "693A77DD22C6304D"
+					item: "immersive_paintings:glow_painting"
+					type: "item"
+				}
+				{
+					id: "4FA34B3B090668B6"
+					item: "immersive_paintings:glow_graffiti"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -2.5d
 		}
 	]
 	title: "&f初来乍到"

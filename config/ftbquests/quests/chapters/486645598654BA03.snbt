@@ -1566,7 +1566,7 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 0.5d
 		}
 		{
@@ -1609,8 +1609,8 @@
 				type: "advancement"
 			}]
 			title: "哇！&e这么远&r的触及距离！"
-			x: 9.0d
-			y: -3.0d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4A19D3EB3E47BFDF"]
@@ -1699,7 +1699,7 @@
 				type: "item"
 			}]
 			title: "&e换种视角看世界！"
-			x: 12.0d
+			x: 12.5d
 			y: -1.0d
 		}
 		{
@@ -2863,6 +2863,183 @@
 			title: "&4轨道收集癖！"
 			x: 12.0d
 			y: 12.5d
+		}
+		{
+			id: "094CBEB74FD20505"
+			subtitle: "石油在哪里"
+			tasks: [{
+				id: "725496D24D819817"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			title: "WHERE?"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F61255897AD730B"]
+			id: "353375B7BF2B18E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66AEB70F6216E67A"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "7A38A19DB64C4E6B"
+					item: "createdieselgenerators:diesel_engine"
+					type: "item"
+				}
+				{
+					id: "00ADFB65B8B1A5DB"
+					item: "createdieselgenerators:large_diesel_engine"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"353375B7BF2B18E4"
+				"094CBEB74FD20505"
+			]
+			id: "1A823BB7D1B3FC87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28DE2C09614C35AB"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6CEF89C7A5169049"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["094CBEB74FD20505"]
+			id: "1F5B88A1AF6EE70A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7530E82928C6852E"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			subtitle: "石油大亨的开启"
+			tasks: [
+				{
+					id: "5B9D6C20667A3612"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "26CA72C9E6B9E327"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+				{
+					id: "2E8D7601D4E4633F"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+				{
+					id: "15E52405C3293BD2"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+			]
+			title: "抽油机"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["094CBEB74FD20505"]
+			id: "1825F408BBAA7903"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71C6176090C9058A"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			subtitle: "用于乙醇的生产"
+			tasks: [
+				{
+					id: "649E96030BE7B7B2"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "25590700AC9246A7"
+					item: "createdieselgenerators:basin_lid"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1F5B88A1AF6EE70A"]
+			id: "3174833BB69CA7FB"
+			rewards: [{
+				id: "61534B961128D8E3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "柴油机的辅助用品"
+			tasks: [
+				{
+					id: "3668F90634C477F7"
+					item: "createdieselgenerators:engine_silencer"
+					type: "item"
+				}
+				{
+					id: "4E6FF434B14BF869"
+					item: "createdieselgenerators:engine_turbocharger"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F5B88A1AF6EE70A"]
+			id: "15A9DCF43E9AF855"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24828F604CC9EAC4"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			subtitle: "分馏石油成不同的燃料"
+			tasks: [{
+				id: "79A04B06256AACCC"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F5B88A1AF6EE70A"]
+			id: "2118D08C7336D2EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FB85CF913F4197F"
+				table_id: 2218915723137103147L
+				type: "loot"
+			}]
+			subtitle: "用于储存流体，破坏后流体不会消失"
+			tasks: [{
+				id: "11304A163405FA2E"
+				item: "createdieselgenerators:canister"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
 		}
 	]
 	title: "&3黑漆漆的地狱"

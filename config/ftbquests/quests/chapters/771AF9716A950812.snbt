@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [{
 		id: "55C42BCE0E399B3D"
+		size: 4.0d
 		subtitle: "原来你也玩机械动力悠然乐事！"
 		tasks: [{
 			dimension: "minecraft:overworld"
@@ -19,8 +20,8 @@
 			type: "dimension"
 		}]
 		title: "异世相遇，尽享乐事~"
-		x: 9.5d
-		y: -2.5d
+		x: 0.0d
+		y: 0.0d
 	}]
 	title: "介绍"
 }
