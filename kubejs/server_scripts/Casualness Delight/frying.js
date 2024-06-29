@@ -4,7 +4,8 @@ ServerEvents.recipes(e => {
         "casualness_delight:deep_frying/potato_chip",
         "extradelight:fried_fish",
         "create:mixing/fried_fish_create",
-        "extradelight:fish_and_chips"
+        "extradelight:fish_and_chips",
+        "casualness_delight:cutting/potato_slice"
     ])
     // 油炸锅
     e.recipes.minecraft.crafting_shaped(

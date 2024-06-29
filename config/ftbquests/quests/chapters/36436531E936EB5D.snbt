@@ -349,24 +349,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4144F362E5458112"]
-			id: "0F9A325B7651DE3D"
-			rewards: [{
-				id: "4B2D9B08D0964ACD"
-				item: "minecraft:raw_gold"
-				random_bonus: 3
-				type: "item"
-			}]
-			subtitle: "金子！！！请多多多多挖"
-			tasks: [{
-				id: "2E17E8C5AEB879C1"
-				item: "minecraft:raw_gold"
-				type: "item"
-			}]
-			x: 21.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["7A3709D4B50FDB64"]
 			id: "2B06C9F73DF923F5"
 			rewards: [
@@ -456,21 +438,14 @@
 		}
 		{
 			dependencies: ["3D7427876018E5D5"]
+			icon: "ends_delight:bubble_tea"
 			id: "0826A7B25117A46A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "548F28C0D9FAD16E"
-					table_id: 6485826240718891201L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "101327CD9F79EB18"
-					table_id: 6485826240718891201L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F0BA3E5CC81E5DE"
+				table_id: 6167605175036859481L
+				type: "random"
+			}]
 			subtitle: "喂！三点几嚟，做、做卵工啊做，饮茶先啦！"
 			tasks: [{
 				id: "26EB9B06AEC25934"
@@ -747,27 +722,8 @@
 				type: "observation"
 			}]
 			title: "风驰电掣~"
-			x: 10.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["05D6B228BA11656D"]
-			description: ["苹果是喂马的！别偷吃！"]
-			id: "5EC202A45AEF91D4"
-			rewards: [{
-				count: 16
-				id: "77EE3788E193192E"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "如果你也经常发现你找不到你的马了（雾），那你可以尝试在马背上按下P绑定你的小马，然后使用V进行召唤（请务必保证你周围的安全！！！）"
-			tasks: [{
-				id: "11FBE5FFD38224EE"
-				title: "嘿，看这里~"
-				type: "checkmark"
-			}]
-			x: 10.5d
-			y: 1.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0082C5BEB96B1114"]
@@ -779,7 +735,7 @@
 				item: "waystones:warp_scroll"
 				type: "item"
 			}]
-			subtitle: "林克入侵我的世界"
+			subtitle: "塞尔达入侵我的世界"
 			tasks: [{
 				icon: "minecraft:netherrack"
 				id: "74FEA69433C02805"
@@ -819,27 +775,26 @@
 				structure: "totw_modded:end"
 				type: "structure"
 			}]
-			title: "给您跪了，林克大佬"
-			x: 5.0d
-			y: -5.0d
+			title: "给您跪了orz"
+			x: 3.5d
+			y: -3.5d
 		}
 		{
-			description: ["          &5&m还是看看远处的风景吧家人们&r"]
+			description: [""]
+			icon: "minecraft:grass_block"
 			id: "3D7427876018E5D5"
 			rewards: [{
 				id: "2C0ADEADD3386D58"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
 			size: 2.0d
-			subtitle: "作为你的第一站，这将是你开启机动乐事起始点！"
+			subtitle: " &5&m太美丽了，家人们，但还是看看远处的风景吧&r"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				disable_toast: true
-				icon: "minecraft:grass_block"
-				id: "67577944BEC1BFBA"
+				id: "6349D8B322720B37"
 				title: "到达世界巅峰！理塘！"
-				type: "dimension"
+				type: "checkmark"
 			}]
 			x: 8.5d
 			y: -2.0d
@@ -855,7 +810,7 @@
 				item: "ftbquests:book"
 				type: "item"
 			}]
-			size: 3.0d
+			size: 2.0d
 			subtitle: "看我多大方，任务书随便拿！"
 			tasks: [{
 				id: "5237AD30A9B874EA"
@@ -863,8 +818,8 @@
 				type: "checkmark"
 			}]
 			title: "什么？任务书丢了？不知道合成表？"
-			x: 9.0d
-			y: -5.5d
+			x: 8.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["77ECF5D5E59B874F"]
@@ -911,12 +866,13 @@
 		}
 		{
 			dependencies: ["3D7427876018E5D5"]
+			icon: "supplementaries:globe"
 			id: "325FEB93D62142EE"
 			tasks: [{
-				id: "61BC626C9F82F9A8"
-				title: "实用小玩意"
+				id: "3DEEDCEC337E2AB2"
 				type: "checkmark"
 			}]
+			title: "实用小玩意"
 			x: 6.5d
 			y: 0.0d
 		}
@@ -993,7 +949,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["325FEB93D62142EE"]
+			dependencies: [
+				"325FEB93D62142EE"
+				"05D6B228BA11656D"
+			]
 			id: "11584A30A7E1004D"
 			rewards: [{
 				id: "32D5ED5DAAF30976"
@@ -1072,6 +1031,43 @@
 			]
 			x: 6.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["3D7427876018E5D5"]
+			id: "73CEB2D8D907517C"
+			rewards: [{
+				id: "35371B7E24B3591E"
+				item: "minecraft:red_bed"
+				type: "item"
+			}]
+			subtitle: "送你张床！"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "27A8C55D70B8486A"
+				type: "advancement"
+			}]
+			title: "睡个好觉~"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4144F362E5458112"]
+			id: "0F9A325B7651DE3D"
+			rewards: [{
+				id: "4B2D9B08D0964ACD"
+				item: "minecraft:raw_gold"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "金子！！！请多多多多挖"
+			tasks: [{
+				id: "2E17E8C5AEB879C1"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
 		}
 	]
 	title: "&f初来乍到"

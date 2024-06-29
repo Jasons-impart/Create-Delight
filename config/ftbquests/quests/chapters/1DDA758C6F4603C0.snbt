@@ -15,12 +15,21 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6B28062ECC1DE6AB"]
 			id: "2EF38D620B4E1664"
-			rewards: [{
-				id: "79530BF51DEF604B"
-				item: "ad_astra:earth_globe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "79530BF51DEF604B"
+					item: "ad_astra:earth_globe"
+					type: "item"
+				}
+				{
+					id: "1372AEFB74F3E1B5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "开启你的星际旅途吧！(书中内容不准确不要完全相信)"
 			tasks: [{
 				id: "36943D18052D9C81"
 				item: "ad_astra:astrodux"
@@ -30,36 +39,14 @@
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"2EF38D620B4E1664"
-				"3705F36A31F3D540"
-			]
-			id: "11D4B29C4382F3A3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57171E76424CED0A"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			subtitle: "我靠，快收起来，不然要产生霉菌了！"
-			tasks: [{
-				id: "2C3B4F297C38AC9D"
-				item: "ad_astra:oil_bucket"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.0d
-		}
-		{
 			dependencies: ["2EF38D620B4E1664"]
 			description: ["去外太空一定要多带一个在身上，这玩意可不会跟着你起飞"]
 			hide_dependent_lines: true
 			id: "001E54ADF04996D7"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7A89F4CA4987240B"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "2D57C0C7C258F670"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "这可是不锈钢做的，绝对不会融化！"
 			tasks: [{
@@ -71,40 +58,41 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["11D4B29C4382F3A3"]
+			dependencies: ["6B28062ECC1DE6AB"]
 			id: "62BF6A18921A3A61"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4FF0A534A9D7F825"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "1DE4768E440C9BC3"
+				type: "xp"
+				xp: 100
 			}]
+			shape: "square"
+			size: 4.0d
 			subtitle: "小型分馏塔！（虽然只能产出燃油）"
 			tasks: [{
 				id: "0B204BA37A8B6001"
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["62BF6A18921A3A61"]
+			hide_dependent_lines: true
 			id: "06DA33866E1148A0"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "24057490A99F88F0"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "2FEF1B41917CE704"
+				type: "xp"
+				xp: 100
 			}]
-			subtitle: "啊？他还能给插了吸管的烈焰人供能？"
+			subtitle: "飞行燃料！"
 			tasks: [{
 				id: "7884C254BFA536B8"
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: 2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["65C8753C15473A60"]
@@ -116,6 +104,11 @@
 				}
 			}
 			id: "2A9052E6C76BD051"
+			rewards: [{
+				id: "7204D840CCDAD8EA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "55FD0DAD31E95905"
@@ -167,28 +160,44 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["2EF38D620B4E1664"]
+			dependencies: [
+				"2EF38D620B4E1664"
+				"630620B48B66A403"
+			]
+			hide_dependency_lines: true
 			id: "4A79D97050F1297F"
+			rewards: [{
+				id: "204C8C6086A09507"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 4.0d
 			subtitle: "oxygen！人类的慢性毒药，吸过氧气的人在200年内必定死亡！"
 			tasks: [{
 				id: "0B7B429A49956D16"
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 12.0d
+			x: 0.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["4A79D97050F1297F"]
 			id: "23237C92178C3BBC"
+			rewards: [{
+				id: "610055F6398FF43E"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "？？？他为什么能倒过来？？？"
 			tasks: [{
 				id: "50C8B7B8962F8777"
 				item: "ad_astra:oxygen_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 12.5d
+			x: -2.5d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -197,14 +206,14 @@
 				"69D1277B572D30CC"
 				"3FC1D0F27D10DCBC"
 				"001E54ADF04996D7"
+				"06DA33866E1148A0"
 			]
 			description: ["降落前一定记得按住空格！！！不然会&4爆炸！，然后你就回不去了"]
 			id: "234903F798E76C58"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "72BEDA0412E2B3EC"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "567DDF375372FA2E"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "麻麻我上天啦！（物理意义上）"
 			tasks: [{
@@ -226,7 +235,7 @@
 			dependencies: ["234903F798E76C58"]
 			id: "182095AB6BCF39FB"
 			rewards: [{
-				id: "3D39EA49602B0C9D"
+				id: "17C043C165063F29"
 				type: "xp"
 				xp: 100
 			}]
@@ -245,12 +254,19 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "06DAABB40DFF540F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "15076A2BB135349F"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15076A2BB135349F"
+					table_id: 5347970608351672481L
+					type: "random"
+				}
+				{
+					id: "74150BD279764175"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "所以这个矿物的desh到底从哪里来的？（"
 			tasks: [{
 				id: "7288EA97D3B07641"
@@ -264,12 +280,19 @@
 			dependencies: ["182095AB6BCF39FB"]
 			hide_dependent_lines: true
 			id: "0F1A5241F3DBA26C"
-			rewards: [{
-				id: "1609F8B9174C2672"
-				item: "ad_astra:ice_shard"
-				random_bonus: 7
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1609F8B9174C2672"
+					item: "ad_astra:ice_shard"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "0C62A2C5F96B19B1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "我靠( ‵o′)凸这么冷的矿石！"
 			tasks: [{
 				id: "17B12DFB986B8B9F"
@@ -283,16 +306,23 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "6960FF05A64976CC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7CD69FC2480BF6E5"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "704D1904D2F0ABB0"
+					item: "ad_astra:cheese"
+					random_bonus: 31
+					type: "item"
+				}
+				{
+					id: "291E2FD1650201D6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "啊？奶酪还能这样获取啊？"
 			tasks: [{
 				id: "0002B159DE410FE6"
-				item: "ad_astra:moon_cheese_ore"
+				item: "ad_astra:cheese"
 				type: "item"
 			}]
 			x: -2.5d
@@ -301,12 +331,19 @@
 		{
 			dependencies: ["06DAABB40DFF540F"]
 			id: "090D6C3F666BE947"
-			rewards: [{
-				id: "32260ED1B47AEF45"
-				item: "ad_astra:desh_ingot"
-				random_bonus: 31
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "32260ED1B47AEF45"
+					item: "ad_astra:desh_ingot"
+					random_bonus: 31
+					type: "item"
+				}
+				{
+					id: "0FB731DFF34004A0"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "第一眼我还以为奶酪锭（"
 			tasks: [{
 				id: "731FABBA91B42727"
@@ -317,13 +354,15 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["090D6C3F666BE947"]
+			dependencies: [
+				"090D6C3F666BE947"
+				"630620B48B66A403"
+			]
 			id: "076611C66B1FEC72"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "54D10CA6389E65BD"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "579C39F0F5831128"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "清洁能源！！！（就是产能有点低嗷）"
 			tasks: [{
@@ -338,10 +377,9 @@
 			dependencies: ["090D6C3F666BE947"]
 			id: "49DCCAD023CF210C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "70B6C21E6CB1A603"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "022EB892E32144AE"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "o(╥﹏╥)o终于可以建造月球基地了！"
 			tasks: [{
@@ -359,13 +397,13 @@
 				"69D1277B572D30CC"
 				"797E79E8F64B5B92"
 				"001E54ADF04996D7"
+				"06DA33866E1148A0"
 			]
 			id: "49229740420BD8BD"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "166A1CBDF053FE13"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "1603D87CC1B8A567"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "首次升级！！！"
 			tasks: [{
@@ -386,9 +424,9 @@
 			dependencies: ["49229740420BD8BD"]
 			id: "1AB992034B618D32"
 			rewards: [{
-				id: "099C49E6C7014BC9"
-				item: "ad_astra:mars_globe"
-				type: "item"
+				id: "6BE3F511B9916042"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "火星上应该没有火...对叭？（）"
 			tasks: [{
@@ -406,10 +444,9 @@
 			dependencies: ["1AB992034B618D32"]
 			id: "09ECDB98638FB236"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "08D9D5CA55006217"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "5D331FB25F971FB8"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "火星上金子一样珍贵的矿石！"
 			tasks: [{
@@ -424,10 +461,9 @@
 			dependencies: ["09ECDB98638FB236"]
 			id: "1AEB5413EB70CBCC"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5FA868E0FD8711D0"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "5B092FB2FF9FAE59"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "它真的非常紫！"
 			tasks: [{
@@ -439,13 +475,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1AEB5413EB70CBCC"]
+			dependencies: [
+				"1AEB5413EB70CBCC"
+				"630620B48B66A403"
+			]
 			id: "347BD4930DE7C347"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4885D49F994CD3A7"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "6CDE7D070A6CCD6F"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "超级冰箱！"
 			tasks: [{
@@ -454,7 +492,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -464,19 +502,18 @@
 			description: ["       烈焰人：“好吃爱吃，令我&1超级燃烧”"]
 			id: "1A0996B135058CA3"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4BDA24947E662758"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "35FC63CD644CB95A"
+				type: "xp"
+				xp: 100
 			}]
-			subtitle: "啊？难道这是低温液氢燃料？"
+			subtitle: "啊？低温液氢燃料？"
 			tasks: [{
 				id: "588DE87B15101B21"
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1AEB5413EB70CBCC"]
@@ -494,6 +531,11 @@
 					item: "ad_astra:oxygen_bucket"
 					type: "item"
 				}
+				{
+					id: "66F012C7A80D181C"
+					type: "xp"
+					xp: 100
+				}
 			]
 			subtitle: "虽然但是这东西有存在的必要吗？"
 			tasks: [{
@@ -509,10 +551,9 @@
 			hide_dependent_lines: true
 			id: "16DF1C16CDB5A548"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "416402B6AA8C0BC8"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "30DAAC65ED584DF4"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "怎么这么贵啊（"
 			tasks: [
@@ -575,6 +616,11 @@
 				"001E54ADF04996D7"
 			]
 			id: "7BDAE316D3CCEA2F"
+			rewards: [{
+				id: "7FCD74D889F58A6C"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "再次升级！！！"
 			tasks: [{
 				id: "6870417650AA7A8D"
@@ -594,9 +640,9 @@
 			dependencies: ["7BDAE316D3CCEA2F"]
 			id: "4CD8BD03328D2FEC"
 			rewards: [{
-				id: "43D12F1E140E3111"
-				item: "ad_astra:venus_globe"
-				type: "item"
+				id: "7A380F2CB9314330"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "金星！我们的兄弟星球！"
 			tasks: [{
@@ -614,9 +660,9 @@
 			dependencies: ["7BDAE316D3CCEA2F"]
 			id: "46A219929EEDDC4A"
 			rewards: [{
-				id: "2E13588308EB57F5"
-				item: "ad_astra:mercury_globe"
-				type: "item"
+				id: "5558945D2698E4E7"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "不是？这咋啥也没有啊？"
 			tasks: [{
@@ -634,10 +680,9 @@
 			dependencies: ["4CD8BD03328D2FEC"]
 			id: "669A3D3DD26B5B2B"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6DD8057EBCF02C1E"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "7526DC30CF693152"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "哇哦！融点超高的！"
 			tasks: [{
@@ -651,26 +696,24 @@
 		{
 			id: "6A344E5078D4932F"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "274AF17556B5CDE5"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "6A449F6FA6BBDE5C"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "796846478379B777"
 				item: "ad_astra:mercury_globe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 12.0d
+			x: 10.0d
+			y: 16.5d
 		}
 		{
 			id: "0666801B9AD47989"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2678E7B7ABE77232"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "0351ECC9B35806BB"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "小天体！~"
 			tasks: [{
@@ -678,16 +721,15 @@
 				item: "ad_astra:venus_globe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 7.5d
+			y: 15.5d
 		}
 		{
 			id: "5CA08F5F4ADD1D7F"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "050B858E533BC192"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "530B5C13428CE670"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "好叭他确实没有火（"
 			tasks: [{
@@ -695,16 +737,15 @@
 				item: "ad_astra:mars_globe"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 15.0d
+			x: 12.5d
+			y: 15.5d
 		}
 		{
 			id: "0A4740CAADFD6527"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D353A013A9F1924"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "7D89FD55D39E7F90"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "38C3CA5F763613F1"
@@ -712,23 +753,22 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 13.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["669A3D3DD26B5B2B"]
 			id: "5546B7012C47C646"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "55E6B4B7585FB79E"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
 					id: "0D9C9AD65766F727"
 					item: "ad_astra:calorite_ingot"
 					random_bonus: 5
 					type: "item"
+				}
+				{
+					id: "6F424FD416EA7A80"
+					type: "xp"
+					xp: 100
 				}
 			]
 			subtitle: "什么？这不是耐热金属锭，这是压缩毛巾，遇水可以变大变糕（bushi）"
@@ -749,10 +789,9 @@
 			hide_dependent_lines: true
 			id: "454337E9BE007439"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5078CFC5099A1CB1"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "6663F6030D47DA5D"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "喷气背包！！！你现在可以像钢铁侠一样飞行了！（建议第三人称视角飞行）"
 			tasks: [
@@ -816,10 +855,9 @@
 			]
 			id: "1629F7F4B01F0189"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B041EC2834EE9F3"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "38ABDEC6E62E621B"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "终极进化！！！"
 			tasks: [{
@@ -841,9 +879,9 @@
 			description: ["当心&9细雪&r"]
 			id: "387FB6E7ECA3FB46"
 			rewards: [{
-				id: "5F2549D3A1B8AFF7"
-				item: "ad_astra:glacio_globe"
-				type: "item"
+				id: "55D8277DF95259A7"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "新家园终于找到了！朵朵，培强，丫丫，你们再也不用牺牲了o(╥﹏╥)o"
 			tasks: [{
@@ -860,10 +898,9 @@
 		{
 			id: "68ABFC768F61433E"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "53340049BD22B38A"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "009C5D49261988B1"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "小天体！~"
 			tasks: [{
@@ -871,13 +908,18 @@
 				item: "ad_astra:glacio_globe"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 13.5d
+			x: 13.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["387FB6E7ECA3FB46"]
 			description: ["使用任意原木与寒冰碎片即可合成霜原木和霜原树叶&m（单纯装饰用）"]
 			id: "6C38FCD22CB6256B"
+			rewards: [{
+				id: "43E00B1571AE1CEA"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "找不到霜原树？那就对了（因为作者忘添加了）"
 			tasks: [
 				{
@@ -900,10 +942,9 @@
 			description: ["   &4别忘了找一下屋顶上的隐藏宝箱和紫金块！"]
 			id: "3DCBD2C73E544555"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3540990D2C0861CA"
-				table_id: 6485826240718891201L
-				type: "choice"
+				id: "1EFA81571D5DAED3"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "哇哦，火星难道真的是生命起源之地？"
 			tasks: [{
@@ -920,10 +961,9 @@
 			dependencies: ["182095AB6BCF39FB"]
 			id: "135611632B62B5CC"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "62D52810D101D19B"
-				table_id: 8595933012744775382L
-				type: "choice"
+				id: "28F8DC49B2C82FDE"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "这东西真的掉san值"
 			tasks: [{
@@ -941,6 +981,11 @@
 			dependencies: ["2EF38D620B4E1664"]
 			hide_dependent_lines: true
 			id: "085D1390A9988873"
+			rewards: [{
+				id: "5B09EFF03481F436"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6AC283D6DA15D8D0"
 				item: "ad_astra:rocket_nose_cone"
@@ -953,6 +998,11 @@
 			dependencies: ["2EF38D620B4E1664"]
 			hide_dependent_lines: true
 			id: "7D11F8F55F660980"
+			rewards: [{
+				id: "15073F1B15441062"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2917F27239655551"
 				item: "ad_astra:rocket_fin"
@@ -965,6 +1015,11 @@
 			dependencies: ["2EF38D620B4E1664"]
 			hide_dependent_lines: true
 			id: "3FC1D0F27D10DCBC"
+			rewards: [{
+				id: "0653F45A17EDBB6D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "02B84A3B91367FEB"
 				item: "ad_astra:steel_engine"
@@ -974,9 +1029,17 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["2EF38D620B4E1664"]
+			dependencies: [
+				"2EF38D620B4E1664"
+				"39DA0269D50B216B"
+			]
 			hide_dependent_lines: true
 			id: "69D1277B572D30CC"
+			rewards: [{
+				id: "76944A2D27E45E8D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6C3C044670B70BBC"
 				item: "ad_astra:engine_fan"
@@ -989,6 +1052,11 @@
 			dependencies: ["2EF38D620B4E1664"]
 			hide_dependent_lines: true
 			id: "797E79E8F64B5B92"
+			rewards: [{
+				id: "23109B500484D8A1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4393A4B30F7BC8FA"
 				item: "ad_astra:desh_engine"
@@ -1005,6 +1073,11 @@
 			]
 			hide_dependent_lines: true
 			id: "75AB4CD9558C4EEE"
+			rewards: [{
+				id: "5EE79FFFD67F1C6D"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "更远的星球受到了异界的影响，需要使用&e以太晶片&r破开屏障"
 			tasks: [{
 				id: "2F5017BA13F63DC2"
@@ -1022,6 +1095,11 @@
 			]
 			hide_dependent_lines: true
 			id: "4F3CF95B76ECD133"
+			rewards: [{
+				id: "77774956310D3BA9"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "更远的星球受到了异界的影响，需要使用&e以太晶片&r破开屏障"
 			tasks: [{
 				id: "0E7AC760D02E6F5C"
@@ -1034,6 +1112,11 @@
 		{
 			dependencies: ["23237C92178C3BBC"]
 			id: "65C8753C15473A60"
+			rewards: [{
+				id: "0D0376B354A007F6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1FCE2827D495365B"
 				item: {
@@ -1045,18 +1128,25 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 12.5d
+			x: -4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["387FB6E7ECA3FB46"]
 			id: "59F1874C1C311D96"
-			rewards: [{
-				id: "7E3996B7A054F90C"
-				item: "ad_astra:glacian_fur"
-				random_bonus: 31
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E3996B7A054F90C"
+					item: "ad_astra:glacian_fur"
+					random_bonus: 31
+					type: "item"
+				}
+				{
+					id: "55CB0802722C59AA"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "霜原星的小羊们靠着厚厚的羊毛顽强的生存了下来"
 			tasks: [{
 				id: "33575147D49D561D"
@@ -1074,7 +1164,7 @@
 				"0A4740CAADFD6527"
 				"5CA08F5F4ADD1D7F"
 				"6A344E5078D4932F"
-				"675C31345AD833F3"
+				"7C5821AC664F2AF3"
 			]
 			icon: "minecraft:nether_star"
 			id: "16418BAD90AB35E9"
@@ -1100,54 +1190,39 @@
 					item: "create:andesite_alloy_block"
 					type: "item"
 				}
+				{
+					id: "563EF683DDA11B3A"
+					type: "xp"
+					xp: 100
+				}
 			]
+			shape: "square"
+			size: 4.0d
+			subtitle: "检查一下还有什么成就没做完（"
 			tasks: [{
-				id: "0A94C615135A21BC"
-				title: "终抵星辰"
+				id: "7D355427FED780C1"
+				title: "终抵群星"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 13.5d
-		}
-		{
-			id: "675C31345AD833F3"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				icon: "minecraft:grass_block"
-				id: "25161BA67DDB65D2"
-				type: "dimension"
-			}]
 			x: 10.0d
-			y: 12.0d
-		}
-		{
-			id: "3705F36A31F3D540"
-			rewards: [{
-				id: "686844D7F20FB51C"
-				item: "ad_astra:oil_bucket"
-				random_bonus: 7
-				type: "item"
-			}]
-			subtitle: "这玩意是真的难以采集"
-			tasks: [{
-				icon: "ad_astra:oil_bucket"
-				id: "0EE14810D4D335C8"
-				structure: "ad_astra:oil_well"
-				type: "structure"
-			}]
-			title: "海上原油！"
-			x: 0.5d
-			y: 5.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "016C52A6B8580DA6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "00E738EC678A0E26"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00E738EC678A0E26"
+					table_id: 6485826240718891201L
+					type: "choice"
+				}
+				{
+					id: "6EA1EC5A43B3F37C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "你说，这玩意村民是怎么建造出来的呢..."
 			tasks: [{
 				icon: "ad_astra:moon_pillar"
@@ -1162,6 +1237,11 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "67B3B3F9B011FEA2"
+			rewards: [{
+				id: "7703077379FCC482"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "还好还好大家都没尸变"
 			tasks: [{
 				icon: "ad_astra:lunarian_spawn_egg"
@@ -1177,6 +1257,11 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "59EC7A72325F91C8"
+			rewards: [{
+				id: "000404E4F5FC7229"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "啊啊啊怎么全都是堕落村民！！！！"
 			tasks: [{
 				icon: "ad_astra:moon_cobblestone"
@@ -1192,10 +1277,9 @@
 			dependencies: ["1AB992034B618D32"]
 			id: "7FEEFF6B255E822E"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "011EDBF1F6B5F0CB"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "3C49B13EB59984E4"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "好丑好丑好丑好丑好丑"
 			tasks: [{
@@ -1211,8 +1295,9 @@
 		}
 		{
 			dependencies: [
-				"3705F36A31F3D540"
 				"1A0996B135058CA3"
+				"06DA33866E1148A0"
+				"12DDF4479286DA28"
 			]
 			id: "37516EEF263B0004"
 			rewards: [
@@ -1226,32 +1311,29 @@
 					item: "ad_astra:cryo_fuel_bucket"
 					type: "item"
 				}
+				{
+					id: "41FF377E888419C5"
+					type: "xp"
+					xp: 100
+				}
 			]
 			subtitle: "两种燃油都可以给烈焰人燃烧室供能 ！（记得插吸管）"
-			tasks: [
-				{
-					id: "778B2A70796D65B0"
-					item: "create:blaze_burner"
-					type: "item"
-				}
-				{
-					id: "669728091936D0C7"
-					item: "createaddition:straw"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "778B2A70796D65B0"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
 			title: "燃油更好吃！"
-			x: 1.5d
-			y: 3.0d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["46A219929EEDDC4A"]
 			id: "6CCAA7FCC937F93F"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "386A42458AF35846"
-				table_id: 5347970608351672481L
-				type: "random"
+				id: "03013EED10F907C9"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "咋只有岩浆怪啊？？？"
 			tasks: [{
@@ -1268,10 +1350,9 @@
 			dependencies: ["4CD8BD03328D2FEC"]
 			id: "57D6A78D388A92C6"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "09543D6CC98424E3"
-				table_id: 6485826240718891201L
-				type: "choice"
+				id: "68C7280D1E9DBE99"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "外星猪灵现在的辉煌！"
 			tasks: [{
@@ -1288,10 +1369,9 @@
 			dependencies: ["4CD8BD03328D2FEC"]
 			id: "0BB9229302792572"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7ECCEE617CED3D48"
-				table_id: 6485826240718891201L
-				type: "choice"
+				id: "54F7ECFCC233FEFD"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "哇！居然有远古残骸！"
 			tasks: [{
@@ -1308,10 +1388,9 @@
 			dependencies: ["4CD8BD03328D2FEC"]
 			id: "1A7EA3E179BEAA80"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "77116AF9A35883F7"
-				table_id: 6485826240718891201L
-				type: "choice"
+				id: "05F19D969FCCDCAF"
+				type: "xp"
+				xp: 100
 			}]
 			subtitle: "猪灵以前都移民金星了？？？"
 			tasks: [{
@@ -1328,6 +1407,8 @@
 		}
 		{
 			dependencies: ["2EF38D620B4E1664"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "7C5821AC664F2AF3"
 			invisible: true
 			rewards: [
@@ -1347,8 +1428,14 @@
 					item: "ad_astra:fuel_bucket"
 					type: "item"
 				}
+				{
+					id: "40698F675C09EDF2"
+					type: "xp"
+					xp: 100
+				}
 			]
-			size: 5.0d
+			shape: "square"
+			size: 4.0d
 			subtitle: "燕子，没有你我可怎么活啊，燕子！"
 			tasks: [{
 				advancement: "ad_astra:rocket_destroyed"
@@ -1356,13 +1443,18 @@
 				id: "5A047A050FB4A6A5"
 				type: "advancement"
 			}]
-			title: "等等我我还没上车啊！！！！"
+			title: "等等我，我还没上车啊！！！！"
 			x: 10.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "7D9F154B5FF86674"
+			rewards: [{
+				id: "1936F2AF5C6C25DF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				entity: "ad_astra:star_crawler"
 				icon: "ad_astra:cheese"
@@ -1373,6 +1465,23 @@
 			title: "这是？海星？"
 			x: 0.5d
 			y: 11.0d
+		}
+		{
+			dependencies: [
+				"17323F34E01C4313"
+				"1AB992034B618D32"
+				"630620B48B66A403"
+			]
+			dependency_requirement: "one_completed"
+			id: "1FADE23D87FAC9B1"
+			invisible_until_tasks: 2
+			tasks: [{
+				id: "3E593F965157ADC5"
+				item: "ad_astra:energizer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
 		}
 	]
 	title: "&e银河系漫游指南"

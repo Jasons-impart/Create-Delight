@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2EDF2DB3AA62F7A0"
-	group: ""
+	group: "445171CC29E98940"
 	icon: {
 		Count: 1b
 		id: "minecraft:elytra"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "2EDF2DB3AA62F7A0"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -47,7 +47,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["39AD415EC4A78C0C"]
@@ -63,7 +63,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["39AD415EC4A78C0C"]
@@ -79,7 +79,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3E52E051490819D0"]
@@ -95,7 +95,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["39AD415EC4A78C0C"]
@@ -111,7 +111,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1E1AD72AF2E8C254"]
@@ -130,7 +130,7 @@
 			}]
 			title: "更好的飞机配件！"
 			x: 1.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -146,7 +146,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -162,7 +162,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -178,7 +178,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -194,7 +194,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -210,7 +210,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -226,7 +226,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -242,7 +242,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -258,7 +258,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -277,7 +277,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1624CCC544DD8288"]
@@ -297,7 +297,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1DE10E0714BFF778"]
@@ -317,7 +317,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
@@ -337,7 +337,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7DED9A87C6CB80F0"]
@@ -355,7 +355,7 @@
 			}]
 			title: "第一架最简单的小飞机！"
 			x: -0.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["58A94F4B434B31CD"]
@@ -423,7 +423,7 @@
 			}]
 			title: "&0水洗煤&r上天！"
 			x: -3.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5E7D248B3C15ADFD"]
@@ -449,7 +449,7 @@
 			}]
 			title: "很快但是很弱！"
 			x: -3.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5E7D248B3C15ADFD"]
@@ -473,7 +473,7 @@
 			}]
 			title: "我愿称之为&e赶路的神！！！"
 			x: -2.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7DED9A87C6CB80F0"]
@@ -495,7 +495,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["58A94F4B434B31CD"]
@@ -550,6 +550,7 @@
 				}
 				type: "item"
 			}]
+			title: "天空才不是我的极限！"
 			x: -2.0d
 			y: -4.5d
 		}
@@ -609,7 +610,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -620,7 +621,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -631,7 +632,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2BD079F13B42814F"]
@@ -642,7 +643,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7251087920E97B89"]
@@ -658,7 +659,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2053C8AC43D015A0"]
@@ -674,7 +675,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7B0F4836728F6D5D"]
@@ -692,7 +693,84 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"539AFA4827EBD85F"
+				"74F81A8C4757CD08"
+				"7DED9A87C6CB80F0"
+			]
+			id: "664A7BCA64EF8857"
+			rewards: [{
+				id: "082812D6BFE92EE1"
+				item: "create:copper_sheet"
+				random_bonus: 9
+				type: "item"
+			}]
+			subtitle: "谁发现的液压？一定要给他颁诺贝尔奖！"
+			tasks: [{
+				id: "432CD8441A6694B0"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			title: " &1p＝ρgh"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"664A7BCA64EF8857"
+				"7251087920E97B89"
+			]
+			description: [
+				"这是你获得的第一个喷气背包，它通过喷出储存的水让你起飞，时刻注意剩余的水以免&4高空坠物"
+				"把喷气背包放在副手，&4按Q或者直接扔出手中的水桶&r以补充铜喷气背包中的水，或者使用便携流体储罐（可以&4自动补充&r喷气背包中的水）"
+				"在空气中按空格以起飞&e（最大高度&r&a17&r&e格）&r"
+				"在水中按空格时可以启动潜水模式让你&e游得更快"
+			]
+			id: "3CCD7E34B8DDB3D2"
+			subtitle: "啊？这就可以飞了？"
+			tasks: [{
+				id: "7DBB0F0669D2EDBA"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "起飞~"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"664A7BCA64EF8857"
+				"7251087920E97B89"
+			]
+			description: [
+				"这是你获得的第一个机械外骨骼，它通过储存的水增强你的攻击力，时刻注意剩余的水以免&4被爆金币"
+				"把外骨骼放在副手，&4按Q或者直接扔出手中的水桶&r以补充铜外骨骼中的水，或者使用便携流体储罐（可以&4自动补充&r外骨骼中的水）"
+			]
+			id: "4AD353EACDE6DD71"
+			subtitle: "这玩意可以给你&e力量II&r但同时也会给你&4挖掘疲劳&r，话说这玩意&4真的有用吗？"
+			tasks: [{
+				id: "0282053DDEEB7B60"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "机械飞升？"
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 	title: "&e来去自由！"

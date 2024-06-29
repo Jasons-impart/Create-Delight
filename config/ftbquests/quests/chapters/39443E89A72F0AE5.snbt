@@ -5,6 +5,19 @@
 	group: "0E7AEC0D0D9C1B1C"
 	icon: "minecraft:dragon_head"
 	id: "39443E89A72F0AE5"
+	images: [{
+		alpha: 100
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "minecraft:item/dragon_breath"
+		rotation: 0.0d
+		width: 10.0d
+		x: 9.0d
+		y: -0.5d
+	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -297,6 +310,7 @@
 		}
 		{
 			dependencies: ["0373F30B09F3C827"]
+			icon: "minecraft:dragon_head"
 			id: "5CBF811F55377620"
 			rewards: [
 				{
@@ -366,7 +380,7 @@
 				type: "advancement"
 			}]
 			title: "进入末地外岛"
-			x: 12.92857142857143d
+			x: 11.92857142857143d
 			y: -0.4642857142857224d
 		}
 		{
@@ -403,7 +417,7 @@
 				}
 			]
 			title: "好吃又好玩"
-			x: 13.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -438,8 +452,8 @@
 				item: "minecraft:shulker_shell"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -2.5d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["26C8619E020794CD"]
@@ -455,8 +469,8 @@
 				item: "minecraft:shulker_box"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -2.5d
+			x: 13.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A993919FD9D953A"]
@@ -481,46 +495,8 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["1A993919FD9D953A"]
-			id: "7DD5621DCF4448D5"
-			tasks: [{
-				id: "549CF11ADC26920C"
-				item: {
-					Count: 1b
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "天空才不是我的极限！"
-			x: 14.5d
+			x: 13.5d
 			y: -2.0d
-		}
-		{
-			dependencies: [
-				"7DD5621DCF4448D5"
-				"157DEA56584149D6"
-			]
-			id: "380734D6961CB478"
-			tasks: [{
-				id: "79B59AA922C1B603"
-				item: {
-					Count: 1b
-					id: "deeperdarker:soul_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 14.5d
-			y: -3.5d
 		}
 		{
 			dependencies: ["1A993919FD9D953A"]
@@ -534,7 +510,7 @@
 				value: 1L
 			}]
 			title: "啊？他怎么会复制我的攻击方式啊！"
-			x: 11.5d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -547,7 +523,7 @@
 				type: "item"
 			}]
 			title: "芜湖，复制大法启动！"
-			x: 11.5d
+			x: 10.5d
 			y: -3.5d
 		}
 		{
@@ -679,6 +655,7 @@
 				"37C9939BF1F309BA"
 				"1A993919FD9D953A"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"存在在末地古城顶端的祭坛，可以用龙息激活，并在数道闪电落下之后召唤一个末地石傀儡。"
 				""
@@ -716,8 +693,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 2.0d
+			x: 18.30952380952381d
+			y: -0.4761904761904816d
 		}
 		{
 			dependencies: ["1A993919FD9D953A"]
@@ -741,7 +718,7 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
+			x: 13.5d
 			y: 1.0d
 		}
 		{
@@ -781,7 +758,7 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
@@ -824,7 +801,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 10.5d
 			y: 1.0d
 		}
 		{
@@ -848,10 +825,11 @@
 				to_observe: "unusualend:endstone_trapper"
 				type: "observation"
 			}]
-			x: 14.5d
+			x: 13.5d
 			y: 2.5d
 		}
 		{
+			dependencies: ["1A993919FD9D953A"]
 			description: [
 				"能力1"
 				"高举双臂重击地面进行范围攻击，"
@@ -867,14 +845,16 @@
 				"能力4给予玩家飘浮效果，但这往往和沉重效果相加而产生类似缓降的效果，然后被击飞出平台的你就会绝望地从古城上慢慢飘下去"
 				"能力5给予玩家无力III的效果，这使得玩家每放置一个方块就会承受一定的伤害并需要等待较长的冷却时间"
 			]
+			hide_dependency_lines: true
+			icon: "unusualend:golem_altar"
 			id: "37C9939BF1F309BA"
 			tasks: [{
 				id: "6D46FF2DA05AD827"
 				title: "攻击方式"
 				type: "checkmark"
 			}]
-			x: 18.0d
-			y: 4.0d
+			x: 19.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["69A2A6DFADC8C4DF"]
@@ -904,11 +884,11 @@
 				}
 			]
 			x: 20.0d
-			y: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["69A2A6DFADC8C4DF"]
-			description: ["相当于两个箱子的容量-9格（嘿嘿）"]
+			description: [""]
 			id: "0D765FB23118978D"
 			rewards: [{
 				count: 2
@@ -916,14 +896,14 @@
 				item: "minecraft:chest"
 				type: "item"
 			}]
-			subtitle: "一个更比两个强，火腿我要王中王"
+			subtitle: "一个更比两个强，火腿我要王中王（相当于两个箱子的容量-9格）"
 			tasks: [{
 				id: "21D1BADFA8116FEC"
 				item: "unusualend:purpur_tank"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 3.5d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67AD45E7651C6B17"]
@@ -952,21 +932,25 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 12.5d
 			y: -3.5d
 		}
 		{
+			dependencies: ["0373F30B09F3C827"]
 			description: ["你可以用绿宝石与生成在末地的流浪商人交易（没错流浪商人在末地也有业务了）在一个小屋里，吃了它你会回到主世界的重生点"]
+			hide_dependency_lines: true
 			id: "6F2D4C54F6493EE1"
+			invisible: true
+			shape: "square"
 			size: 2.0d
-			subtitle: "回家"
+			subtitle: "回家喽~"
 			tasks: [{
 				id: "6CBD585521F429A2"
 				item: "unusualend:wandering_stew"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1A993919FD9D953A"]
@@ -985,7 +969,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -1004,7 +988,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
+			x: 12.5d
 			y: 2.5d
 		}
 		{
@@ -1048,8 +1032,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 1.5d
+			x: 19.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7C310C5E16B8FE47"]
@@ -1075,7 +1059,7 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 12.5d
 			y: -5.0d
 		}
 		{
@@ -1094,25 +1078,24 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1A993919FD9D953A"]
-			description: [
-				"可以在长满诡异苔藓的末地船上开箱子获得"
-				""
-				"手持虚空图腾可以在落入虚空时，从虚空把你抛向高处并获得缓降效果让你安全着陆，但首先你得瞄准好"
-			]
+			description: ["可以在长满诡异苔藓的末地船上开箱子获得"]
 			id: "2599C8366ABBC9BA"
+			invisible: true
+			shape: "square"
 			size: 1.5d
-			subtitle: "虚空也不过如此..."
+			subtitle: "手持虚空图腾可以在落入虚空时，从虚空把你抛向高处并获得缓降效果让你安全着陆，但首先你得瞄准好"
 			tasks: [{
 				id: "26AF4E9B2A4F598A"
 				item: "unusualend:void_totem"
 				type: "item"
 			}]
-			x: 8.25d
+			title: "虚空也不过如此..."
+			x: 8.0d
 			y: 0.75d
 		}
 		{
@@ -1125,7 +1108,7 @@
 				item: "unusualend:scrape_cloth"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.5d
 			y: 2.5d
 		}
 		{
@@ -1143,24 +1126,18 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
+			x: 15.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["14274D1E45AFA569"]
 			id: "0522169381FA0614"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5C6127D73D3AD469"
-				table_id: 5347970608351672481L
-				type: "choice"
-			}]
 			tasks: [{
 				id: "65CC2C574B82719C"
 				item: "unusualend:music_disc_endstone_golem_theme"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.0d
 			y: -1.5d
 		}
 		{
@@ -1179,7 +1156,7 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 11.5d
 			y: -3.5d
 		}
 		{
@@ -1197,7 +1174,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -1229,7 +1206,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 9.5d
 			y: 1.0d
 		}
 		{
@@ -1241,7 +1218,7 @@
 				item: "unusualend:shulker_shooter"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 14.5d
 			y: 2.5d
 		}
 		{
@@ -1253,17 +1230,17 @@
 				item: "unusualend:dragon_lamp"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1A993919FD9D953A"]
 			description: [
 				"幻翼方块：看不见的方块"
-				""
 				"幽灵方块：虽然是方块但是可是穿过去，并施加失明效果，可以用来困住小动物"
 			]
 			id: "15B544BF433D6977"
+			subtitle: "两种神奇方块"
 			tasks: [
 				{
 					id: "6DAA3DE31D61B78C"
@@ -1276,8 +1253,8 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
-			y: -0.5d
+			x: 14.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1A993919FD9D953A"]
@@ -1326,21 +1303,38 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
-			y: 0.5d
+			x: 14.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["15B544BF433D6977"]
-			description: ["不受重力影响的箭"]
+			description: [""]
 			id: "664EDDD724C4FFF9"
-			subtitle: "指哪打哪"
+			subtitle: "指哪打哪（不受重力影响的箭）"
 			tasks: [{
 				id: "7A7D172CD06BBDDA"
 				item: "unusualend:phantom_arrow"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -0.5d
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0373F30B09F3C827"]
+			hide_dependency_lines: true
+			id: "4C983C583B34DAEC"
+			invisible: true
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "2940DBE54B4179E1"
+				type: "advancement"
+			}]
+			title: "&e天空才不能成为我的极限"
+			x: 6.5d
+			y: -4.0d
 		}
 	]
 	title: "&e终末之旅"

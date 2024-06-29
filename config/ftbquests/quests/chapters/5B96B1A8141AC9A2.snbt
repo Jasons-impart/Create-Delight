@@ -5,19 +5,47 @@
 	group: "14CFC96B5B37F10B"
 	icon: "create:steam_engine"
 	id: "5B96B1A8141AC9A2"
-	images: [{
-		alpha: 100
-		click: ""
-		corner: false
-		dev: false
-		height: 9.0d
-		hover: [ ]
-		image: "create:item/andesite_alloy"
-		rotation: 0.0d
-		width: 9.0d
-		x: -15.999999999999993d
-		y: -1.047619047619044d
-	}]
+	images: [
+		{
+			alpha: 100
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "create:item/andesite_alloy"
+			rotation: 0.0d
+			width: 10.0d
+			x: -15.999999999999993d
+			y: -1.047619047619044d
+		}
+		{
+			alpha: 100
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "create:item/brass_ingot"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			alpha: 100
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "create:item/sturdy_sheet"
+			rotation: 0.0d
+			width: 10.0d
+			x: -6.0d
+			y: 10.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -38,8 +66,8 @@
 				type: "item"
 			}]
 			title: "布灵布灵"
-			x: -11.0d
-			y: -3.0d
+			x: -8.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3063D93E51ECAFA7"]
@@ -57,8 +85,8 @@
 				type: "item"
 			}]
 			title: "钻！石！镐！"
-			x: -11.5d
-			y: -1.5d
+			x: -9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["154B8A10723BCCDD"]
@@ -71,8 +99,8 @@
 				type: "item"
 			}]
 			title: "冰桶挑战！"
-			x: -11.0d
-			y: 0.0d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -88,8 +116,8 @@
 				type: "item"
 			}]
 			title: "附魔大师"
-			x: -10.5d
-			y: -1.5d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["77ECF5D5E59B874F"]
@@ -109,8 +137,8 @@
 				type: "item"
 			}]
 			title: "知识~就是力量!"
-			x: -9.5d
-			y: -2.0d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2273B81FC4DA0A36"]
@@ -146,8 +174,8 @@
 				type: "advancement"
 			}]
 			title: "神奇的魔法！"
-			x: -9.5d
-			y: -1.0d
+			x: -7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["65C204DFA418FD56"]
@@ -171,7 +199,7 @@
 			dependencies: ["26710B63F426D6DF"]
 			id: "54E9D8443D877CB9"
 			shape: "diamond"
-			subtitle: "这玩意可是现代工业的基础！"
+			subtitle: "这玩意可是现代工业的基础！（大量需求建议多做一点）"
 			tasks: [{
 				id: "0D470F995052EBA6"
 				item: "alloyed:steel_ingot"
@@ -228,8 +256,8 @@
 				type: "item"
 			}]
 			title: "钻石铲铲~"
-			x: -12.5d
-			y: -2.0d
+			x: -10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -243,6 +271,7 @@
 				dimension: "minecraft:the_nether"
 				disable_toast: true
 				id: "79FBA048A982318A"
+				title: "到达地狱！"
 				type: "dimension"
 			}]
 			title: "终于可以去地狱啦！"
@@ -384,6 +413,7 @@
 				"20C4C2D755156AF4"
 				"7251087920E97B89"
 			]
+			description: ["并不建议搞&4大规模&r的蒸汽发电，后续的石油工业的动力比蒸汽发电&4多的多&r"]
 			id: "43FFF43336ED6505"
 			rewards: [
 				{
@@ -427,17 +457,12 @@
 		{
 			dependencies: ["2A26C7B07E432B8C"]
 			id: "7251087920E97B89"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "073C60ECAE1D89A7"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "2FF5AB4AACFCC385"
 				item: "create:fluid_tank"
 				type: "item"
 			}]
+			title: "我比铁桶更能装！"
 			x: -19.5d
 			y: 0.5d
 		}
@@ -478,82 +503,6 @@
 			}]
 			x: -19.5d
 			y: -1.0d
-		}
-		{
-			dependencies: [
-				"539AFA4827EBD85F"
-				"74F81A8C4757CD08"
-			]
-			id: "664A7BCA64EF8857"
-			rewards: [{
-				id: "082812D6BFE92EE1"
-				item: "create:copper_sheet"
-				random_bonus: 9
-				type: "item"
-			}]
-			subtitle: "谁发现的液压？一定要给他颁诺贝尔奖！"
-			tasks: [{
-				id: "432CD8441A6694B0"
-				item: "create_sa:hydraulic_engine"
-				type: "item"
-			}]
-			title: " &1p＝ρgh"
-			x: -18.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"664A7BCA64EF8857"
-				"7251087920E97B89"
-			]
-			description: [
-				"这是你获得的第一个喷气背包，它通过喷出储存的水让你起飞，时刻注意剩余的水以免&4高空坠物"
-				"把喷气背包放在副手，&4按Q或者直接扔出手中的水桶&r以补充铜喷气背包中的水，或者使用便携流体储罐（可以&4自动补充&r喷气背包中的水）"
-				"在空气中按空格以起飞&e（最大高度&r&a17&r&e格）&r"
-				"在水中按空格时可以启动潜水模式让你&e游得更快"
-			]
-			id: "3CCD7E34B8DDB3D2"
-			subtitle: "啊？这就可以飞了？"
-			tasks: [{
-				id: "7DBB0F0669D2EDBA"
-				item: {
-					Count: 1b
-					id: "create_sa:copper_jetpack_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "起飞~"
-			x: -19.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"664A7BCA64EF8857"
-				"7251087920E97B89"
-			]
-			description: [
-				"这是你获得的第一个机械外骨骼，它通过储存的水增强你的攻击力，时刻注意剩余的水以免&4被爆金币"
-				"把外骨骼放在副手，&4按Q或者直接扔出手中的水桶&r以补充铜外骨骼中的水，或者使用便携流体储罐（可以&4自动补充&r外骨骼中的水）"
-			]
-			id: "4AD353EACDE6DD71"
-			subtitle: "这玩意可以给你&e力量II&r但同时也会给你&4挖掘疲劳&r，话说这玩意&4真的有用吗？"
-			tasks: [{
-				id: "0282053DDEEB7B60"
-				item: {
-					Count: 1b
-					id: "create_sa:copper_exoskeleton_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "机械飞升？"
-			x: -18.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["74F81A8C4757CD08"]
@@ -724,7 +673,7 @@
 				item: "create:iron_sheet"
 				type: "item"
 			}]
-			subtitle: "铛（ji）~~~铛（ji）~~~铛（ji）~~~"
+			subtitle: "激拟态酶"
 			tasks: [{
 				id: "7FB6A8861E8B3E1A"
 				item: "create:mechanical_press"
@@ -882,8 +831,8 @@
 				}
 			]
 			title: "你好富有啊（羡慕）"
-			x: -12.5d
-			y: -3.5d
+			x: -10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3063D93E51ECAFA7"]
@@ -906,8 +855,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: -4.5d
+			x: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3063D93E51ECAFA7"]
@@ -930,8 +879,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: -3.5d
+			x: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3063D93E51ECAFA7"]
@@ -953,8 +902,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: -4.5d
+			x: -9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["539AFA4827EBD85F"]
@@ -1084,8 +1033,8 @@
 				type: "item"
 			}]
 			title: "简单装饰一下我的齿轮组们~"
-			x: -17.0d
-			y: 2.0d
+			x: -17.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7C63D27693E2270D"]
@@ -1102,8 +1051,8 @@
 				type: "item"
 			}]
 			title: "超有工业风的齿轮组！"
-			x: -17.0d
-			y: 3.5d
+			x: -17.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -1177,7 +1126,7 @@
 			}]
 			title: "挖呀挖"
 			x: -12.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -1232,7 +1181,7 @@
 				type: "item"
 			}]
 			title: "咯吱咯吱"
-			x: -13.0d
+			x: -13.5d
 			y: 0.5d
 		}
 		{
@@ -1282,8 +1231,8 @@
 				type: "item"
 			}]
 			title: "万用表？"
-			x: -14.0d
-			y: 0.5d
+			x: -13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -1298,24 +1247,6 @@
 			title: "很能装！"
 			x: -12.0d
 			y: 7.5d
-		}
-		{
-			dependencies: ["1BAD95070E6A4ABB"]
-			id: "7E05A27248576CB3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F9C2AB38F8E00CD"
-				table_id: 6730734086547045908L
-				type: "random"
-			}]
-			subtitle: "专业轧电线户！"
-			tasks: [{
-				id: "39E449AFB8491DDF"
-				item: "createaddition:rolling_mill"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1343,7 +1274,7 @@
 				}
 			]
 			title: "机械动力必备物品"
-			x: -14.0d
+			x: -13.0d
 			y: -1.0d
 		}
 		{
@@ -1521,6 +1452,7 @@
 				random_bonus: 15
 				type: "item"
 			}]
+			shape: "square"
 			size: 3.0d
 			subtitle: "快去试试&e加农炮&r的&4巨大伤害&r吧！"
 			tasks: [{
@@ -1535,7 +1467,7 @@
 				type: "item"
 			}]
 			title: "&e土豆神教！"
-			x: -6.0d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -1627,6 +1559,7 @@
 				table_id: 5347970608351672481L
 				type: "random"
 			}]
+			shape: "square"
 			size: 3.0d
 			subtitle: "&4超超超超超&r级远！"
 			tasks: [{
@@ -1636,7 +1569,7 @@
 				type: "advancement"
 			}]
 			title: "哇！&e这么远&r的触及距离！"
-			x: -3.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -1907,7 +1840,7 @@
 				item: "quark:raw_copper_bricks"
 				type: "item"
 			}]
-			subtitle: "虽然也是真的&4超级没用&r啦"
+			subtitle: "&4 柴油引擎&r的基础材料！"
 			tasks: [{
 				id: "59440DEB3B04DA7E"
 				item: "alloyed:bronze_ingot"
@@ -1967,6 +1900,7 @@
 		}
 		{
 			dependencies: ["394328A77D6D76F9"]
+			hide_dependency_lines: true
 			id: "5293378CC12640FC"
 			invisible: true
 			rewards: [
@@ -2070,6 +2004,8 @@
 					type: "item"
 				}
 			]
+			shape: "square"
+			size: 3.0d
 			subtitle: "什么叫做超级仓鼠！"
 			tasks: [
 				{
@@ -2308,8 +2244,8 @@
 				}
 			]
 			title: "&4轨道收集癖！"
-			x: -4.5d
-			y: 10.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["394328A77D6D76F9"]
@@ -2325,7 +2261,7 @@
 				item: "railways:track_tieless"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 10.5d
 		}
 		{
@@ -2390,7 +2326,7 @@
 			]
 			title: "工业风~"
 			x: -3.0d
-			y: 12.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5A52BEB442B35A32"]
@@ -2545,6 +2481,60 @@
 			title: "哦不，他们撞车了！"
 			x: -6.0d
 			y: 15.0d
+		}
+		{
+			dependencies: ["54E9D8443D877CB9"]
+			id: "7B8DE65704FC24C1"
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [{
+				id: "14AC3D89568E753E"
+				item: "createbigcannons:basin_foundry_lid"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B8DE65704FC24C1"]
+			id: "77672D20413A6DB4"
+			rewards: [{
+				id: "7E93419FCC6950D7"
+				item: "createbigcannons:molten_steel_bucket"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "&e铁+煤炭&r在铸造盆里高温加热即可获得&4熔融钢"
+			tasks: [
+				{
+					id: "1DB15C0E2ECB8D15"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:iron_series"
+						}
+					}
+					title: "任意铁"
+					type: "item"
+				}
+				{
+					id: "69087E0F65E6629D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:coals"
+						}
+					}
+					title: "煤炭或木炭"
+					type: "item"
+				}
+			]
+			title: "量产钢铁！"
+			x: -10.67857142857143d
+			y: -0.5952380952380949d
 		}
 	]
 	title: "&2机场美学！"

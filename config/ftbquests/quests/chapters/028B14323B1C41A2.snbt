@@ -5,6 +5,19 @@
 	group: "0E7AEC0D0D9C1B1C"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "028B14323B1C41A2"
+	images: [{
+		alpha: 100
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "deeperdarker:item/heart_of_the_deep"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

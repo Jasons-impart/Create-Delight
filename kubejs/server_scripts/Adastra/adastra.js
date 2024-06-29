@@ -35,6 +35,9 @@ ServerEvents.recipes(e => {
         "ad_astra:recipes/ostrum_engine",
         "ad_astra:recipes/calorite_tank",
         "ad_astra:recipes/calorite_engine",
+        "ad_astra:conversion/cryo_fuel_from_packed_ice",
+        "ad_astra:conversion/cryo_fuel_from_blue_ice",
+        "ad_astra:conversion/cryo_fuel_from_ice",
     ])
 
     // 新增配方：银河系漫游指南
@@ -212,4 +215,19 @@ ServerEvents.recipes(e => {
         C: 'ad_astra:engine_frame',
         D: 'ad_astra:engine_fan'
     }).id('ad_astra:recipes/calorite_engine')
+    // 混合燃料
+    e.recipes.create.mixing(
+        Fluid.of('createdelight:fuel_mixtures', 1000),
+        [
+            Fluid.of("createdieselgenerators:gasoline", 200),
+            Fluid.of("createdieselgenerators:biodiesel", 100),
+            Fluid.of("createdieselgenerators:diesel", 200)
+        ]
+    ).id("ad_astra:recipes/fuel_mixtures")
+    e.custom({
+        "type": "ad_astra:fuel_conversion",
+        "input": "createdelight:fuel_mixtures",
+        "output": "ad_astra:fuel",
+        "conversion_ratio": 2.0
+    }).id("ad_astra:conversion/fuel_from_oil")
 })

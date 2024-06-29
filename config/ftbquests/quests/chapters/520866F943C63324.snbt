@@ -30,6 +30,57 @@
 			x: -7.0d
 			y: 6.0d
 		}
+		{
+			alpha: 100
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "aether:item/miscellaneous/aether_portal_frame"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aether:item/miscellaneous/aether_portal_frame_inside"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aether:item/miscellaneous/aether_portal_frame_inside"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			alpha: 100
+			click: ""
+			color: 6737151
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.0d
+			y: 0.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -48,6 +99,7 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				dimension: "aether:the_aether"
 				disable_toast: true

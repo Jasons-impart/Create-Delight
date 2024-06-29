@@ -15,7 +15,6 @@
 /fancymenu_setups
 /backups
 /natives-windows-x86_64
-/patchouli_books
 /resourcepacks
 /XaeroWaypoints
 /quests_structures
@@ -38,7 +37,6 @@ options.txt
 usernamecache.json
 usercache.json
 rhino.local.properties
-patchouli_data.json
 ${quickPlayPath}
 servers.dat
 servers.dat_old

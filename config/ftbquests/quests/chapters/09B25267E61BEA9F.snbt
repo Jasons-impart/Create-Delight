@@ -5,6 +5,19 @@
 	group: "0E7AEC0D0D9C1B1C"
 	icon: "minecraft:grass_block"
 	id: "09B25267E61BEA9F"
+	images: [{
+		alpha: 100
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "supplementaries:items/altimeter/minecraft_overworld"
+		rotation: 0.0d
+		width: 10.0d
+		x: 4.0d
+		y: -1.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -26,8 +39,8 @@
 				type: "biome"
 			}]
 			title: "&6蘑菇岛"
-			x: 0.5d
-			y: -1.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2D5042D30F0E685D"]
@@ -71,29 +84,30 @@
 				type: "observation"
 			}]
 			title: "&2蘑菇君"
-			x: -1.0d
-			y: -1.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3D7427876018E5D5"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "03F588EEB89B59F1"
 			rewards: [{
 				id: "01978038C66371F6"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			size: 3.0d
 			tasks: [{
-				dimension: "minecraft:overworld"
-				disable_toast: true
-				icon: {
-					Count: 1b
-					id: "minecraft:diamond_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "1E91CF6DADC2436B"
-				type: "dimension"
+				id: "4084D6A2070149C6"
+				title: "主世界探险！"
+				type: "checkmark"
 			}]
 			title: "主世界探险！！！"
 			x: 2.0d
@@ -116,7 +130,7 @@
 				type: "advancement"
 			}]
 			x: 2.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4629B904519AB5C6"]
@@ -135,7 +149,7 @@
 				type: "advancement"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["03F588EEB89B59F1"]
@@ -160,7 +174,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["03F588EEB89B59F1"]
@@ -181,7 +195,7 @@
 				type: "observation"
 			}]
 			title: "&6紫晶洞！"
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -203,7 +217,7 @@
 				type: "observation"
 			}]
 			title: "&4不要挖掉它！！！"
-			x: -1.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -222,7 +236,7 @@
 				type: "item"
 			}]
 			title: "&e美妙的音乐！"
-			x: -2.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -242,8 +256,8 @@
 				type: "biome"
 			}]
 			title: "&1奇异恶地"
-			x: 3.5d
-			y: -1.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2F7D291600E73191"]
@@ -265,8 +279,8 @@
 				type: "observation"
 			}]
 			title: "他们&4到处都是"
-			x: 5.0d
-			y: -1.5d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["03F588EEB89B59F1"]
@@ -285,7 +299,7 @@
 				type: "structure"
 			}]
 			title: "&e天堂骑行者的战舰！"
-			x: 3.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -305,8 +319,90 @@
 				type: "observation"
 			}]
 			title: "我靠！&460滴血&r！"
-			x: 5.0d
+			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["03F588EEB89B59F1"]
+			id: "69AE12371E6B977D"
+			subtitle: "灾厄源头！"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:white_banner"
+					tag: {
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Color: 9
+									Pattern: "mr"
+								}
+								{
+									Color: 8
+									Pattern: "bs"
+								}
+								{
+									Color: 7
+									Pattern: "cs"
+								}
+								{
+									Color: 8
+									Pattern: "bo"
+								}
+								{
+									Color: 15
+									Pattern: "ms"
+								}
+								{
+									Color: 8
+									Pattern: "hh"
+								}
+								{
+									Color: 8
+									Pattern: "mc"
+								}
+								{
+									Color: 15
+									Pattern: "bo"
+								}
+							]
+							id: "minecraft:banner"
+						}
+						HideFlags: 32
+						display: {
+							Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+						}
+					}
+				}
+				id: "54E62B7D49FB7868"
+				structure: "idas:pillager_camp"
+				title: "邪恶营地！"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69AE12371E6B977D"]
+			id: "285E11D6C0306C72"
+			rewards: [{
+				id: "5B53BF4626FE20DD"
+				item: "minecraft:emerald"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				block: "minecraft:spawner"
+				block_type: 0
+				checkItem: false
+				id: "3F23B1920EE2DDEE"
+				title: "记得挖掉刷怪笼！"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "源源不断的源头（"
+			x: 2.0d
+			y: 3.5d
 		}
 	]
 	title: "主世界探险"

@@ -5,7 +5,7 @@
 	group: "7D0A1432AAAD0EBA"
 	icon: "vinery:wine_press"
 	id: "1872D574A69C3F64"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,8 +16,9 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
 			size: 2.0d
-			subtitle: "开始种植你的葡萄吧"
+			subtitle: "美味无需多盐"
 			tasks: [
 				{
 					id: "7DB29DC913A767D5"
@@ -30,32 +31,32 @@
 					type: "item"
 				}
 			]
+			title: "让我们开始吧"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
-			description: [
-				"用于压榨葡萄的木制容器，可在工作台中合成。"
-				"至少放入 6 个葡萄才可进行，方式是跳起来在 榨汁盆上踩三次。干净又卫生啊兄弟们 踩中时会有独特的音效。"
-			]
+			description: ["至少放入 6 个葡萄才可进行，方式是跳起来在 榨汁盆上踩三次。干净又卫生啊兄弟们 踩中时会有独特的音效。"]
 			id: "7943F4B92BD73CC3"
 			rewards: [{
 				id: "46FD39AF82B76CB5"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "干净又卫生啊兄弟们"
+			subtitle: "用于压榨葡萄的木制容器"
 			tasks: [{
 				id: "314858CAB5D462CA"
 				item: "vinery:grapevine_pot"
 				type: "item"
 			}]
+			title: "&4干净又卫生啊兄弟们"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
+			hide_dependent_lines: true
 			id: "13C898B81498C177"
 			rewards: [{
 				id: "437410B49B4986B3"
@@ -116,7 +117,7 @@
 			]
 			title: "储藏酒的好东西"
 			x: -2.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5EA0D911ED1989E6"]
@@ -170,7 +171,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
@@ -180,11 +181,13 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "装酒的玩意儿"
 			tasks: [{
 				id: "57F308E0B601D196"
 				item: "vinery:wine_bottle"
 				type: "item"
 			}]
+			title: "总感觉里面装了酒"
 			x: -0.5d
 			y: -2.0d
 		}
@@ -215,13 +218,14 @@
 				"611495D361621A62"
 				"7943F4B92BD73CC3"
 			]
-			description: ["手持酒瓶右键踩好的榨汁盆获得葡萄汁"]
+			description: [""]
 			id: "522C959D15ACAA3E"
 			rewards: [{
 				id: "5E4D371EBCC4A71E"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "手持酒瓶右键踩好的榨汁盆获得葡萄汁"
 			tasks: [{
 				id: "6B8394E32227E69E"
 				item: {
@@ -234,7 +238,7 @@
 				title: "Any #vinery:grapejuice"
 				type: "item"
 			}]
-			title: "获取葡萄汁"
+			title: "&e我的葡萄汁啊~飞啊飞~飞到了瓶子里~"
 			x: 0.0d
 			y: -3.5d
 		}
@@ -299,11 +303,10 @@
 			]
 			title: "酿酒师"
 			x: -2.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "7B7304F9500BC81A"
 			rewards: [{
 				id: "3C97204606E3E398"
@@ -326,7 +329,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "65DB4690273F88DB"
 			rewards: [{
 				id: "0552645D815076BE"
@@ -349,7 +351,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "1A4CD8075ED4283A"
 			rewards: [{
 				id: "0063656C61AE38C4"
@@ -372,7 +373,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "0E4F556290E2173A"
 			rewards: [{
 				id: "0A317703D7D18E08"
@@ -395,7 +395,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "77372C34971F993B"
 			rewards: [{
 				id: "635251DD85016E4E"
@@ -418,7 +417,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "422D0B14EFA2F759"
 			rewards: [{
 				id: "505161B03335E550"
@@ -441,7 +439,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "436A7C2C7D43C66F"
 			rewards: [{
 				id: "1E505511C8300E27"
@@ -464,7 +461,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "4ACE44B98DC97BF5"
 			rewards: [{
 				id: "05C46338212FFFB8"
@@ -487,7 +483,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "63DAD3CF52408157"
 			rewards: [{
 				id: "2F20DD018047EDB3"
@@ -511,7 +506,6 @@
 		{
 			dependencies: ["13C898B81498C177"]
 			dependency_requirement: "all_started"
-			hide_dependency_lines: true
 			id: "4DE9F7869D224684"
 			rewards: [{
 				id: "20DF7C68F1D19302"
@@ -534,7 +528,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "4DD2D5F95A0F8ECB"
 			rewards: [{
 				id: "798DB6B45F315FC5"
@@ -557,7 +550,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "35943235122034FD"
 			rewards: [{
 				id: "4F8611B4EAB873FE"
@@ -580,7 +572,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "4313943A9877A015"
 			rewards: [{
 				id: "41912952D3274E9A"
@@ -603,7 +594,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "689FF2457F30971B"
 			rewards: [{
 				id: "340C882EA8234CED"
@@ -626,7 +616,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "59CC19CF73488852"
 			rewards: [{
 				id: "135A8781C84E379E"
@@ -649,7 +638,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "35B7C73907D25336"
 			rewards: [{
 				id: "76299CDB845BB56C"
@@ -672,7 +660,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "5DA9885F0652ADF0"
 			rewards: [{
 				id: "06D6335FE6466367"
@@ -695,7 +682,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "2E328CB7A4E5F638"
 			rewards: [{
 				id: "3ED483800BCDDD9C"
@@ -718,7 +704,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "27B12C7294D4BF3E"
 			rewards: [{
 				id: "33CB424A017ECCD7"
@@ -741,7 +726,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "0AE7061A3F6E72FA"
 			rewards: [{
 				id: "5CFD6F91DC82843B"
@@ -764,7 +748,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "6FE4A0181929AF5D"
 			rewards: [{
 				id: "64457D3B225BE66E"
@@ -787,7 +770,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "5B4F1E7A5A50C2C8"
 			rewards: [{
 				id: "3DDA560B7893B60F"
@@ -810,13 +792,13 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "602510F89494FBC1"
 			rewards: [{
 				id: "5774CE525C8DF9DD"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "神奇的名字..."
 			tasks: [{
 				id: "49B06E7BECB7448F"
 				item: {
@@ -833,7 +815,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "2AF39D37AB5ABFE4"
 			rewards: [{
 				id: "35BC973719572D82"
@@ -859,7 +840,6 @@
 				"2AF39D37AB5ABFE4"
 				"13C898B81498C177"
 			]
-			hide_dependency_lines: true
 			id: "5ABD8948EB3B9E16"
 			rewards: [{
 				id: "2314453BC53ED96D"
@@ -882,7 +862,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "3016158AD4A52FFF"
 			rewards: [{
 				id: "410130295319F531"
@@ -908,7 +887,6 @@
 				"3016158AD4A52FFF"
 				"13C898B81498C177"
 			]
-			hide_dependency_lines: true
 			id: "5D5783C474042145"
 			rewards: [{
 				id: "1B4DC7AD2595E01A"
@@ -931,7 +909,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "736A1C65FF6DA138"
 			rewards: [{
 				id: "4ABBEE6EE7B36398"
@@ -954,7 +931,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "0D4A628B0B7CF742"
 			rewards: [{
 				id: "3E9CEC39D6939AAB"
@@ -977,7 +953,6 @@
 		}
 		{
 			dependencies: ["13C898B81498C177"]
-			hide_dependency_lines: true
 			id: "0321BFD1060D2856"
 			rewards: [{
 				id: "1F6F33E9FBE94B12"
@@ -1014,7 +989,7 @@
 				type: "item"
 			}]
 			title: "改良篝火"
-			x: 2.0d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -1031,8 +1006,8 @@
 				item: "vinery:basket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0295DFC67A8CF4B9"]
@@ -1055,7 +1030,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -1066,14 +1041,15 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "改良的葡萄架（悄悄告诉你这玩意会自己放下来．．．）"
+			subtitle: "下界葡萄架（悄悄告诉你这玩意会自己放下来...）"
 			tasks: [{
 				id: "4B2BB0FB16BBA84B"
 				item: "nethervinery:obsidian_stem"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			title: "充满了bug 的letdo系列..."
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["186C8F9674316FC2"]
@@ -1083,14 +1059,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "珍藏你的名酒"
 			tasks: [{
 				id: "485A07B3A4C52473"
 				item: "vinery:wine_box"
 				type: "item"
 			}]
+			title: "珍藏你的名酒！"
 			x: -4.0d
-			y: -1.0d
+			y: -1.5d
 		}
 	]
 	title: "&e酿酒大师"
