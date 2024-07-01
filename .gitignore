@@ -55,3 +55,4 @@ log4j2.xml
 /config/jei/world/local/bookmarks.ini
 modpack.cfg
 *.bat
+/immersive_paintings_cache

@@ -12,8 +12,6 @@ ServerEvents.recipes(e => {
         "ad_astra:water_pump",
         "ad_astra:nasa_workbench",
         "ad_astra:wrench",
-        "ad_astra:rocket_nose_cone",
-        "ad_astra:rocket_fin",
         'ad_astra:steel_plate'
     ])
     remove_recipes_id(e, [
@@ -27,10 +25,6 @@ ServerEvents.recipes(e => {
         "ad_astra:recipes/steel_block",
         "ad_astra:recipes/steel_ingot",
         "ad_astra:recipes/engine_frame",
-        "ad_astra:recipes/steel_tank",
-        "ad_astra:recipes/steel_engine",
-        "ad_astra:recipes/desh_tank",
-        "ad_astra:recipes/desh_engine",
         "ad_astra:recipes/ostrum_tank",
         "ad_astra:recipes/ostrum_engine",
         "ad_astra:recipes/calorite_tank",
