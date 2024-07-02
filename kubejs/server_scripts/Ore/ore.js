@@ -13,8 +13,7 @@ ServerEvents.recipes(e => {
             "fluid": "minecraft:lava",
             "nbt": {}
         },
-        "name": "{\"translate\":\"item.createoreexcavation.ancient_debris\"}",
-        "neverFinite": false,
+        "name": "{\"translate\":\"item.createdelight.ancient_debris\"}",
         "output": [
             {
                 "item": "minecraft:ancient_debris"
@@ -38,7 +37,7 @@ ServerEvents.recipes(e => {
         "drill": {
             "tag": "createoreexcavation:drills"
         },
-        "name": "{\"translate\":\"item.createoreexcavation.lapis_lazuli\"}",
+        "name": "{\"translate\":\"item.createdelight.lapis_lazuli\"}",
         "output": [
             {
                 "item": "minecraft:lapis_lazuli"

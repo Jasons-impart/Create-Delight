@@ -264,6 +264,17 @@
 			x: 7.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["13761553F15A2C1A"]
+			id: "0A4E75FEB16DDA8A"
+			tasks: [{
+				id: "4554D969B601AC4E"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
 	]
 	title: "&e矿物再生！"
 }

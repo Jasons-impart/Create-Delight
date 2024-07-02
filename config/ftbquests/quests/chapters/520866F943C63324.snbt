@@ -318,12 +318,6 @@
 		{
 			dependencies: ["2AB9328525516246"]
 			id: "4A45C1A5D43830B0"
-			rewards: [{
-				count: 10
-				id: "18888CE8144EA5D7"
-				item: "aether_redux:vanilla_swet_jelly"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7C2342EBE1CECC42"
 				item: "aether:incubator"
@@ -426,11 +420,6 @@
 		{
 			dependencies: ["702B9C1B1BD9CD72"]
 			id: "03BA60B6AE091A76"
-			rewards: [{
-				id: "373832C114452B8E"
-				item: "alloyed:bronze_ingot"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "aether:bronze_dungeon_key"
 				id: "09DA3F233B2C005C"
@@ -444,11 +433,6 @@
 		{
 			dependencies: ["702B9C1B1BD9CD72"]
 			id: "081AF443C94BC32D"
-			rewards: [{
-				id: "03EBEA566DEBF139"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "aether:gold_dungeon_key"
 				id: "3E12FFC9130A4EAC"
@@ -463,12 +447,6 @@
 			dependencies: ["702B9C1B1BD9CD72"]
 			icon: "aether:silver_dungeon_key"
 			id: "7D0B8832D2CA2F3E"
-			rewards: [{
-				id: "66D27E6722326F79"
-				item: "quark:white_rune"
-				title: "这就是白银（叉腰）"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "aether:silver_dungeon_key"
 				id: "39C1D6E9AE618800"
@@ -483,11 +461,6 @@
 			dependencies: ["7D0B8832D2CA2F3E"]
 			description: ["武神族神庙有三层构造，每一层内部均由众多小室组成，小室中放置着奖励箱；楼层之间有旋转式楼梯相连接。玩家会在每一层中遇见众多休憩的女武神。在到达顶层后使用另一面楼梯下降到底层，便可来到武神女王的圣殿大厅。玩家需先击败神庙中的女武神拿到十枚胜利奖牌，方可取得挑战武神女王的资格。"]
 			id: "4887FF77C235ECD8"
-			rewards: [{
-				id: "72FE379901E6C677"
-				item: "aether_redux:valkyrie_ring"
-				type: "item"
-			}]
 			tasks: [{
 				count: 10L
 				id: "43845BB9C1A9F676"
@@ -500,17 +473,6 @@
 		{
 			dependencies: ["4887FF77C235ECD8"]
 			id: "05D367B52FA05AB0"
-			rewards: [{
-				id: "5159A703473839BA"
-				item: {
-					Count: 1b
-					id: "aether:valkyrie_gloves"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				id: "1EAE78DB30292C78"
@@ -533,17 +495,6 @@
 				"滑行魔石被摧毁后，房间会重新开启，且平台下的暗格会显露出来，玩家可以在暗格中找到藏宝箱。"
 			]
 			id: "0727029C7E2775A4"
-			rewards: [{
-				id: "630EEF9257C6082A"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "211129BFA45B01D9"
 				type: "checkmark"
@@ -554,56 +505,6 @@
 		{
 			dependencies: ["0727029C7E2775A4"]
 			id: "7D77128CD013BBD8"
-			rewards: [
-				{
-					count: 16
-					id: "7EACCD95BCEBDFD7"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0967A890A6E94EF6"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "11B2F26FF0A469ED"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "109854DDE9C7B622"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "2CFA873A8A251CD2"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "640B39BBAD8D1CD6"
-					item: "minecraft:coal"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "290FBC53697DA552"
-					item: "minecraft:emerald"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "2763C819272328CE"
-					item: "minecraft:ancient_debris"
-					type: "item"
-				}
-			]
 			tasks: [{
 				entity: "aether:slider"
 				id: "090B16DEBCB63B05"
@@ -622,11 +523,6 @@
 				"烈阳巨灵会发射两种晶体球，它们发射后会在房间内四处弹跳，一段时间后破碎。略显红色的为滚炎球，被命中会造成伤害和爆炸，一定概率点燃玩家，可以被攻击打碎；白色泛蓝者为冰结球，击中玩家会造成小额伤害，受到玩家攻击后会改变轨迹向攻击方向较快地飞出，撞击实体或方块后破碎。在场地内四处漂浮的冰结球是玩家仅有的伤害烈阳巨灵的手段，冰结球被打飞后，如果命中烈阳巨灵，则烈阳巨灵会受到一瞬间的冷冻伤害，血量减少十分之一。"
 			]
 			id: "1D8AF34035A1E374"
-			rewards: [{
-				id: "4CD03C067A20093B"
-				item: "aether:skyroot_water_bucket"
-				type: "item"
-			}]
 			tasks: [{
 				id: "21D2C37D191CB193"
 				type: "checkmark"
@@ -637,12 +533,6 @@
 		{
 			dependencies: ["1D8AF34035A1E374"]
 			id: "4EFE92DB56DB9BC5"
-			rewards: [{
-				count: 5
-				id: "46EE678EAD757272"
-				item: "nethersdelight:magma_gelatin"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "aether:sun_spirit"
 				id: "729F1844F2C8ECDA"
@@ -660,10 +550,9 @@
 			]
 			id: "58E58FC1CF51777B"
 			rewards: [{
-				count: 5
-				id: "59DDF9DD5EEAC44C"
+				id: "7787123DE763CA5D"
 				item: "aether:life_shard"
-				random_bonus: 5
+				random_bonus: 9
 				type: "item"
 			}]
 			tasks: [{
