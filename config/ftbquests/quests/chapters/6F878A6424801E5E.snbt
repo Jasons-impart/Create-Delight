@@ -2107,25 +2107,11 @@
 				"4BF5D56BF3883EDA"
 			]
 			id: "395E7DB5ED9D326E"
-			rewards: [
-				{
-					id: "3D432A0E3BB5754B"
-					item: {
-						Count: 1b
-						id: "candlelight:cooking_hat"
-						tag: {
-							Damage: 0
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3039EEE2685FEB81"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "3039EEE2685FEB81"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "449087F9F29AA443"
 				item: "extradelight:breading_misanplas"
@@ -2344,25 +2330,11 @@
 		{
 			dependencies: ["375F11D3C310F0A3"]
 			id: "4B1184FD713F8A87"
-			rewards: [
-				{
-					id: "2DDE13B5A085DE61"
-					item: {
-						Count: 1b
-						id: "candlelight:chefs_boots"
-						tag: {
-							Damage: 0
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "54E7E65B2A19656F"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "54E7E65B2A19656F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "43C7907B030CF829"
 				item: "extradelight:jelly_magenta_block_item"
@@ -2650,19 +2622,11 @@
 		{
 			dependencies: ["4D60541DC7BC99C6"]
 			id: "136A6577DE05F5B0"
-			rewards: [
-				{
-					count: 9
-					id: "4FE89E19DFF08EB2"
-					item: "beachparty:coconut"
-					type: "item"
-				}
-				{
-					id: "63304D6E1104DF78"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "63304D6E1104DF78"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4BDFC1896C929CF3"
 				item: "alexsdelight:lobster_pasta"
