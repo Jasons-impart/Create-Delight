@@ -1,0 +1,18 @@
+{
+    "type": "createoreexcavation:drilling",
+    "amountMax": 30.0,
+    "amountMin": 10.0,
+    "biomeWhitelist": "createdelight:has_ostrum",
+    "drill": {
+        "tag": "createoreexcavation:drills"
+    },
+    "name": "{\"translate\":\"item.ad_astra.raw_ostrum\"}",
+    "output": [
+        {
+            "item": "ad_astra:raw_ostrum"
+        }
+    ],
+    "stress": 256,
+    "ticks": 600,
+    "weight": 10
+}

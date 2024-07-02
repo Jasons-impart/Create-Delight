@@ -1,0 +1,18 @@
+{
+    "type": "createoreexcavation:drilling",
+    "amountMax": 30.0,
+    "amountMin": 10.0,
+    "biomeWhitelist": "createdelight:has_astrumm",
+    "drill": {
+        "tag": "createoreexcavation:drills"
+    },
+    "name": "{\"translate\":\"item.ulterlands.astrumm\"}",
+    "output": [
+        {
+            "item": "ulterlands:astrumm"
+        }
+    ],
+    "stress": 256,
+    "ticks": 600,
+    "weight": 10
+}

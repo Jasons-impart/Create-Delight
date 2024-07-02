@@ -7,7 +7,7 @@ importantInfo = true
 generationChance = 5000
 #Finite vein base amount
 #Range: > 1
-finiteAmountBase = 1000
+finiteAmountBase = 5000
 #Veins infinite by default
 defaultInfinite = false
 #Max number of extractor per ore vein, Set to 0 for infinite
