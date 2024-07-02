@@ -498,11 +498,6 @@
 			id: "6B28062ECC1DE6AB"
 			rewards: [
 				{
-					id: "2124F3527DDE7EE6"
-					item: "createdieselgenerators:biodiesel_bucket"
-					type: "item"
-				}
-				{
 					id: "677561EB57F7AADA"
 					item: "createdieselgenerators:diesel_bucket"
 					type: "item"

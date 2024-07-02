@@ -1249,10 +1249,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"74F81A8C4757CD08"
-				"182095AB6BCF39FB"
-			]
+			dependencies: ["74F81A8C4757CD08"]
 			id: "59D650BAA0D2803C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2485,8 +2482,6 @@
 		{
 			dependencies: ["54E9D8443D877CB9"]
 			id: "7B8DE65704FC24C1"
-			invisible: true
-			invisible_until_tasks: 1
 			tasks: [{
 				id: "14AC3D89568E753E"
 				item: "createbigcannons:basin_foundry_lid"

@@ -213,9 +213,8 @@ ServerEvents.recipes(e => {
     e.recipes.create.mixing(
         Fluid.of('createdelight:fuel_mixtures', 1000),
         [
-            Fluid.of("createdieselgenerators:gasoline", 200),
-            Fluid.of("createdieselgenerators:biodiesel", 100),
-            Fluid.of("createdieselgenerators:diesel", 200)
+            Fluid.of("createdieselgenerators:gasoline", 100),
+            Fluid.of("createdieselgenerators:diesel", 100)
         ]
     ).id("ad_astra:recipes/fuel_mixtures")
     e.custom({
