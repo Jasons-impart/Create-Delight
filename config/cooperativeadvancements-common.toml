@@ -1,8 +1,0 @@
-
-#Common Configuration
-[options]
-	# Enables the entire mod (defaults to true).  Useful option for modpack makers.
-	enabled = true
-	# Set to true to only share advancements between members of the same team.
-	per_team = false
-
