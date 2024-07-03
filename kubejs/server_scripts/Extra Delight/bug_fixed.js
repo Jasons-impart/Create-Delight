@@ -24,3 +24,7 @@ ServerEvents.recipes(e => {
     )
     .id("extradelight:baking_stone")
 })
+LootJS.modifiers(e => {
+    e.addBlockLootModifier("extradelight:corn_bottom")
+        .replaceLoot("extradelight:corn_seeds", "culturaldelights:corn_kernels")
+})
