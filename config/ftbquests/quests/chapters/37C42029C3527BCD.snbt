@@ -97,8 +97,8 @@
 				item: "createoreexcavation:raw_diamond"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -108,8 +108,8 @@
 				item: "createoreexcavation:raw_redstone"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -119,8 +119,8 @@
 				item: "createoreexcavation:raw_emerald"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -130,8 +130,8 @@
 				item: "minecraft:raw_gold"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -141,8 +141,8 @@
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -152,8 +152,8 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -163,8 +163,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -174,8 +174,8 @@
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -185,8 +185,8 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -196,8 +196,8 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -207,33 +207,33 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["2B12933D878CAF26"]
+			dependencies: ["13761553F15A2C1A"]
 			id: "17675FEFDD5314FA"
 			tasks: [{
 				id: "606CE56CAC06075A"
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["2B12933D878CAF26"]
+			dependencies: ["13761553F15A2C1A"]
 			id: "3BD3D20732F7C589"
 			tasks: [{
 				id: "7A17E40EB2DE8A29"
 				item: "ad_astra:raw_calorite"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -0.5d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["2B12933D878CAF26"]
+			dependencies: ["13761553F15A2C1A"]
 			id: "50F3B771B04DA8AC"
 			tasks: [{
 				id: "0704BDC2621CC5CE"
@@ -241,28 +241,18 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["2B12933D878CAF26"]
+			dependencies: ["13761553F15A2C1A"]
 			id: "6834EE3CBBA045F3"
 			tasks: [{
 				id: "11274012D2A21CD1"
 				item: "ulterlands:astrumm"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.5d
-		}
-		{
-			id: "2B12933D878CAF26"
-			tasks: [{
-				id: "6980135F8D4B533A"
-				title: "未来计划加入"
-				type: "checkmark"
-			}]
 			x: 7.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["13761553F15A2C1A"]
@@ -272,8 +262,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 6.5d
+			y: 0.0d
 		}
 	]
 	title: "&e矿物再生！"
