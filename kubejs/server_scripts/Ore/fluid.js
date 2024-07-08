@@ -5,14 +5,14 @@ ServerEvents.recipes(e => {
         .id("createoreexcavation:oil")
         .drill("createoreexcavation:diamond_drill")
         .stress(512)
-        .veinSize(3, 8.5)
+        .veinSize(6, 10)
     // 凛冰燃油开采
     e.recipes.createoreexcavation.extracting("ad_astra:cryo_fuel 100", "{\"text\":\"富凛冰石油层\"}", 100, 1500)
         .biomeWhitelist("createdelight:has_cryo_fuel")
         .id("createoreexcavation:cryo_fuel_oil")
         .drill("createoreexcavation:netherite_drill")
         .stress(1024)
-        .veinSize(3, 8.5)
+        .veinSize(3, 8)
 })
 
 ServerEvents.tags("minecraft:worldgen/biome", e => {

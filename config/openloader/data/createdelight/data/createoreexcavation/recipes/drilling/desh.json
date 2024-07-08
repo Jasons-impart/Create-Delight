@@ -1,7 +1,7 @@
 {
     "type": "createoreexcavation:drilling",
-    "amountMax": 30.0,
-    "amountMin": 10.0,
+    "amountMax": 8,
+    "amountMin": 3,
     "biomeWhitelist": "createdelight:has_desh",
     "drill": {
         "tag": "createoreexcavation:drills"
@@ -10,9 +10,13 @@
     "output": [
         {
             "item": "ad_astra:raw_desh"
+        },
+        {
+            "chance": 0.1,
+            "item": "ad_astra:raw_desh"
         }
     ],
     "stress": 256,
-    "ticks": 600,
+    "ticks": 1000,
     "weight": 10
 }
