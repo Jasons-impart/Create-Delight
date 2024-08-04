@@ -19,18 +19,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "美味无需多盐"
-			tasks: [
-				{
-					id: "7DB29DC913A767D5"
-					item: "vinery:grapevine_lattice"
-					type: "item"
-				}
-				{
-					id: "0F5A338B77621A5D"
-					item: "vinery:grapevine_stem"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7DB29DC913A767D5"
+				item: "vinery:grapevine_lattice"
+				type: "item"
+			}]
 			title: "让我们开始吧"
 			x: 0.0d
 			y: 0.0d
@@ -1032,24 +1025,6 @@
 			]
 			x: 2.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["0295DFC67A8CF4B9"]
-			id: "499CBC16F909A016"
-			rewards: [{
-				id: "51211AF5D518C481"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "下界葡萄架（悄悄告诉你这玩意会自己放下来...）"
-			tasks: [{
-				id: "4B2BB0FB16BBA84B"
-				item: "nethervinery:obsidian_stem"
-				type: "item"
-			}]
-			title: "充满了bug 的letdo系列..."
-			x: 1.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["186C8F9674316FC2"]

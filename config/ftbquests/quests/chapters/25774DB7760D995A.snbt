@@ -150,13 +150,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "可以横向放置并可以染色的储罐"
+			subtitle: "可以横向放置并可以染色的储罐，可防止燃料爆炸！"
 			tasks: [{
 				id: "5D0A31B3D6998592"
 				item: "createdieselgenerators:oil_barrel"
 				type: "item"
 			}]
-			title: "流体储罐进阶版！"
+			title: "避免爆炸！"
 			x: -1.5d
 			y: -5.5d
 		}

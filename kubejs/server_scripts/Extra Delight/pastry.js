@@ -33,7 +33,7 @@ ServerEvents.recipes(e => {
     // 酥皮
     let iner = "createdelight:oil_dough_with_butter"
     e.recipes.create.sequenced_assembly(
-        'createdelight:puff_pastry',
+        '2x createdelight:puff_pastry',
         'createdelight:oil_dough', [
             e.recipes.create.deploying(iner, [iner, "extradelight:butter"]),
             e.recipes.create.pressing(iner, iner)

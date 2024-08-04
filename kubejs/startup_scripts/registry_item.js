@@ -6,6 +6,7 @@ StartupEvents.registry('item', e => {
         .group("create_delight")
         .tag("forge:ingots/raw_steel")
         .rarity("common")
+        .tooltip(Text.translate("tooltip.createdelight.raw_steel_ingot"))
     // 锤炼中的粗钢锭
     e.create("createdelight:hammering_raw_steel_ingot")
         .maxStackSize(64)

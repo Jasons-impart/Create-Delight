@@ -23,6 +23,37 @@ ServerEvents.recipes(e => {
         'minecraft:smooth_stone_slab'
     )
     .id("extradelight:baking_stone")
+    // 奶油相关合成
+    e.recipes.create.mixing(
+        Fluid.of("createdelight:whipped_cream", 50),
+        Fluid.of("minecraft:milk", 50)
+    ).id("extradelight:whipped_cream")
+    e.recipes.create.filling(
+        'extradelight:whipped_cream',
+        [
+            Fluid.of("createdelight:whipped_cream", 250),
+            "bowl"
+        ]
+    ).id("extradelight:filling/whipped_cream")
+    e.recipes.create.emptying(
+        [
+            Fluid.of("createdelight:whipped_cream", 250),
+            "bowl"
+        ],
+        'extradelight:whipped_cream',
+    ).id("extradelight:emptying/whipped_cream")
+    // 黄油合成
+    e.recipes.create.mixing(
+        [
+            "extradelight:butter",
+            "minecraft:bowl"
+        ],
+        'extradelight:whipped_cream'
+    ).id("extradelight:butter_from_cream")
+    e.recipes.create.mixing(
+        "extradelight:butter",
+        Fluid.of("createdelight:whipped_cream", 250)
+    ).id("extradelight:butter_from_whipped_cream")
 })
 LootJS.modifiers(e => {
     e.addBlockLootModifier("extradelight:corn_bottom")

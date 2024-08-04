@@ -28,6 +28,15 @@ ServerEvents.recipes(e => {
             .withChance(0.12)
     ], 'ad_astra:mars_iron_ore')
     e.recipes.create.crushing([
+        "create:crushed_raw_iron",
+        Item.of('create:crushed_raw_iron')
+            .withChance(0.75),
+        Item.of('create:experience_nugget')
+            .withChance(0.75),
+        Item.of('ad_astra:mercury_cobblestone')
+            .withChance(0.12)
+    ], 'ad_astra:mercury_iron_ore')
+    e.recipes.create.crushing([
         'minecraft:coal',
         Item.of('minecraft:coal')
             .withChance(0.75),

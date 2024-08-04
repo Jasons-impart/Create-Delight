@@ -1,6 +1,7 @@
 {
     "entity.minecraft.villager.butchercraft.slaughter_profession": "屠夫",
     "item.createdelight.raw_steel_ingot": "粗钢锭",
+    "tooltip.createdelight.raw_steel_ingot": "注入岩浆后锤炼进行纯化",
     "item.createdelight.hammering_raw_steel_ingot": "锤炼中的粗钢锭",
     "item.createdelight.potato_stew_beef": "土豆加牛肉",
     "item.createdelight.unactivated_wither_eye": "未激活的凋零之眼",
@@ -32,6 +33,9 @@
     "fluid.createdelight.fuel_mixtures": "混合燃料",
     "block.createdelight.fuel_mixtures": "混合燃料",
     "item.createdelight.fuel_mixtures_bucket": "混合燃料桶",
+    "fluid.createdelight.whipped_cream":"鲜奶油",
+    "block.createdelight.whipped_cream":"鲜奶油",
+    "item.createdelight.whipped_cream_bucket":"鲜奶油桶",
     "item.createdelight.incomplete_alternator": "未完成的交流发电机",
     "item.createdelight.incomplete_diesel_engine": "未完成的柴油引擎",
     "item.createdelight.incomplete_electric_motor": "未完成的电动马达",

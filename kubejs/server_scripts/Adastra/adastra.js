@@ -211,12 +211,19 @@ ServerEvents.recipes(e => {
     }).id('ad_astra:recipes/calorite_engine')
     // 混合燃料
     e.recipes.create.mixing(
-        Fluid.of('createdelight:fuel_mixtures', 1000),
+        Fluid.of('createdelight:fuel_mixtures', 10),
         [
-            Fluid.of("createdieselgenerators:gasoline", 100),
-            Fluid.of("createdieselgenerators:diesel", 100)
+            Fluid.of("createdieselgenerators:gasoline", 10),
+            Fluid.of("createdieselgenerators:diesel", 10)
         ]
     ).id("ad_astra:recipes/fuel_mixtures")
+    e.recipes.create.mixing(
+        Fluid.of('createdelight:fuel_mixtures', 20),
+        [
+            Fluid.of("createdieselgenerators:gasoline", 20),
+            Fluid.of('createdieselgenerators:biodiesel', 30)
+        ]
+    ).id("ad_astra:sub_recipes/fuel_mixtures")
     e.custom({
         "type": "ad_astra:fuel_conversion",
         "input": "createdelight:fuel_mixtures",
