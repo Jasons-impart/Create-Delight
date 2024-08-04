@@ -70,7 +70,7 @@
 
 ## Agriculture
 
-1. [农夫乐事（Farmer's Delight）]
+1. [农夫乐事（Farmer's Delight）](https://www.mcmod.cn/class/2820.html)
 
     * [Alex乐事（Alex&apos;s Delight](https://www.mcmod.cn/class/5565.html)  >同见于Alex的生物（Alex's Mobs）附属
     * [饮酒作乐（Brewin&apos; And Chewin&apos;）](https://www.mcmod.cn/class/6829.html)
