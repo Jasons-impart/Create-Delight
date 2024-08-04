@@ -1,42 +1,30 @@
 let tooltips = [
-    ["cgm:workbench", "§4请不要拿出来,会崩溃!!!", "§4Please don't take it out, it will collapse!!!"],
-    ["vinery:cherry_boat", "§4请不要拿出来,会崩溃!!!", "§4Please don't take it out, it will collapse!!!"],
-    ["vinery:cherry_chest_boat", "§4请不要拿出来,会崩溃!!!", "§4Please don't take it out, it will collapse!!!"],
-    ["vinery:grapevine_stem", "§4请不要拿出来,会崩溃!!!", "§4Please don't take it out, it will collapse!!!"],
-    ["nethervinery:obsidian_stem", "§4请不要拿出来,会崩溃!!!", "§4Please don't take it out, it will collapse!!!"],
+    ["cgm:workbench", "§l§4请不要拿出来, 会崩溃!!!", "§l§4Please don't take it out, it will collapse!!!"],
+    ["vinery:cherry_boat", "§l§4请不要拿出来, 会崩溃!!!", "§l§4Please don't take it out, it will collapse!!!"],
+    ["vinery:cherry_chest_boat", "§l§4请不要拿出来, 会崩溃!!!", "§l§4Please don't take it out, it will collapse!!!"],
+    ["vinery:grapevine_stem", "§l§4请不要拿出来, 会崩溃!!!", "§l§4Please don't take it out, it will collapse!!!"],
+    ["nethervinery:obsidian_stem", "§l§4请不要拿出来, 会崩溃!!!", "§l§4Please don't take it out, it will collapse!!!"],
+    ["alloyed:steel_ingot", "§6可以在有工作盆铸造盖的工作盆里采用超级加热合成熔融钢!!", "§6Super heated synthetic molten steel can be used in a working basin with a working basin casting lid!!"],
+    ["brewinandchewin:keg", "§e周围放置营火以增加温度,放置冰块以降低温度", "§ePlace a campfire around to increase the temperature and ice cubes to lower the temperature"],
+    ["createdieselgenerators:oil_barrel", "§6可以防止燃料爆炸", "§6Can prevent fuel explosion"],
+    ["createdelight:raw_steel_ingot", "§6注入岩浆后锤炼进行纯化", "§6Inject magma and press it for purification"],
+    ["ratatouille:frozen_block", "§b可冷却周围一格以内的物品", "§bCools down items within one block of the area"],
+    ['createdieselgenerators:distillation_controller', "§a每个储罐都需要一个", "§aOne is needed for each tank"],
+    ['farmersdelight:ham', "§4目前只能通过用刀杀死疣猪兽来获得,或人工制作一个", "§4Currently it can only be obtained by killing a hoglin with a knife, or crafting one"]
 ]
-ItemEvents.tooltip(e => {
-    for (let i = 0; i < tooltips.length(); i++){
-        e.add(tooltips[i][0], Text.translate(`${tooltips[i][0]}`))
-    }
+tooltips.forEach (([key, zh_cn, en_us]) => {
+    // 添加 key
+    ItemEvents.tooltip (e => {
+        e.add(key, Text.translate(key))
+    })
+
+    // 添加简体中文本地化
+    ClientEvents.lang ("zh_cn", e => {
+        e.add(key, zh_cn)
+    })
+
+    // 添加英文本地化
+    ClientEvents.lang ("en_us", e => {
+        e.add(key, en_us)
+    })
 })
-
-ClientEvents.lang("zh_cn", e => {
-    for (let z = 0; z < tooltips.length(); z++){
-        e.add(`${tooltips[z][0]}`, tooltips[z][1])
-    }
-})
-
-ClientEvents.lang("en_us", e => {
-    for (let u = 0; u < tooltips.length(); u++){
-        e.add(`${tooltips[u][0]}`, tooltips[u][2])
-    }
-})
-
-
-
-
-
-
-
-
-// ItemEvents.tooltip(e => {
-//     // e.add('cgm:workbench', Text.translate("tooltip.cgm.workbench"))
-//     // e.add('vinery:cherry_boat', Text.translate("tooltip.vinery.cherry_boat"))
-//     // e.add('vinery:cherry_chest_boat', Text.translate("tooltip.vinery.cherry_chest_boat"))
-//     // e.add('vinery:grapevine_stem', Text.translate("tooltip.vinery.grapevine_stem"))
-//     // e.add('nethervinery:obsidian_stem', Text.translate("tooltip.nethervinery.obsidian_stem"))
-//     e.add('alloyed:steel_ingot', Text.translate("tooltip.alloyed.steel_ingot"))
-//     e.add('brewinandchewin:keg', Text.translate("tooltip.brewinandchewin.keg"))
-//     e.add('createdieselgenerators:oil_barrel', Text.translate("tooltip.createdieselgenerators.oil_barrel"))
-// })

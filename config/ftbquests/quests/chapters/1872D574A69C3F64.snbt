@@ -63,7 +63,7 @@
 				item: "vinery:fermentation_barrel"
 				type: "item"
 			}]
-			title: "开始酿酒"
+			title: "陈年葡萄酒！"
 			x: 2.5d
 			y: 0.0d
 		}

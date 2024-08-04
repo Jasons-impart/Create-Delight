@@ -5,19 +5,6 @@
 	group: "0E7AEC0D0D9C1B1C"
 	icon: "minecraft:grass_block"
 	id: "09B25267E61BEA9F"
-	images: [{
-		alpha: 100
-		click: ""
-		corner: false
-		dev: false
-		height: 10.0d
-		hover: [ ]
-		image: "supplementaries:items/altimeter/minecraft_overworld"
-		rotation: 0.0d
-		width: 10.0d
-		x: 4.0d
-		y: -1.0d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

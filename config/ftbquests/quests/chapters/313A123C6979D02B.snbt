@@ -1531,14 +1531,18 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1FC0F9A8F53A97AF"]
+			dependencies: [
+				"1FC0F9A8F53A97AF"
+				"6E548E73843D4F9A"
+			]
+			description: ["使用脱模机进行脱模(&4不用抹油!&r)"]
 			id: "5F28D0293B01B5D3"
 			rewards: [{
 				id: "747914B0093CC820"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "一定一定记得抹油("
+			subtitle: "一定一定记得抹油(bushi)"
 			tasks: [{
 				id: "1B6AA25756ABF0E1"
 				item: "ratatouille:chocolate_mold_solid"
@@ -1602,6 +1606,17 @@
 				type: "item"
 			}]
 			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FC0F9A8F53A97AF"]
+			id: "6E548E73843D4F9A"
+			tasks: [{
+				id: "2586657E7FFD5E8A"
+				item: "ratatouille:frozen_block"
+				type: "item"
+			}]
+			x: 12.5d
 			y: 0.5d
 		}
 	]

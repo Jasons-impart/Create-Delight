@@ -132,7 +132,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "石油化工！（超简易版）"
+			subtitle: "石油化工！（超简易版）每个储罐都需要一个哦！"
 			tasks: [{
 				id: "1655851A0A133560"
 				item: "createdieselgenerators:distillation_controller"

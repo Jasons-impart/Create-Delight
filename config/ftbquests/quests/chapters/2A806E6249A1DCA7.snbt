@@ -12,6 +12,11 @@
 			dependencies: ["34D9D292CE6F683E"]
 			icon: "fruitsdelight:lychee"
 			id: "08FD4AD67AD3D19E"
+			rewards: [{
+				id: "6DA6FBB417A7451F"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "果栈丰盈"
 			tasks: [{
 				id: "024FD0EC5D519DB8"
@@ -29,6 +34,11 @@
 				"在&4秋季&r收获。"
 			]
 			id: "43D20AFE4D13389F"
+			rewards: [{
+				id: "3891A6A378174A4A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7F92331C061AFCFC"
 				item: "minecraft:apple"
@@ -45,6 +55,11 @@
 				"是烹饪冰糖雪梨、梨汁、梨子果酱和烤梨的原料之一。"
 			]
 			id: "60A76054159A37F7"
+			rewards: [{
+				id: "2770636513A8A92E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "53A69FA2DB5CF273"
 				item: "fruitsdelight:pear"
@@ -60,6 +75,11 @@
 				"在&4冬季&r收获。"
 			]
 			id: "0063494FD35EF1DE"
+			rewards: [{
+				id: "79A270158A99D91C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6768F71743BA80F1"
 				item: "fruitsdelight:hawberry"
@@ -75,6 +95,11 @@
 				"在&4夏季&r收获。"
 			]
 			id: "1F65F7E3A19CA174"
+			rewards: [{
+				id: "6EBBB71D8AB9DD96"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "753AA597E2E60D62"
 				item: "fruitsdelight:mango"
@@ -90,6 +115,11 @@
 				"在&4冬季&r收获。"
 			]
 			id: "3848C15C02538184"
+			rewards: [{
+				id: "244445E783401118"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3C4D413AFF543E18"
 				item: "fruitsdelight:persimmon"
@@ -105,6 +135,11 @@
 				"在&4春季&r收获。"
 			]
 			id: "07886F18ABB7C8D1"
+			rewards: [{
+				id: "5D751EDC1FEC5A6A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "72564063541AAF49"
 				item: "fruitsdelight:peach"
@@ -120,6 +155,11 @@
 				"在&4秋季&r收获。"
 			]
 			id: "7EE6074FA3805A00"
+			rewards: [{
+				id: "07AF948CDD5E253E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "358377D636EA4E59"
 				item: "fruitsdelight:orange"
@@ -135,6 +175,11 @@
 				"在&4夏季&r收获。"
 			]
 			id: "1CD404F45F375D7E"
+			rewards: [{
+				id: "3B4ED88E290DE0FF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0C0BF2464140BE06"
 				item: "fruitsdelight:mangosteen"
@@ -150,6 +195,11 @@
 				"在&4秋季&r收获"
 			]
 			id: "25C77A4F65494D2A"
+			rewards: [{
+				id: "5C2DB668B57C47CA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "43FDEB3499F228C4"
 				item: "fruitsdelight:cranberry"
@@ -168,6 +218,11 @@
 				"在&4春季&r收获。"
 			]
 			id: "0127B9E281D268BF"
+			rewards: [{
+				id: "7687C54875C4BD7D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "28DFB858D2E0617D"
 				item: "fruitsdelight:blueberry"
@@ -183,6 +238,11 @@
 				"在&4夏季&r收获"
 			]
 			id: "2532FCB37BA9E159"
+			rewards: [{
+				id: "7A5C76F29A4633D0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "59F56E1A2A4A486F"
 				item: "fruitsdelight:hamimelon_slice"
@@ -194,6 +254,11 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			id: "326F31C128FA35F7"
+			rewards: [{
+				id: "4E14B7C590A11635"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "491F6CC83D8A0BA8"
 				item: "minecraft:melon_slice"
@@ -211,6 +276,11 @@
 				"在&4夏季&r收获"
 			]
 			id: "59A6B34D8607FD6A"
+			rewards: [{
+				id: "39DB6648D8B9C2AA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6136E372191F2637"
 				item: "fruitsdelight:pineapple"
@@ -227,6 +297,11 @@
 				"在&4夏季&r收获。"
 			]
 			id: "0D00E629D80816CF"
+			rewards: [{
+				id: "2938225EE0D9ED91"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6C28EBAFF66B91FC"
 				item: "fruitsdelight:lemon"
@@ -242,6 +317,11 @@
 				"在&4夏季&r收获。"
 			]
 			id: "6CB6E1848E1C721A"
+			rewards: [{
+				id: "072E1365A9CABEEC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5A0D0FCBD4D6CF9B"
 				item: "fruitsdelight:lychee"
@@ -253,6 +333,11 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			id: "550FA243BA7B736F"
+			rewards: [{
+				id: "0610CCCF2A566067"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4AD04521009A25BE"
 				item: "minecraft:sweet_berries"
@@ -271,6 +356,11 @@
 				"任何果酱均可与面包、果丹皮、芒果合成果酱面包、果丹卷和生拌芒果，同时保留原材料果酱的Buff效果。"
 			]
 			id: "58B030E19968924C"
+			rewards: [{
+				id: "1DFD887AF7FDB14E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "331CBBF109AB2D20"
 				item: {
@@ -291,6 +381,11 @@
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: ["将果酱放在加热的炼药锅（下面放热源方块）内，用粘液球点击将其转化为对应的果冻"]
 			id: "077CC191544E19C9"
+			rewards: [{
+				id: "46587BE46FA97934"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5F3A8FB8009AAF8D"
 				item: {
@@ -313,6 +408,11 @@
 				"有三种生长阶段，到达第三阶段时会从树叶上掉落。若撞击到了生物，则生物会受到伤害。"
 			]
 			id: "1C4EA0FC584EFC28"
+			rewards: [{
+				id: "136C5E6002FA454F"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "非常非常非常难找"
 			tasks: [{
 				id: "29B15EDEB93F3CCC"
@@ -344,6 +444,11 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			id: "2B823CFAF4514D32"
+			rewards: [{
+				id: "0338601E6DB30902"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "65998E9FFC1C388F"
 				item: {
@@ -362,6 +467,11 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			id: "74CA263FB9665711"
+			rewards: [{
+				id: "2811F385213ECC23"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4FE967097E7AC3CB"
@@ -398,6 +508,11 @@
 				}
 			}
 			id: "20D795F5D225C853"
+			rewards: [{
+				id: "5DAAFA0EC26F6975"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2E7F84CC4BF594E3"
 				title: "任意果酱面包"
@@ -410,6 +525,11 @@
 			dependencies: ["077CC191544E19C9"]
 			icon: "fruitsdelight:apple_jello_block"
 			id: "3DC27FEAA69DAB8C"
+			rewards: [{
+				id: "78E2818C6607D7A7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0F48545B224D5A97"
 				title: "任意果冻块"
@@ -421,6 +541,11 @@
 		{
 			dependencies: ["0063494FD35EF1DE"]
 			id: "52BBBD156FF79B36"
+			rewards: [{
+				id: "0246E71CC3D50B6A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "15634A0DBADE7F3A"
 				item: "fruitsdelight:hawberry_sheet"
@@ -432,6 +557,11 @@
 		{
 			dependencies: ["0063494FD35EF1DE"]
 			id: "6FAC9504C659A4B9"
+			rewards: [{
+				id: "4E3E814E2F6F113B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "23548AA7ABB2D8BA"
 				item: "fruitsdelight:hawberry_stick"
@@ -443,6 +573,11 @@
 		{
 			dependencies: ["52BBBD156FF79B36"]
 			id: "4E7799B050314171"
+			rewards: [{
+				id: "7728BA7997ADFD5C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3462B2C339E748B1"
 				item: "fruitsdelight:hawberry_roll"
@@ -454,6 +589,11 @@
 		{
 			dependencies: ["1CD404F45F375D7E"]
 			id: "5724F7D998F5C1D1"
+			rewards: [{
+				id: "5C3CB83A9F3ED841"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3E8819D753E50B03"
 				item: "fruitsdelight:mangosteen_cake"
@@ -465,6 +605,11 @@
 		{
 			dependencies: ["3702E12E346906E0"]
 			id: "7A72B66BA5D90B3B"
+			rewards: [{
+				id: "79D3AB82A5DD2ECE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6CB3949BD1F65CE4"
 				item: "fruitsdelight:orange_chicken"
@@ -476,6 +621,11 @@
 		{
 			dependencies: ["3702E12E346906E0"]
 			id: "0A4EACEFD0BCE44B"
+			rewards: [{
+				id: "7C3F079C445571F8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "244F4DBED364644A"
 				item: "fruitsdelight:orange_marinated_pork"
@@ -487,6 +637,11 @@
 		{
 			dependencies: ["7EE6074FA3805A00"]
 			id: "3702E12E346906E0"
+			rewards: [{
+				id: "3AD005FC0BEDE1A4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "71663D9234440E5E"
 				item: "fruitsdelight:orange_slice"
@@ -498,6 +653,11 @@
 		{
 			dependencies: ["3848C15C02538184"]
 			id: "69C4EA1BCAAFA509"
+			rewards: [{
+				id: "0F0808B37DF267BB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4B5F3F3A50F5C0D3"
 				item: "fruitsdelight:dried_persimmon"
@@ -509,6 +669,11 @@
 		{
 			dependencies: ["1C4EA0FC584EFC28"]
 			id: "5D5D9AF56FD02191"
+			rewards: [{
+				id: "12607983D8552701"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "33725F1FF8F9BECF"
 				item: "fruitsdelight:durian_flesh"
@@ -520,6 +685,11 @@
 		{
 			dependencies: ["5D5D9AF56FD02191"]
 			id: "6E9762DAD3DD2727"
+			rewards: [{
+				id: "5C61ECD796C4AD58"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6DBEEFC1D88EE8B5"
 				item: "fruitsdelight:baked_durian"
@@ -531,6 +701,11 @@
 		{
 			dependencies: ["5D5D9AF56FD02191"]
 			id: "7C4B28A0FFD96217"
+			rewards: [{
+				id: "096FC31296CF2435"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2AE49B1D91E9A8C0"
 				item: "fruitsdelight:durian_pie"
@@ -542,6 +717,11 @@
 		{
 			dependencies: ["2532FCB37BA9E159"]
 			id: "663DBF9CBFF80ED3"
+			rewards: [{
+				id: "02277DF425D548D2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7226B2E06CD2FE87"
 				item: "fruitsdelight:hamimelon_popsicle"
@@ -553,6 +733,11 @@
 		{
 			dependencies: ["6CB6E1848E1C721A"]
 			id: "20D39B2D476E5C34"
+			rewards: [{
+				id: "2BCCD0FAB44377E2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "22CA0C6CD0963D86"
 				item: "fruitsdelight:lychee_chicken"
@@ -564,6 +749,11 @@
 		{
 			dependencies: ["59A6B34D8607FD6A"]
 			id: "5C88DCFCF7F0DFD9"
+			rewards: [{
+				id: "5BB69A506E3A61A7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0315EB2F8C2EE78F"
 				item: "fruitsdelight:pineapple_slice"
@@ -575,6 +765,11 @@
 		{
 			dependencies: ["5C88DCFCF7F0DFD9"]
 			id: "7474CCAA0A97B34B"
+			rewards: [{
+				id: "59AA0307F7AFD7CD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4D1EE0ED4384A8A5"
 				item: "fruitsdelight:pineapple_fried_rice"
@@ -586,6 +781,11 @@
 		{
 			dependencies: ["5C88DCFCF7F0DFD9"]
 			id: "21F489D77AAAD08E"
+			rewards: [{
+				id: "22BDACCF572DABBC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "298C291BE3EB24F6"
 				item: "fruitsdelight:pineapple_marinated_pork"
@@ -597,6 +797,11 @@
 		{
 			dependencies: ["5C88DCFCF7F0DFD9"]
 			id: "4B6ACED1E73FB3B4"
+			rewards: [{
+				id: "29CBF1B240208D33"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5851A08896115DEA"
 				item: "fruitsdelight:pineapple_pie"
@@ -608,6 +813,11 @@
 		{
 			dependencies: ["1F65F7E3A19CA174"]
 			id: "03953B81C3EDAD5F"
+			rewards: [{
+				id: "2F0EF5D665B7C2C4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "207C01F21D2AA1B7"
 				item: "fruitsdelight:mango_salad"
@@ -619,6 +829,11 @@
 		{
 			dependencies: ["60A76054159A37F7"]
 			id: "3DC53B26BCBE3C2B"
+			rewards: [{
+				id: "6B687286C2F74C50"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "783676C1F3F2315C"
 				item: "fruitsdelight:pear_with_rock_sugar"
@@ -630,6 +845,11 @@
 		{
 			dependencies: ["60A76054159A37F7"]
 			id: "40D9F07DE336DA4E"
+			rewards: [{
+				id: "3F8ABF76B59E3E74"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "69B7F4D795348CCC"
 				item: "fruitsdelight:baked_pear"
@@ -641,6 +861,11 @@
 		{
 			dependencies: ["0D00E629D80816CF"]
 			id: "079851D2FCE9F3E2"
+			rewards: [{
+				id: "4FC6909968780AA9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0754C41F107904EE"
 				item: "fruitsdelight:lemon_slice"
@@ -652,6 +877,11 @@
 		{
 			dependencies: ["25C77A4F65494D2A"]
 			id: "2BB23DDEC083DC23"
+			rewards: [{
+				id: "4674EF6C0CD5AB2D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "44EBCC730B8FE93E"
 				item: "fruitsdelight:cranberry_muffin"
@@ -663,6 +893,11 @@
 		{
 			dependencies: ["0127B9E281D268BF"]
 			id: "70FDA3EF47E4A62F"
+			rewards: [{
+				id: "721F9F0E821D40D0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7595B4E9F69ECC17"
 				item: "fruitsdelight:blueberry_muffin"
@@ -674,6 +909,11 @@
 		{
 			dependencies: ["0D00E629D80816CF"]
 			id: "2C15E616766156E0"
+			rewards: [{
+				id: "67DA368AC473F1A6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "54182FFC8EEF0F82"
 				item: "fruitsdelight:lemon_tart"
@@ -685,6 +925,11 @@
 		{
 			dependencies: ["7C53FFA4AC6FEDC3"]
 			id: "6CDD6477837C02B6"
+			rewards: [{
+				id: "3006002F46883C0B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6055D138F2EB66A4"
 				item: "fruitsdelight:fig_tart"
@@ -696,6 +941,11 @@
 		{
 			dependencies: ["7C53FFA4AC6FEDC3"]
 			id: "4415D01B05C146F7"
+			rewards: [{
+				id: "6FD4335EEC654B06"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "27213AE2F7E8F3EB"
 				item: "fruitsdelight:fig_pudding"
@@ -707,6 +957,11 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			id: "7C53FFA4AC6FEDC3"
+			rewards: [{
+				id: "319DC16FACB503A5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2D59E5F67E424863"
 				item: "fruitsdelight:fig"

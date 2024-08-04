@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "34EC8C9716956C8E"
 	group: "445171CC29E98940"
+	icon: "refinedstorage:controller"
 	id: "34EC8C9716956C8E"
 	order_index: 3
 	quest_links: [ ]
@@ -127,18 +128,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "144D167E632866DF"
-					item: "refinedstorage:1k_storage_part"
-					type: "item"
-				}
-				{
-					id: "3136A159DAB991C1"
-					item: "refinedstorage:1k_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "144D167E632866DF"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
 			x: -5.5d
 			y: 1.5d
 		}
@@ -166,18 +160,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "0837DF55F5227065"
-					item: "refinedstorage:4k_storage_part"
-					type: "item"
-				}
-				{
-					id: "669DCC80F8881CBA"
-					item: "refinedstorage:4k_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0837DF55F5227065"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 2.5d
 		}
@@ -189,18 +176,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "5D8F32CA58990654"
-					item: "refinedstorage:16k_storage_part"
-					type: "item"
-				}
-				{
-					id: "1EBEB7B1168A404E"
-					item: "refinedstorage:16k_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5D8F32CA58990654"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 3.5d
 		}
@@ -212,18 +192,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "7A1B603FFDC2100F"
-					item: "refinedstorage:64k_storage_part"
-					type: "item"
-				}
-				{
-					id: "20001F009C4A9B9F"
-					item: "refinedstorage:64k_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A1B603FFDC2100F"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 4.5d
 		}
@@ -235,18 +208,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "315680B130307B94"
-					item: "extrastorage:storagepart_256k"
-					type: "item"
-				}
-				{
-					id: "41AFDD699CE39486"
-					item: "extrastorage:disk_256k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "315680B130307B94"
+				item: "extrastorage:storagepart_256k"
+				type: "item"
+			}]
 			x: -4.5d
 			y: 4.5d
 		}
@@ -258,18 +224,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "6E5330D669EA9818"
-					item: "extrastorage:storagepart_1024k"
-					type: "item"
-				}
-				{
-					id: "22E1F1CB9F990C18"
-					item: "extrastorage:disk_1024k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6E5330D669EA9818"
+				item: "extrastorage:storagepart_1024k"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 3.5d
 		}
@@ -281,18 +240,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "2DC4560155790336"
-					item: "extrastorage:storagepart_4096k"
-					type: "item"
-				}
-				{
-					id: "772D2E6CE870CEC2"
-					item: "extrastorage:disk_4096k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2DC4560155790336"
+				item: "extrastorage:storagepart_4096k"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 2.5d
 		}
@@ -329,18 +281,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "2E60CFD1A5AFFAEE"
-					item: "refinedstorage:64k_fluid_storage_part"
-					type: "item"
-				}
-				{
-					id: "02F05247F97F9E18"
-					item: "refinedstorage:64k_fluid_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E60CFD1A5AFFAEE"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
 			x: -5.5d
 			y: -1.5d
 		}
@@ -352,18 +297,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "2C2A60EEA989C08D"
-					item: "refinedstorage:256k_fluid_storage_part"
-					type: "item"
-				}
-				{
-					id: "49784EC5B07F02CD"
-					item: "refinedstorage:256k_fluid_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2C2A60EEA989C08D"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -2.5d
 		}
@@ -375,18 +313,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "7DD0DADB9322D65D"
-					item: "refinedstorage:1024k_fluid_storage_part"
-					type: "item"
-				}
-				{
-					id: "7E4642685C25A7F7"
-					item: "refinedstorage:1024k_fluid_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7DD0DADB9322D65D"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -3.5d
 		}
@@ -398,18 +329,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "5000A562515E38AE"
-					item: "refinedstorage:4096k_fluid_storage_part"
-					type: "item"
-				}
-				{
-					id: "4A552E0CF069818B"
-					item: "refinedstorage:4096k_fluid_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5000A562515E38AE"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -4.5d
 		}
@@ -421,18 +345,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "7E1CCE4A9E6BA8BC"
-					item: "extrastorage:storagepart_16384k_fluid"
-					type: "item"
-				}
-				{
-					id: "32025ADAEFD9CBAF"
-					item: "extrastorage:disk_16384k_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E1CCE4A9E6BA8BC"
+				item: "extrastorage:storagepart_16384k_fluid"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -4.5d
 		}
@@ -444,18 +361,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "6B9099532789B023"
-					item: "extrastorage:storagepart_65536k_fluid"
-					type: "item"
-				}
-				{
-					id: "5D48E5FB1659448E"
-					item: "extrastorage:disk_65536k_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6B9099532789B023"
+				item: "extrastorage:storagepart_65536k_fluid"
+				type: "item"
+			}]
 			x: -7.0d
 			y: -3.5d
 		}
@@ -467,18 +377,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "2780CF878023224C"
-					item: "extrastorage:storagepart_262144k_fluid"
-					type: "item"
-				}
-				{
-					id: "1E93FEFEABF87B65"
-					item: "extrastorage:disk_262144k_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2780CF878023224C"
+				item: "extrastorage:storagepart_262144k_fluid"
+				type: "item"
+			}]
 			x: -7.0d
 			y: -2.5d
 		}
