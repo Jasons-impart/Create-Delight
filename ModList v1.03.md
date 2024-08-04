@@ -39,7 +39,7 @@
 3. [天空之城（Castle in the Sky）](https://www.mcmod.cn/class/4920.html)
 4. [MrCrayfish的枪(MrCrayfish&apos;s Gun Mod)](https://www.mcmod.cn/class/1215.html#google_vignette)
 
-    * [机械动力：合金枪械（Create: Alloyed Guns）](https://www.mcmod.cn/class/8537.html) >需要MrCrayfish的枪，机械动力，**Framework**，**机械动力：合金**作为前置
+    * [机械动力：合金枪械（Create: Alloyed Guns）](https://www.mcmod.cn/class/8537.html) >需要MrCrayfish的枪，机械动力，Framework，机械动力：合金作为前置
 5. [苦力怕改革/苦力怕革新(Creeper Overhaul)](https://www.mcmod.cn/class/5373.html)
 6. [幽邃黑暗（Deeper and Darker）](https://www.mcmod.cn/class/7369.html)
 7. [地牢浮现之时(When Dungeons Arise)](https://www.mcmod.cn/class/3607.html)
