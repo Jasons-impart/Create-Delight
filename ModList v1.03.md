@@ -19,6 +19,7 @@
     * [机械动力：合金](https://www.mcmod.cn/class/6965.html)
     * [机械动力：合金枪械（Create: Alloyed Guns）](https://www.mcmod.cn/class/8537.html) >需要MrCrayfish的枪，机械动力，Framework，机械动力：合金作为前置
     * [[SnR]机械动力：汽鸣铁道 (Create: Steam &apos;n&apos; Rails)](https://www.mcmod.cn/class/8230.html)
+    * [机械动力：经典改进 (Create: Vintage Improvements) ](https://www.mcmod.cn/class/13760.html)
 2. [太空旅行（Ad Astra!）](https://www.mcmod.cn/class/7395.html)
 3. [更多存储(ExtraStorage)](https://www.mcmod.cn/class/3236.html)
 4. [沉浸式飞机 (Immersive Aircraft) ](https://www.mcmod.cn/class/8527.html)
