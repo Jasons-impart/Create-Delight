@@ -25,6 +25,10 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
     * [机械动力：合金枪械（Create: Alloyed Guns）](https://www.mcmod.cn/class/8537.html) >需要MrCrayfish的枪，机械动力，Framework，机械动力：合金作为前置
     * [[SnR]机械动力：汽鸣铁道 (Create: Steam &apos;n&apos; Rails)](https://www.mcmod.cn/class/8230.html)
     * [机械动力：经典改进 (Create: Vintage Improvements) ](https://www.mcmod.cn/class/13760.html)
+    * [机械动力：实用物件(Create: things and misc)](https://www.mcmod.cn/class/7464.html)
+    * [机械动力：伪装猫猫(Create: Copycats+)](https://www.mcmod.cn/class/13844.html)
+    * [机械动力：创意传动 (Create: Connected)](https://www.mcmod.cn/class/13105.html)
+
 2. [太空旅行（Ad Astra!）](https://www.mcmod.cn/class/7395.html)
 3. [更多存储(ExtraStorage)](https://www.mcmod.cn/class/3236.html)
 4. [沉浸式飞机 (Immersive Aircraft) ](https://www.mcmod.cn/class/8527.html)
@@ -154,6 +158,7 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 23. [优化向，铷分支（Embeddium）](https://www.mcmod.cn/class/12028.html)
 
      * [优化向，铷分支（Embeddium++）](https://www.mcmod.cn/class/12822.html)
+
 24. [附魔描述(Enchantment Descriptions)](https://www.mcmod.cn/class/1945.html)
 25. [优化向，低负载高视距（Farsight）](https://www.mcmod.cn/class/5224.html)
 26. [树叶快速腐烂(Fast Leaf Decay)](https://www.mcmod.cn/class/1173.html)
@@ -227,14 +232,16 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 5. [KubeJS Create](https://www.mcmod.cn/class/5157.html)
 6. [[KJS]KubeJS](https://www.mcmod.cn/class/2450.html)
 
-    * [LootJS](https://www.mcmod.cn/class/6327.html)
+    * [掉落物(LootJS)](https://www.mcmod.cn/class/6327.html)
+    * [村民交易，附魔，经验(MoreJS)](https://www.mcmod.cn/class/8760.html)
+
 7. [[MUI]现代化 UI (Modern UI)](https://www.mcmod.cn/class/2454.html)
 8. [ProbeJS](https://www.mcmod.cn/class/6486.html)
 9. [初始套件 (Starter Kit)](https://www.mcmod.cn/class/5162.html)
 
 ## LIB
 
-1. [天境附属前置（AeroBlender）](https://www.mcmod.cn/class/11131.html)
+1. [天境前置（AeroBlender）](https://www.mcmod.cn/class/11131.html)
 2. [Architectury API](https://www.mcmod.cn/class/3434.html)
 3. [AutoRegLib](https://www.mcmod.cn/class/698.html)
 4. [Bagus Lib](https://www.mcmod.cn/class/10751.html)
