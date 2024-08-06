@@ -24,10 +24,10 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
     * [机械动力：合金](https://www.mcmod.cn/class/6965.html)
     * [机械动力：合金枪械（Create: Alloyed Guns）](https://www.mcmod.cn/class/8537.html) >需要MrCrayfish的枪，机械动力，Framework，机械动力：合金作为前置
     * [[SnR]机械动力：汽鸣铁道 (Create: Steam &apos;n&apos; Rails)](https://www.mcmod.cn/class/8230.html)
-    * [机械动力：经典改进 (Create: Vintage Improvements) ](https://www.mcmod.cn/class/13760.html)
-    * [机械动力：实用物件(Create: things and misc)](https://www.mcmod.cn/class/7464.html)
-    * [机械动力：伪装猫猫(Create: Copycats+)](https://www.mcmod.cn/class/13844.html)
-    * [机械动力：创意传动 (Create: Connected)](https://www.mcmod.cn/class/13105.html)
+    * [机械动力：经典改进 (Create: Vintage Improvements) ](https://www.mcmod.cn/class/13760.html)非正式
+    * [机械动力：实用物件(Create: things and misc)](https://www.mcmod.cn/class/7464.html)非正式
+    * [机械动力：伪装猫猫(Create: Copycats+)](https://www.mcmod.cn/class/13844.html)非正式
+    * [机械动力：创意传动 (Create: Connected)](https://www.mcmod.cn/class/13105.html)非正式
 
 2. [太空旅行（Ad Astra!）](https://www.mcmod.cn/class/7395.html)
 3. [更多存储(ExtraStorage)](https://www.mcmod.cn/class/3236.html)
@@ -233,7 +233,7 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 6. [[KJS]KubeJS](https://www.mcmod.cn/class/2450.html)
 
     * [掉落物(LootJS)](https://www.mcmod.cn/class/6327.html)
-    * [村民交易，附魔，经验(MoreJS)](https://www.mcmod.cn/class/8760.html)
+    * [村民交易，附魔，经验(MoreJS)](https://www.mcmod.cn/class/8760.html)非正式
 
 7. [[MUI]现代化 UI (Modern UI)](https://www.mcmod.cn/class/2454.html)
 8. [ProbeJS](https://www.mcmod.cn/class/6486.html)
