@@ -41,6 +41,8 @@ function remove_recipes_mod(event, mods) {
         event.remove({ mod: mod })
     })
 }
+
+
 /**
  * @param { Internal.RecipesEventJS } event 
  * @param { InputItem_ } input 
