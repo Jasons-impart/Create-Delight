@@ -30,6 +30,7 @@
     * [RS 无限范围增幅卡 (RSInfinityBooster)](https://www.mcmod.cn/class/3782.html)
 
 6. [储物抽屉 (Storage Drawers)](https://www.mcmod.cn/class/408.html)
+7. [[AE2]应用能源2 (Applied Energistics 2)](https://www.mcmod.cn/class/260.html)
 
 ## Adventure
 
