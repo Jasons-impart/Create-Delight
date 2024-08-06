@@ -2,7 +2,6 @@ ServerEvents.recipes(e => {
     remove_recipes_output(e, [
         "supplementaries:bomb",
         "create_sa:slime_helmet",
-        "create_sa:slime_boots",
         "create_sa:copper_magnet",
         "create_sa:brass_cube",
         "create_sa:drone_controller",

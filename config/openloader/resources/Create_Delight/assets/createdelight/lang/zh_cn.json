@@ -1,5 +1,9 @@
 {
-    "entity.minecraft.villager.butchercraft.slaughter_profession": "屠夫",
+    "entity.minecraft.villager.butchercraft.slaughter_profession": "屠户",
+    "item.createdelight.iron_coin": "铁币",
+    "item.createdelight.brass_coin": "黄铜币",
+    "item.createdelight.gold_coin": "金币",
+    "item.createdelight.netherite_coin": "下界合金币",
     "item.createdelight.raw_steel_ingot": "粗钢锭",
     "item.createdelight.hammering_raw_steel_ingot": "锤炼中的粗钢锭",
     "item.createdelight.potato_stew_beef": "土豆加牛肉",
