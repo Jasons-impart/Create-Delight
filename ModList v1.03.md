@@ -1,7 +1,9 @@
-# ModList v1.03</br>
+# ModList v1.03
 
-commit规范：在魔改mod的对应词条后以“>”符开头，之后描述。每条魔改项前皆添加“>”符。  
-md格式在各个编辑器上标准不统一。每次使用回车从A行切换到B行前，最好在A行末尾打两个空格。   
+# ModList v1.03
+
+commit规范：在魔改mod的对应词条后以“>”符开头，之后描述。每条魔改项前皆添加“>”符。
+md格式在各个编辑器上标准不统一。每次使用回车从A行切换到B行前，最好在A行末尾打两个空格。
 
 ---
 
@@ -10,41 +12,77 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 1. [机械动力（create）](https://www.mcmod.cn/class/2021.html)
 
     * [机械动力：柴油动力（Create: Diesel Generators）](https://www.mcmod.cn/class/10727.html)
+
+      任务线：工程师－石油时代
     * [机械动力:咖啡馆（Create Cafe）](https://www.mcmod.cn/class/6016.html)
+
+      任务线：大厨－血脉觉醒－茶与咖啡
     * [机械动力：火炮（Create Big Cannons）](https://www.mcmod.cn/class/7178.html)
+
+      未指定
     * [机械动力：工业扩展](https://www.mcmod.cn/class/3437.html)
+
+      任务线：工程师－旋转发电
     * [机械动力：甜食(Create Confectionery)](https://www.mcmod.cn/class/4871.html)
+
+      任务线：大厨－精加工－甜品分支
     * [机械动力：柴油动力(Create: Diesel Generators)](https://www.mcmod.cn/class/10727.html)
+
+      任务线：工程师－石油时代
     * [机械动力：中央厨房(Create Central Kitchen)](https://www.mcmod.cn/class/9151.html)
+
+      未指定
     * [机械动力：晶莹剔透(Create: Crystal Clear)](https://www.mcmod.cn/class/7614.html)
+
+      未指定
     * [机械动力：物品附加(Create Stuff &amp; Additions)](https://www.mcmod.cn/class/3779.html)
+
+      任务线：生活小技巧－来去自由－三大引擎
     * [机械动力：矿石开掘(Create Ore Excavation)](https://www.mcmod.cn/class/7300.html)
-    * [机械动力：附魔工业(Create Enchantment Industry)](https://www.mcmod.cn/class/7892.html)
+
+      任务线：生活小技巧－矿物再生
+    * [机械动力：附魔工业(Create Enchantment Industry)](https://www.mcmod.cn/class/7892.html)  
+      
+      未指定
     * [机械动力：齿轮与麦穗(Create: Ratatouille)](https://www.mcmod.cn/class/13995.html)
+
+      任务线：大厨－血脉觉醒－农业科技.大厨－精加工
     * [机械动力：合金](https://www.mcmod.cn/class/6965.html)
+
+      任务线：添加钢和青铜
     * [机械动力：合金枪械（Create: Alloyed Guns）](https://www.mcmod.cn/class/8537.html) >需要MrCrayfish的枪，机械动力，Framework，机械动力：合金作为前置
+
+      任务线：生活小技巧－枪械大师
     * [[SnR]机械动力：汽鸣铁道 (Create: Steam &apos;n&apos; Rails)](https://www.mcmod.cn/class/8230.html)
+
+      未指定
     * [机械动力：经典改进 (Create: Vintage Improvements) ](https://www.mcmod.cn/class/13760.html)非正式
     * [机械动力：实用物件(Create: things and misc)](https://www.mcmod.cn/class/7464.html)非正式
     * [机械动力：伪装猫猫(Create: Copycats+)](https://www.mcmod.cn/class/13844.html)非正式
     * [机械动力：创意传动 (Create: Connected)](https://www.mcmod.cn/class/13105.html)非正式
+2. [太空旅行（Ad Astra!](https://www.mcmod.cn/class/7395.html)）
+3. [沉浸式飞机 (Immersive Aircraft) ](https://www.mcmod.cn/class/8527.html)
 
-2. [太空旅行（Ad Astra!）](https://www.mcmod.cn/class/7395.html)
-3. [更多存储(ExtraStorage)](https://www.mcmod.cn/class/3236.html)
-4. [沉浸式飞机 (Immersive Aircraft) ](https://www.mcmod.cn/class/8527.html)
-5. [[RS]精致存储 (Refined Storage)](https://www.mcmod.cn/class/691.html)
+    任务线：生活小技巧－来去自由
+4. [[RS]精致存储 (Refined Storage)](https://www.mcmod.cn/class/691.html)
+
+    任务线：生活小技巧－高级存储
 
     * [精致存储附属 (Refined Storage Addons)](https://www.mcmod.cn/class/977.html)
     * [Refined Storage Fluxified](https://www.mcmod.cn/class/6052.html)
     * [RS 无限范围增幅卡 (RSInfinityBooster)](https://www.mcmod.cn/class/3782.html)
-
-6. [储物抽屉 (Storage Drawers)](https://www.mcmod.cn/class/408.html)
-7. [[AE2]应用能源2 (Applied Energistics 2)](https://www.mcmod.cn/class/260.html)
+    * [更多存储（ExtraStorage)](https://www.mcmod.cn/class/3236.html)
+5. [储物抽屉 (Storage Drawers)](https://www.mcmod.cn/class/408.html)
+6. [[AE2]应用能源2 (Applied Energistics 2)](https://www.mcmod.cn/class/260.html)非正式
 
 ## Adventure
 
 1. [天境（The Aether）](https://www.mcmod.cn/class/94.html)
+
+    任务线：世界之旅－你上天堂了
 2. [Alex的生物（Alex&apos;s Mobs）](https://www.mcmod.cn/class/3318.html)
+
+    任务线：生活小技巧－动物朋友们
 
     * [Alex乐事（Alex&apos;s Delight）](https://www.mcmod.cn/class/5565.html) >同见于农夫乐事（Farmer's Delight）附属
 3. [天空之城（Castle in the Sky）](https://www.mcmod.cn/class/4920.html)
@@ -53,21 +91,30 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
     * [机械动力：合金枪械（Create: Alloyed Guns）](https://www.mcmod.cn/class/8537.html) >需要MrCrayfish的枪，机械动力，Framework，机械动力：合金作为前置
 5. [苦力怕改革/苦力怕革新(Creeper Overhaul)](https://www.mcmod.cn/class/5373.html)
 6. [幽邃黑暗（Deeper and Darker）](https://www.mcmod.cn/class/7369.html)
+
+    任务线：世界之旅－探索幽冥右
 7. [地牢浮现之时(When Dungeons Arise)](https://www.mcmod.cn/class/3607.html)
 8. [附魔生物(EnchantWithMob)](https://www.mcmod.cn/class/3443.html)
 9. [末影龙增强(Ender Trigon)](https://www.mcmod.cn/class/7988.html)
+
+    任务线：世界之旅－终末之旅中
 10. [末地：创世(End Remastered)](https://www.mcmod.cn/class/3369.html)
+
+     任务线：世界之旅－终末之旅左
 11. [[IDAS]地牢建筑统合 (Integrated Dungeons and Structures)](https://www.mcmod.cn/class/6142.html)
 12. [废弃传送门（Nebulus better portals）](https://www.mcmod.cn/class/15519.html)
 13. [残暴与掠夺 (Savage &amp; Ravage)](https://www.mcmod.cn/class/3481.html)
 14. [静谧四季/季节 (Serene Seasons)](https://www.mcmod.cn/class/1132.html)
 
      * [SeasonHUD](https://www.mcmod.cn/class/8227.html)
-
 15. [旷野之息高塔 : 再重制 (Towers of the Wild Modded)](https://www.mcmod.cn/class/11568.html)
 16. [[T&amp;T]Towns and Towers](https://www.mcmod.cn/class/7000.html)
 17. [Ulterlands维度（Ulterlands: Worlds Apart）](https://www.mcmod.cn/class/9576.html)
+
+     任务线：世界之旅－转生异界
 18. [不同寻常的末地 (Unusual End)](https://www.mcmod.cn/class/7344.html)
+
+     任务线：世界之旅－终末之旅右
 19. [YUNG的沙漠神殿优化 (YUNG&apos;s Better Desert Temples)](https://www.mcmod.cn/class/6613.html)
 20. [YUNG的沙漠神殿优化 (YUNG&apos;s Better Desert Temples)](https://www.mcmod.cn/class/6613.html)
 21. [YUNG 的地牢优化 (YUNG&apos;s Better Dungeons)](https://www.mcmod.cn/class/4429.html)
@@ -81,7 +128,9 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 
 ## Agriculture
 
-1. [农夫乐事（Farmer's Delight）](https://www.mcmod.cn/class/2820.html)
+1. [农夫乐事（Farmer&apos;s Delight）](https://www.mcmod.cn/class/2820.html)
+
+    任务线：大厨－血脉觉醒.大厨－精加工.大厨－水果大亨.大厨－纵享异界美味.大厨－发酵工艺
 
     * [Alex乐事（Alex&apos;s Delight](https://www.mcmod.cn/class/5565.html)  >同见于Alex的生物（Alex's Mobs）附属
     * [饮酒作乐（Brewin&apos; And Chewin&apos;）](https://www.mcmod.cn/class/6829.html)
@@ -96,17 +145,22 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
     * [下界乐事 (Nether&apos;s Delight)](https://www.mcmod.cn/class/4563.html)
     * [海洋乐事 (Ocean&apos;s Delight)](https://www.mcmod.cn/class/9830.html)
 2. [一起火锅(EveryXHotpot)](https://www.mcmod.cn/class/12735.html)
+
+    任务线：大厨－血脉觉醒
 3. [节日佳肴(Festival Delicacies)](https://www.mcmod.cn/class/10829.html)
+
+    任务线：大厨－血脉觉醒
 4. [葡园酒香 (Let&apos;s do Wine / Vinery)](https://www.mcmod.cn/class/8181.html)
 
-    * [Let&apos;s Do: NetherVinery](https://www.mcmod.cn/class/12702.html)
+    任务线：大厨－酿酒大师
 
+    * [Let&apos;s Do: NetherVinery](https://www.mcmod.cn/class/12702.html)
 5. [生活调味料：苹果派版 (Spice of Life: Apple Pie Edition)](https://www.mcmod.cn/class/8177.html)
 
 ## Decoration
 
-1. [MrCrayfish 的家具(MrCrayfish&apos;s Furniture Mod)](https://www.mcmod.cn/class/263.html)
-2. [村庄与前哨站翻新(ChoiceTheorem&apos;s Overhauled Village)](https://www.mcmod.cn/class/6943.html)
+1. [MrCrayfish 的家具(MrCrayfish](https://www.mcmod.cn/class/263.html)​['s Furniture Mod)](https://www.mcmod.cn/class/263.html)
+2. [村庄与前哨站翻新(ChoiceTheorem](https://www.mcmod.cn/class/6943.html)​['s Overhauled Village)](https://www.mcmod.cn/class/6943.html)
 3. [高门与矮门（Dramatic Doors）](https://www.mcmod.cn/class/6831.html)
 4. [更多粒子（Effective）](https://www.mcmod.cn/class/5293.html)
 5. [泛用兼容：木材(Every Compat: Wood Good)](https://www.mcmod.cn/class/7096.html)
@@ -124,11 +178,12 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 5. [自然罗盘/生物群系指南针 (Nature&apos;s Compass)](https://www.mcmod.cn/class/754.html)
 6. [网络音乐机 (Net Music)](https://www.mcmod.cn/class/4935.html)
 7. [精妙背包 (Sophisticated Backpacks)](https://www.mcmod.cn/class/3739.html)
+
+    任务线：生活小技巧－高级存储－背包分支
 8. [垃圾桶 (Trash Cans)](https://www.mcmod.cn/class/3766.html)
 9. [下界合金增强 (Upgraded Netherite)](https://www.mcmod.cn/class/2886.html)
 
     * [下界合金增强：终极 (Upgraded Netherite : Ultimerite)](https://www.mcmod.cn/class/7432.html)
-
 10. [传送石碑/指路石 (Waystones)](https://www.mcmod.cn/class/1339.html)
 
 ## Auxilium
@@ -157,8 +212,7 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 22. [鞘翅插槽(Curious Elytra / Elytra Trinket / Elytra Slot)](https://www.mcmod.cn/class/3923.html)
 23. [优化向，铷分支（Embeddium）](https://www.mcmod.cn/class/12028.html)
 
-     * [优化向，铷分支（Embeddium++）](https://www.mcmod.cn/class/12822.html)
-
+    * [优化向，铷分支（Embeddium++）](https://www.mcmod.cn/class/12822.html)
 24. [附魔描述(Enchantment Descriptions)](https://www.mcmod.cn/class/1945.html)
 25. [优化向，低负载高视距（Farsight）](https://www.mcmod.cn/class/5224.html)
 26. [树叶快速腐烂(Fast Leaf Decay)](https://www.mcmod.cn/class/1173.html)
@@ -173,17 +227,15 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 35. [物品物理掉落 (ItemPhysic)](https://www.mcmod.cn/class/932.html)
 36. [玉 (Jade)](https://www.mcmod.cn/class/3482.html)
 
-     * [Jade Addons](https://www.mcmod.cn/class/5837.html)
-
+    * [Jade Addons](https://www.mcmod.cn/class/5837.html)
 37. [[JECh]通用拼音搜索 (Just Enough Characters)](https://www.mcmod.cn/class/840.html)
 38. [[JEED]JEI药水效果 (Just Enough Effect Descriptions)](https://www.mcmod.cn/class/5460.html)
 39. [[JEI]JEI物品管理器 (Just Enough Items)](https://www.mcmod.cn/class/459.html)
 
-     * [[JERI]JER集成 (JER Integration)](https://www.mcmod.cn/class/5611.html)
-     * [[JEP]JEI工作方块 (Just Enough Professions)](https://www.mcmod.cn/class/4464.html)
-     * [[JER]Just Enough Resources](https://www.mcmod.cn/class/855.html)
-     * [JEI药水效果附属[MEED]Moderately Enough Effect Descriptions](https://www.mcmod.cn/class/12591.html)
-
+    * [[JERI]JER集成 (JER Integration)](https://www.mcmod.cn/class/5611.html)
+    * [[JEP]JEI工作方块 (Just Enough Professions)](https://www.mcmod.cn/class/4464.html)
+    * [[JER]Just Enough Resources](https://www.mcmod.cn/class/855.html)
+    * [JEI药水效果附属[MEED]Moderately Enough Effect Descriptions](https://www.mcmod.cn/class/12591.html)
 40. [优化向，DFU载入优化 (LazyDFU)](https://www.mcmod.cn/class/3407.html)
 41. [[mcwifipnp]更高级联机设置 (LAN World Plug-n-Play)](https://www.mcmod.cn/class/4498.html)
 42. [优化向，内存清扫 (Memory Sweep)](https://www.mcmod.cn/class/8653.html)
@@ -191,7 +243,7 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 44. [鼠标手势 (Mouse Tweaks)](https://www.mcmod.cn/class/1162.html)
 45. [[NCR]禁用聊天举报 (No Chat Reports)](https://www.mcmod.cn/class/6756.html)
 46. [更多动画 (Not Enough Animations)](https://www.mcmod.cn/class/4378.html)
-47. [优化向，Iris &amp; Oculus Flywheel Compat](https://www.mcmod.cn/class/7283.html)
+47. [优化向，Iris ](https://www.mcmod.cn/class/7283.html)​[&amp; Oculus Flywheel Compat](https://www.mcmod.cn/class/7283.html)
 48. [优化向，Oculus](https://www.mcmod.cn/class/5741.html)
 49. [优化向，开放式加载 (Open Loader)](https://www.mcmod.cn/class/3002.html)
 50. [护甲上限突破 (Overloaded Armor Bar)](https://www.mcmod.cn/class/3131.html)
@@ -208,15 +260,14 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 61. [穿草攻击 (SwingThroughGrass)](https://www.mcmod.cn/class/1465.html)
 62. [盔甲韧性显示 (Armor Toughness Bar)](https://www.mcmod.cn/class/2964.html)
 63. [垃圾槽 (TrashSlot)](https://www.mcmod.cn/class/1893.html)
-64. [地区RPG风格标题（Traveler&apos;s Titles）](https://www.mcmod.cn/class/4471.html)
-65. [削树（HT&apos;s TreeChop）](https://www.mcmod.cn/class/6554.html)
+64. [地区RPG风格标题（Traveler](https://www.mcmod.cn/class/4471.html)​['s Titles）](https://www.mcmod.cn/class/4471.html)
+65. [削树（HT](https://www.mcmod.cn/class/6554.html)​['s TreeChop）](https://www.mcmod.cn/class/6554.html)
 66. [移除原版村庄（Village Nullifier）](https://www.mcmod.cn/class/14198.html)
-67. [多维快捷键（Raw&apos;s Visual Keybinder）](https://www.mcmod.cn/class/15145.html)
+67. [多维快捷键（Raw](https://www.mcmod.cn/class/15145.html)​['s Visual Keybinder）](https://www.mcmod.cn/class/15145.html)
 68. [沉浸式行动（[Watut]What Are They Up To）](https://www.mcmod.cn/class/12938.html)
-69. [[XMM]Xaero的小地图 (Xaero&apos;s Minimap)](https://www.mcmod.cn/class/1701.html)
+69. [[XMM]Xaero的小地图 (Xaero](https://www.mcmod.cn/class/1701.html)​['s Minimap)](https://www.mcmod.cn/class/1701.html)
 
-     * [[XWM]Xaero的世界地图 (Xaero&apos;s World Map)](https://www.mcmod.cn/class/1483.html)
-
+    * [[XWM]Xaero的世界地图 (Xaero](https://www.mcmod.cn/class/1483.html)​['s World Map)](https://www.mcmod.cn/class/1483.html)
 70. [禁用实验性设置弹出（Yeetus Experimentus）](https://www.mcmod.cn/class/11062.html)
 71. [Zume](https://www.mcmod.cn/class/13754.html)
 
@@ -226,15 +277,14 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 2. [自定义游戏加载界面(Drippy Loading Screen)](https://www.mcmod.cn/class/5532.html)
 3. [个性化菜单（FancyMenu）](https://www.mcmod.cn/class/4053.html)
 4. [FTB任务(FTB Quests)](https://www.mcmod.cn/class/1423.html)
+
    * [FTB Quests Optimizer](https://www.mcmod.cn/class/12141.html)
    * [任务拓展 (Quests Additions)](https://www.mcmod.cn/class/5709.html)
-
 5. [KubeJS Create](https://www.mcmod.cn/class/5157.html)
 6. [[KJS]KubeJS](https://www.mcmod.cn/class/2450.html)
 
-    * [掉落物(LootJS)](https://www.mcmod.cn/class/6327.html)
-    * [村民交易，附魔，经验(MoreJS)](https://www.mcmod.cn/class/8760.html)非正式
-
+   * [掉落物(LootJS)](https://www.mcmod.cn/class/6327.html)
+   * [村民交易，附魔，经验(MoreJS)](https://www.mcmod.cn/class/8760.html)非正式
 7. [[MUI]现代化 UI (Modern UI)](https://www.mcmod.cn/class/2454.html)
 8. [ProbeJS](https://www.mcmod.cn/class/6486.html)
 9. [初始套件 (Starter Kit)](https://www.mcmod.cn/class/5162.html)
@@ -268,7 +318,7 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 25. [Konkrete](https://www.mcmod.cn/class/4213.html)
 26. [[KFF]Kotlin for Forge](https://www.mcmod.cn/class/2890.html)
 27. [L2 Library](https://www.mcmod.cn/class/7075.html)
-28. [Let&apos;s Do API](https://www.mcmod.cn/class/10890.html)
+28. [Let](https://www.mcmod.cn/class/10890.html)​['s Do API](https://www.mcmod.cn/class/10890.html)
 29. [Melody](https://www.mcmod.cn/class/13601.html)
 30. [Moonlight Lib/Selene](https://www.mcmod.cn/class/4159.html)
 31. [[MMLib]妖怪之山通用库 (MysteriousMountainLib)](https://www.mcmod.cn/class/2303.html)
@@ -280,10 +330,10 @@ md格式在各个编辑器上标准不统一。每次使用回车从A行切换�
 37. [Resourceful Lib](https://www.mcmod.cn/class/7647.html)
 38. [犀牛 (Rhino)](https://www.mcmod.cn/class/3821.html)
 39. [精妙核心 (Sophisticated Core)](https://www.mcmod.cn/class/6324.html)
-40. [SuperMartijn642&apos;s Config Lib](https://www.mcmod.cn/class/4682.html)
-41. [SuperMartijn642&apos;s Core Lib](https://www.mcmod.cn/class/4227.html)
+40. [SuperMartijn642](https://www.mcmod.cn/class/4682.html)​['s Config Lib](https://www.mcmod.cn/class/4682.html)
+41. [SuperMartijn642](https://www.mcmod.cn/class/4227.html)​['s Core Lib](https://www.mcmod.cn/class/4227.html)
 42. [TerraBlender](https://www.mcmod.cn/class/5489.html)
 43. [Upgraded Core](https://www.mcmod.cn/class/7431.html)
-44. [YUNG&apos;s API](https://www.mcmod.cn/class/3372.html)
+44. [YUNG](https://www.mcmod.cn/class/3372.html)​['s API](https://www.mcmod.cn/class/3372.html)
 
 ‍
